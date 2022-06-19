@@ -14,6 +14,7 @@
 |   [Lab11-12](https://github.com/stefnmUBB/ASC_Lab11_7) | 8     | Multimodul (asm+asm, asm+C)       |
 
 ### FP
+
 |   Lab                                                | Nr. problema| Descriere problema           |
 |------------------------------------------------------|------------|-------------------------------|
 |   [Lab2](https://github.com/stefnmUBB/FP_Lab2)       |    4, 5    | Proprietati numere prime      |
@@ -34,6 +35,14 @@
 |   [Lab4](https://github.com/stefnmUBB/AG_Lab4)       | Codare/Decodare Prüfer/Hoffman |
 |   [Lab5](https://github.com/stefnmUBB/AG_Lab5)       | Flux (Ford-Fulkerson / Pompare topologica), ciclu eulerian |
 
+### OOP
+
+|   Lab                                                | Nr. problema      | Descriere problema           |
+|------------------------------------------------------|-------------------|-------------------------------|
+|   [Lab1](https://github.com/stefnmUBB/OOP_Lab1)           | 1, 2, 3, 4, 6, 7  | Operatii pe numere      |
+|   [Lab2-4](https://github.com/stefnmUBB/OOP_Lab2-4)       | 8                 | Gestiune stoc produse electronice   |
+|   [Lab6-7, 8-9](https://github.com/stefnmUBB/OOP_Lab6-7)  | 9                 | Gestiune stoc masini (UI consola) |
+|   [Lab10-11, 13-14](https://github.com/stefnmUBB/OOP_Lab10-11)   | 9         | Gestiune stoc masini (GUI - Qt)    |
 
 ### SDA
 |   Lab                                                | Nr. problema| Descriere problema           |
