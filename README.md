@@ -24,6 +24,17 @@
 
 ## Anul 1 - Semestrul 2
 
+### AG
+
+|   Lab                                                | Descriere problema           |
+|------------------------------------------------------|--------------------------------------------|
+|   [Lab1](https://github.com/stefnmUBB/AG_Lab1)       | Matrice/Lista de adiacenta, matrice de incidenta, nod izolat, regular, conex, Roy-Floyd |
+|   [Lab1](https://github.com/stefnmUBB/AG_Lab2)       | DFS/BFS, Labirint (Lee) |
+|   [Lab3](https://github.com/stefnmUBB/AG_Lab3)       | Bellman-Ford, Johnson |
+|   [Lab4](https://github.com/stefnmUBB/AG_Lab4)       | Codare/Decodare Prüfer/Hoffman |
+|   [Lab5](https://github.com/stefnmUBB/AG_Lab5)       | Flux (Ford-Fulkerson / Pompare topologica), ciclu eulerian |
+
+
 ### SDA
 |   Lab                                                | Nr. problema| Descriere problema           |
 |------------------------------------------------------|------------|-------------------------------|
