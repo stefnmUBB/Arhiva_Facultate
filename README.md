@@ -22,8 +22,13 @@
 |   [Lab7-9](https://github.com/stefnmUBB/FP_Lab7-9)   | P3         | Inchiriere filme              |
 |   [Lab13](https://github.com/stefnmUBB/FP_Lab13)     | P3         | Generare de permutari cu o anumita proprietate                              |
 
-
-
-
-
 ## Anul 1 - Semestrul 2
+
+### SDA
+|   Lab                                                | Nr. problema| Descriere problema           |
+|------------------------------------------------------|------------|-------------------------------|
+|   [Lab1](https://github.com/stefnmUBB/SDA_Lab1_P7)   | 7          | TAD Colecție – vector de elemente distincte si vector de pozitii |
+|   [Lab3](https://github.com/stefnmUBB/SDA_Lab3_P21)  | 21         | TAD LO cu indici - reprezentare LSI |
+|   [Lab4](https://github.com/stefnmUBB/SDA_Lab4_P20)  | 20         | TAD MultiDicționar - LDI de chei, fiecare cheie memoreaza o LDI de valori |
+|   [Lab6](https://github.com/stefnmUBB/SDA_Lab6_P14)  | 14         | TAD Dicționar - TD adresare deschisa, verificare patratica              |
+|   [Lab7](https://github.com/stefnmUBB/SDA_Lab7_P9)   | 9          | TAD DO - ABC inlantuit, reprezentare pe tablou                              |
