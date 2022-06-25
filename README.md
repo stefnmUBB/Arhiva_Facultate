@@ -23,6 +23,12 @@
 |   [Lab7-9](https://github.com/stefnmUBB/FP_Lab7-9)   | P3         | Inchiriere filme              |
 |   [Lab13](https://github.com/stefnmUBB/FP_Lab13)     | P3         | Generare de permutari cu o anumita proprietate                              |
 
+### LC
+
+|   Problema                                           | Descriere                     |
+|------------------------------------------------------|-------------------------------|
+|   [Tema Electronica](https://github.com/stefnmUBB/LC_TemaElectronica)       |  Artimetica in diferite baze     |
+
 ## Anul 1 - Semestrul 2
 
 ### AG
