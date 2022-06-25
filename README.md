@@ -43,6 +43,7 @@
 |   [Lab2-4](https://github.com/stefnmUBB/OOP_Lab2-4)       | 8                 | Gestiune stoc produse electronice   |
 |   [Lab6-7, 8-9](https://github.com/stefnmUBB/OOP_Lab6-7)  | 9                 | Gestiune stoc masini (UI consola) |
 |   [Lab10-11, 13-14](https://github.com/stefnmUBB/OOP_Lab10-11)   | 9         | Gestiune stoc masini (GUI - Qt)    |
+|   [Lab12 (Simulare Practic)](https://github.com/stefnmUBB/OOP_SimularePractic)   |          | Management electronice   |
 |   [Examen Practic](https://github.com/stefnmUBB/OOP_ExamenPractic)   |          | Music rank   |
 
 ### SDA
