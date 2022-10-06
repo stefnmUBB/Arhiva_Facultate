@@ -60,3 +60,11 @@
 |   [Lab4](https://github.com/stefnmUBB/SDA_Lab4_P20)  | 20         | TAD MultiDicționar - LDI de chei, fiecare cheie memoreaza o LDI de valori |
 |   [Lab6](https://github.com/stefnmUBB/SDA_Lab6_P14)  | 14         | TAD Dicționar - TD adresare deschisa, verificare patratica              |
 |   [Lab7](https://github.com/stefnmUBB/SDA_Lab7_P9)   | 9          | TAD DO - ABC inlantuit, reprezentare pe tablou                              |
+
+
+## Anul 2 - Semestrul 1
+### MAP
+|   Lab                                                | Nr. problema| Descriere problema           |
+|------------------------------------------------------|------------|-------------------------------|
+| Lab1                                                 |             |                              |
+
