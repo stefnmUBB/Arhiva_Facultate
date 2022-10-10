@@ -63,8 +63,15 @@
 
 
 ## Anul 2 - Semestrul 1
+
 ### MAP
 |   Lab                                                | Nr. problema| Descriere problema           |
 |------------------------------------------------------|------------|-------------------------------|
-| Lab1                                                 |             |                              |
+| [Lab1](https://github.com/stefnmUBB/MAP_Lab1)        | -          | Familiarizare Java, parser numere complexe |
+
+
+### PLF
+|   Lab                                                | Nr. problema| Descriere problema           |
+|------------------------------------------------------|------------|-------------------------------|
+| [Lab1](https://github.com/stefnmUBB/PLF_Lab1)        |             |                              |
 
