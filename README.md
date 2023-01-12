@@ -65,16 +65,24 @@
 ## Anul 2 - Semestrul 1
 
 ### MAP
-|   Lab                                                | Nr. problema| Descriere problema           |
-|------------------------------------------------------|------------|-------------------------------|
-| [Lab1](https://github.com/stefnmUBB/MAP_Lab1)        | -          | Familiarizare Java, parser numere complexe |
-| [Lab2](https://github.com/stefnmUBB/MAP_Lab2)        | -          | MessageTask: Factory, Singleton, Strategy, Abstract, Interface |
+|   Lab                                                    | Descriere problema           |
+|----------------------------------------------------------|-------------------------------|
+| [Lab1](https://github.com/stefnmUBB/MAP_Lab1)            | Familiarizare Java, parser numere complexe |
+| [Lab2](https://github.com/stefnmUBB/MAP_Lab2)            | MessageTask: Factory, Singleton, Strategy, Abstract, Interface |
+| [Lab3-7](https://github.com/stefnmUBB/MAP_SocialNetwork) | Simulare retea socializare, GUI, PostgreSQL |
 
 
 ### PLF
 |   Lab                                                | Nr. problema| Descriere problema           |
 |------------------------------------------------------|------------|-------------------------------|
-| [Lab1](https://github.com/stefnmUBB/PLF_Lab1)        |             |                              |
+| [Lab1](https://github.com/stefnmUBB/PLF_Lab1)        |            |                              |
+| [Teme](https://github.com/stefnmUBB/PLF_TEME)        |            |                              |
+
+
+### PS
+|   Lab                                                |
+|-----------------------------------------------------|
+| [Labs](https://github.com/stefnmUBB/PS_Labs)        |
 
 ### RC
 |  Tema                                                 | Nr. problema| Descriere problema           |
