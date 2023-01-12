@@ -76,10 +76,10 @@
 
 
 ### PLF
-|   Lab                                                | Nr. problema| Descriere problema           |
-|------------------------------------------------------|------------|-------------------------------|
-| [Lab1](https://github.com/stefnmUBB/PLF_Lab1)        |            |                              |
-| [Teme](https://github.com/stefnmUBB/PLF_TEME)        |            |                              |
+|   Lab                                                | Nr. problema|
+|------------------------------------------------------|------------|
+| [Lab1](https://github.com/stefnmUBB/PLF_Lab1)        | 3           |
+| [Teme](https://github.com/stefnmUBB/PLF_TEME)        | P1 (1,2,8,15), P2(toate), P3(4), L1(13), L2(11), L3(6) |
 
 
 ### PS
