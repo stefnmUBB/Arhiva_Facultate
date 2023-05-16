@@ -62,7 +62,7 @@
 |   [Lab7](https://github.com/stefnmUBB/SDA_Lab7_P9)   | 9          | TAD DO - ABC inlantuit, reprezentare pe tablou                              |
 
 
-## Anul 2 - Semestrul 1
+## Anul 2 - Semestrul 3
 
 ### BD
 |   Lab                                                |
@@ -96,4 +96,38 @@
 |  Tema                                                 | Nr. problema| Descriere problema           |
 |------------------------------------------------------|------------|-------------------------------|
 | [1a](https://github.com/stefnmUBB/RC_Tema_1a)        |             |                              |
+
+
+## Anul 2 - Semestrul 4
+
+### AI
+|   Lab                                                |
+|-----------------------------------------------------|
+| [Labs](https://github.com/stefnmUBB/AI_Labs)        |
+
+
+### ISS
+|   Lab                                                |
+|-----------------------------------------------------|
+| [Lab](https://github.com/stefnmUBB/ISS_Lab)        |
+
+
+
+
+### MPP
+|   Lab                                                |
+|-----------------------------------------------------|
+| [Labs](https://github.com/stefnmUBB/MPP_Labs)        |
+
+
+
+### PW
+|   Lab                                                |
+|-----------------------------------------------------|
+| [Labs](https://github.com/stefnmUBB/PW_Labs)        |
+
+### SGBD
+|   Lab                                                |
+|-----------------------------------------------------|
+| [Labs](https://github.com/stefnmUBB/SGBD_Labs)        |
 
