@@ -117,7 +117,7 @@
 ### MPP
 |   Lab                                                |
 |-----------------------------------------------------|
-| [Labs](https://github.com/stefnmUBB/MPP_Labs)        |
+| [Labs](https://github.com/stefnmUBB/MPP_Lab)        |
 
 
 
