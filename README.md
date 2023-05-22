@@ -115,9 +115,16 @@
 
 
 ### MPP
-|   Lab                                                |
-|-----------------------------------------------------|
-| [Labs](https://github.com/stefnmUBB/MPP_Lab)        |
+|   Lab                                               | Descriere |
+|-----------------------------------------------------|-----------|
+| [Tema1S3](https://github.com/stefnmUBB/MPP_Lab/tree/master/Homework/lab2) | Domain + Interfata Repo|
+| [Tema1S4](https://github.com/stefnmUBB/MPP_Lab/tree/master/Homework/lab3) | Implementare Repo DB + Jurnalizare|
+| [Tema2S5-6](https://github.com/stefnmUBB/MPP_Lab/tree/master/Homework/sapt56) | Service + UI |
+| [Tema3S7-8](https://github.com/stefnmUBB/MPP_Lab/tree/master/Homework/sapt78) | Client-Server |
+| [Tema4S9](https://github.com/stefnmUBB/MPP_Lab/tree/master/Homework/sapt9) | Intercomunicare Network Java-C# |
+| [Tema5S10](https://github.com/stefnmUBB/MPP_Lab/tree/master/Homework/sapt10) | ORM (Entity Framework) |
+| [Tema6S11](https://github.com/stefnmUBB/MPP_Lab/tree/master/Homework/sapt11) | REST Services |
+| [Tema7S13](https://github.com/stefnmUBB/MPP_Lab/tree/master/Homework/sapt12) | React Client |
 
 
 
