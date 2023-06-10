@@ -125,16 +125,28 @@
 | [Tema5S10](https://github.com/stefnmUBB/MPP_Lab/tree/master/Homework/sapt10) | ORM (Entity Framework) |
 | [Tema6S11](https://github.com/stefnmUBB/MPP_Lab/tree/master/Homework/sapt11) | REST Services |
 | [Tema7S13](https://github.com/stefnmUBB/MPP_Lab/tree/master/Homework/sapt12) | React Client |
+| [Tema8S14](https://github.com/stefnmUBB/MPP_Lab/tree/master/Homework/sapt14) | ActiveMQ |
 
 
 
 ### PW
-|   Lab                                                |
-|-----------------------------------------------------|
-| [Labs](https://github.com/stefnmUBB/PW_Labs)        |
+|   Lab                                                          | Descriere |
+|----------------------------------------------------------------|-----------|
+| [Lab1](https://github.com/stefnmUBB/PW_Labs/tree/master/Lab1)  | HTML      |
+| [Lab2](https://github.com/stefnmUBB/PW_Labs/tree/master/Lab2)  | CSS       |
+| Lab3  | HTTP, CGI (pe serverul facultatii)      |
+| [Lab4](https://github.com/stefnmUBB/PW_Labs/tree/master/Lab4)  | JS        |
+| [Lab5](https://github.com/stefnmUBB/PW_Labs/tree/master/Lab5)  | JQuery    |
+| [Lab6](https://github.com/stefnmUBB/PW_Labs/tree/master/Lab6)  | AJAX      |
+| [Lab7](https://github.com/stefnmUBB/PW_Labs/tree/master/Lab7)  | PHP      |
+| [Lab8](https://github.com/stefnmUBB/PW_Labs/tree/master/Lab8%20-%20Java%20Servlet)  | Java Servlet      |
 
 ### SGBD
-|   Lab                                                |
-|-----------------------------------------------------|
-| [Labs](https://github.com/stefnmUBB/SGBD_Labs)        |
+|   Lab                                                             | Descriere|
+|-------------------------------------------------------------------|----------|
+| [Lab1](https://github.com/stefnmUBB/SGBD_Labs/tree/master/Lab1)   | CRUD C#  |
+| [Lab2](https://github.com/stefnmUBB/SGBD_Labs/tree/master/SGBD.Lab2)   | CRUD C#, read from config files  |
+| [Lab3](https://github.com/stefnmUBB/SGBD_Labs/tree/master/SGBD.Lab3)   | Transaction in stored procedures  |
+| [Lab4](https://github.com/stefnmUBB/SGBD_Labs/tree/master/SGBD.Lab4)   | Concurrency, deadlock  |
+| [Examen Practic](https://github.com/stefnmUBB/SGBD_Labs/tree/master/SGBD.ExamenPractic)   | |
 
