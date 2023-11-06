@@ -52,6 +52,12 @@
 |   [Lab12 (Simulare Practic)](https://github.com/stefnmUBB/OOP_SimularePractic)   |          | Management electronice   |
 |   [Examen Practic](https://github.com/stefnmUBB/OOP_ExamenPractic)   |          | Music rank   |
 
+
+### SD
+|   Labs                                               | Descriere problema           |
+|------------------------------------------------------|------------------------------|
+|   [Labs](https://github.com/stefnmUBB/SD_Labs)       |                              |
+
 ### SDA
 |   Lab                                                | Nr. problema| Descriere problema           |
 |------------------------------------------------------|------------|-------------------------------|
