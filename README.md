@@ -150,3 +150,22 @@
 | [Lab4](https://github.com/stefnmUBB/SGBD_Labs/tree/master/SGBD.Lab4)   | Concurrency, deadlock  |
 | [Examen Practic](https://github.com/stefnmUBB/SGBD_Labs/tree/master/SGBD.ExamenPractic)   | |
 
+## Anul 3 - Semestrul 5
+
+### LFTC
+|   Lab                                                          | Descriere |
+|----------------------------------------------------------------|-----------|
+| [Labs](https://github.com/stefnmUBB/LFTC_Labs                  |           |
+
+### PPD
+
+|   Lab                                                          | Descriere |
+|----------------------------------------------------------------|-----------|
+| [Labs](https://github.com/stefnmUBB/PPD_Labs                   |           |
+
+
+### AGI
+
+|   Lab                                                          | Descriere |
+|----------------------------------------------------------------|-----------|
+| [Labs](https://github.com/stefnmUBB/AGI_Labs                   |           |
