@@ -155,17 +155,17 @@
 ### LFTC
 |   Lab                                                          | Descriere |
 |----------------------------------------------------------------|-----------|
-| [Labs](https://github.com/stefnmUBB/LFTC_Labs                  |           |
+| [Labs](https://github.com/stefnmUBB/LFTC_Labs)                 |           |
 
 ### PPD
 
 |   Lab                                                          | Descriere |
 |----------------------------------------------------------------|-----------|
-| [Labs](https://github.com/stefnmUBB/PPD_Labs                   |           |
+| [Labs](https://github.com/stefnmUBB/PPD_Labs)                  |           |
 
 
 ### AGI
 
 |   Lab                                                          | Descriere |
 |----------------------------------------------------------------|-----------|
-| [Labs](https://github.com/stefnmUBB/AGI_Labs                   |           |
+| [Labs](https://github.com/stefnmUBB/AGI_Labs)                  |           |
