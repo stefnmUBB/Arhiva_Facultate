@@ -181,6 +181,18 @@
 | [Tema6](https://github.com/stefnmUBB/PPD_Labs/tree/master/Tema6)  | Producer Consumer, Client-Server  |
 | [Tema7](https://github.com/stefnmUBB/PPD_Labs/tree/master/Tema7)  | Convolutie CUDA  |
 
+
+PDM
+
+|   Lab                                                             | Descriere |
+|-------------------------------------------------------------------|-----------|
+|[Ionic1](https://github.com/stefnmUBB/PDM_Labs/tree/master/Ionic1) |master-detail, rest services, web sockets|
+|[Ionic2](https://github.com/stefnmUBB/PDM_Labs/tree/master/Ionic2) |local storage, sync data, authentication, pagination & filtering|
+|[Ionic3](https://github.com/stefnmUBB/PDM_Labs/tree/master/Ionic3) |camera, maps, animations|
+|[Native1](https://github.com/stefnmUBB/PDM_Labs/tree/master/Native1) |master-detail, authentication, rest services|
+|[Native2](https://github.com/stefnmUBB/PDM_Labs/tree/master/Native2) |local storage, background tasks, sync data|
+|[Native3](https://github.com/stefnmUBB/PDM_Labs/tree/master/Native3) |camera, sensors, animations|
+
 ### AGI ([Notebook](https://stefnmubb.github.io/AGI_Labs/))
 
 |   Lab                                                                                                | Descriere |
@@ -190,3 +202,7 @@
 | [Lab3 Info](https://github.com/stefnmUBB/AGI_Labs/blob/master/LiviuStefan_NeacsuMiclea_235_Lab3Info.pdf)      | Curbe Bézier (probleme)  |
 | [Lab4 Info](https://github.com/stefnmUBB/AGI_Labs/blob/master/LiviuStefan_NeacsuMiclea_235_Lab4Info.py)      | Curbe B-splice (Python)  |
 | [Lab5 Info](https://github.com/stefnmUBB/AGI_Labs/blob/master/LiviuStefan_NeacsuMiclea_235_Lab5Info.py)      | Suprafete Bézier triunghiulare (Python)  |
+
+### SS
+|   Proiect                                                             | Descriere |
+| [FTP Client](https://github.com/stefnmUBB/SS_Project_FTP_Client)      | Implementarea unui client FTP, cu accent pe tratarea vulnerabilitatilor|
