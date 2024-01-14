@@ -182,7 +182,7 @@
 | [Tema7](https://github.com/stefnmUBB/PPD_Labs/tree/master/Tema7)  | Convolutie CUDA  |
 
 
-PDM
+### PDM
 
 |   Lab                                                             | Descriere |
 |-------------------------------------------------------------------|-----------|
@@ -206,3 +206,7 @@ PDM
 ### SS
 |   Proiect                                                             | Descriere |
 | [FTP Client](https://github.com/stefnmUBB/SS_Project_FTP_Client)      | Implementarea unui client FTP, cu accent pe tratarea vulnerabilitatilor|
+
+### PC
+
+- https://github.com/stefnmUBB/ProiectCercetare
