@@ -171,10 +171,13 @@
 
 ### PPD
 
-|   Lab                                                          | Descriere |
-|----------------------------------------------------------------|-----------|
-| [Labs](https://github.com/stefnmUBB/PPD_Labs)                  |           |
-
+|   Lab                                                             | Descriere |
+|-------------------------------------------------------------------|-----------|
+| [Tema1](https://github.com/stefnmUBB/PPD_Labs/tree/master/Tema1)  | Convolutie Java & C++     |
+| [Tema2](https://github.com/stefnmUBB/PPD_Labs/tree/master/Tema2)  | Convolutie fara matrice auxiliara Java & C++  |
+| [Tema3](https://github.com/stefnmUBB/PPD_Labs/tree/master/Tema3)  | Convolutie MPI C++  |
+| [Tema4](https://github.com/stefnmUBB/PPD_Labs/tree/master/Tema4)  | Producer Consumer, coarse grain synchronization  |
+| [Tema4](https://github.com/stefnmUBB/PPD_Labs/tree/master/Tema5)  | Producer Consumer, fine grain synchronization  |
 
 ### AGI ([Notebook](https://stefnmubb.github.io/AGI_Labs/))
 
