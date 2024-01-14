@@ -205,6 +205,7 @@
 
 ### SS
 |   Proiect                                                             | Descriere |
+|------------------------------------------------------------------------------------------------------|-----------|
 | [FTP Client](https://github.com/stefnmUBB/SS_Project_FTP_Client)      | Implementarea unui client FTP, cu accent pe tratarea vulnerabilitatilor|
 
 ### PC
