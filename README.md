@@ -177,7 +177,9 @@
 | [Tema2](https://github.com/stefnmUBB/PPD_Labs/tree/master/Tema2)  | Convolutie fara matrice auxiliara Java & C++  |
 | [Tema3](https://github.com/stefnmUBB/PPD_Labs/tree/master/Tema3)  | Convolutie MPI C++  |
 | [Tema4](https://github.com/stefnmUBB/PPD_Labs/tree/master/Tema4)  | Producer Consumer, coarse grain synchronization  |
-| [Tema4](https://github.com/stefnmUBB/PPD_Labs/tree/master/Tema5)  | Producer Consumer, fine grain synchronization  |
+| [Tema5](https://github.com/stefnmUBB/PPD_Labs/tree/master/Tema5)  | Producer Consumer, fine grain synchronization  |
+| [Tema6](https://github.com/stefnmUBB/PPD_Labs/tree/master/Tema6)  | Producer Consumer, Client-Server  |
+| [Tema7](https://github.com/stefnmUBB/PPD_Labs/tree/master/Tema7)  | Convolutie CUDA  |
 
 ### AGI ([Notebook](https://stefnmubb.github.io/AGI_Labs/))
 
