@@ -159,9 +159,15 @@
 ## Anul 3 - Semestrul 5
 
 ### LFTC
-|   Lab                                                          | Descriere |
-|----------------------------------------------------------------|-----------|
-| [Labs](https://github.com/stefnmUBB/LFTC_Labs)                 |           |
+|   Lab                                                                                                       | Descriere |
+|-------------------------------------------------------------------------------------------------------------|-----------|
+| [Lab1](https://github.com/stefnmUBB/LFTC_Labs/tree/master/Tema1_Spec)  | Specificare mini-limbaj de programare (MLP) |
+| [Lab2 Partea1](https://github.com/stefnmUBB/LFTC_Labs/tree/master/Tema2_AF_Partea1)  | Automate finite        |
+| [Lab2 Partea2](https://github.com/stefnmUBB/LFTC_Labs/tree/master/Tema2_AF_Partea2)  | Rescrierea temei 1 cu AF        |
+| [Lab3](https://github.com/stefnmUBB/LFTC_Labs/tree/master/Tema3_Flex)  | Lex/Flex              |
+| [Lab4](https://github.com/stefnmUBB/LFTC_Labs/tree/master/Tema4_Bison)  | YACC/Bison           |
+| [Lab5](https://github.com/stefnmUBB/LFTC_Labs/tree/master/Tema5_LR1)  | Analizator LR1         |
+| [Lab6](https://github.com/stefnmUBB/LFTC_Labs/tree/master/Tema6_Compiler)  | Compiler          |
 
 ### PPD
 
@@ -170,8 +176,12 @@
 | [Labs](https://github.com/stefnmUBB/PPD_Labs)                  |           |
 
 
-### AGI
+### AGI ([Notebook](https://stefnmubb.github.io/AGI_Labs/))
 
-|   Lab                                                          | Descriere |
-|----------------------------------------------------------------|-----------|
-| [Labs](https://github.com/stefnmUBB/AGI_Labs)                  |           |
+|   Lab                                                                                                | Descriere |
+|------------------------------------------------------------------------------------------------------|-----------|
+| [Lab1](https://github.com/stefnmUBB/AGI_Labs/blob/master/LiviuStefan_NeacsuMiclea_235_Lab1.pdf)      | Transformari geometrice in plan (probleme)  |
+| [Lab2 Info](https://github.com/stefnmUBB/AGI_Labs/blob/master/LiviuStefan_NeacsuMiclea_235_Lab2Info.py)      | Transformari geometrice in spatiu (Python)  |
+| [Lab3 Info](https://github.com/stefnmUBB/AGI_Labs/blob/master/LiviuStefan_NeacsuMiclea_235_Lab3Info.pdf)      | Curbe Bézier (probleme)  |
+| [Lab4 Info](https://github.com/stefnmUBB/AGI_Labs/blob/master/LiviuStefan_NeacsuMiclea_235_Lab4Info.py)      | Curbe B-splice (Python)  |
+| [Lab5 Info](https://github.com/stefnmUBB/AGI_Labs/blob/master/LiviuStefan_NeacsuMiclea_235_Lab5Info.py)      | Suprafete Bézier triunghiulare (Python)  |
