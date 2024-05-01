@@ -67,6 +67,11 @@
 |   [Lab6](https://github.com/stefnmUBB/SDA_Lab6_P14)  | 14         | TAD Dicționar - TD adresare deschisa, verificare patratica              |
 |   [Lab7](https://github.com/stefnmUBB/SDA_Lab7_P9)   | 9          | TAD DO - ABC inlantuit, reprezentare pe tablou                              |
 
+### SO
+
+||
+|-|
+|[Extract din linux virtual machine](https://github.com/stefnmUBB/SO_VM_Files)|
 
 ## Anul 2 - Semestrul 3
 
