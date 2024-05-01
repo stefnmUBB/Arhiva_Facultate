@@ -1,8 +1,8 @@
-# Arhiva Facultate
+# Arhiva Facultate 🙏
 
-## Anul 1 - Semestrul 1
+## Anul 1 - Semestrul 1 🦠
 
-### ASC
+### ASC 👨‍💻
 |   Lab                                                | Nr. problema| Descriere problema           |
 |------------------------------------------------------|------------|-------------------------------|
 |   [Lab2](https://github.com/stefnmUBB/ASC_Lab2_7)    | 7, 24      | Aritmetica pe byte, word      |
@@ -13,7 +13,7 @@
 |   [Lab7](https://github.com/stefnmUBB/ASC_Lab7_7)    | 7, 24      | I/O (Consola/Fisiere)         |
 |   [Lab11-12](https://github.com/stefnmUBB/ASC_Lab11_7) | 8     | Multimodul (asm+asm, asm+C)       |
 
-### FP
+### FP 🦆
 
 |   Lab                                                | Nr. problema| Descriere problema           |
 |------------------------------------------------------|------------|-------------------------------|
@@ -23,15 +23,15 @@
 |   [Lab7-9](https://github.com/stefnmUBB/FP_Lab7-9)   | P3         | Inchiriere filme              |
 |   [Lab13](https://github.com/stefnmUBB/FP_Lab13)     | P3         | Generare de permutari cu o anumita proprietate                              |
 
-### LC
+### LC 🧩
 
 |   Problema                                           | Descriere                     |
 |------------------------------------------------------|-------------------------------|
 |   [Tema Electronica](https://github.com/stefnmUBB/LC_TemaElectronica)       |  Artimetica in diferite baze     |
 
-## Anul 1 - Semestrul 2
+## Anul 1 - Semestrul 2 🔥
 
-### AG
+### AG 💀
 
 |   Lab                                                | Descriere problema           |
 |------------------------------------------------------|--------------------------------------------|
@@ -41,7 +41,7 @@
 |   [Lab4](https://github.com/stefnmUBB/AG_Lab4)       | Codare/Decodare Prüfer/Hoffman, Arbore minim de acoperire/MST (Prim) |
 |   [Lab5](https://github.com/stefnmUBB/AG_Lab5)       | Flux (Ford-Fulkerson / Pompare topologica), ciclu eulerian |
 
-### OOP
+### OOP 🚜
 
 |   Lab                                                | Nr. problema      | Descriere problema           |
 |------------------------------------------------------|-------------------|-------------------------------|
@@ -53,12 +53,12 @@
 |   [Examen Practic](https://github.com/stefnmUBB/OOP_ExamenPractic)   |          | Music rank   |
 
 
-### SD
+### SD ☢️
 |   Labs                                               | Descriere problema           |
 |------------------------------------------------------|------------------------------|
 |   [Labs](https://github.com/stefnmUBB/SD_Labs)       |                              |
 
-### SDA
+### SDA 🔧
 |   Lab                                                | Nr. problema| Descriere problema           |
 |------------------------------------------------------|------------|-------------------------------|
 |   [Lab1](https://github.com/stefnmUBB/SDA_Lab1_P7)   | 7          | TAD Colecție – vector de elemente distincte si vector de pozitii |
@@ -67,20 +67,20 @@
 |   [Lab6](https://github.com/stefnmUBB/SDA_Lab6_P14)  | 14         | TAD Dicționar - TD adresare deschisa, verificare patratica              |
 |   [Lab7](https://github.com/stefnmUBB/SDA_Lab7_P9)   | 9          | TAD DO - ABC inlantuit, reprezentare pe tablou                              |
 
-### SO
+### SO ♞
 
 ||
 |-|
 |[Extract din linux virtual machine](https://github.com/stefnmUBB/SO_VM_Files)|
 
-## Anul 2 - Semestrul 3
+## Anul 2 - Semestrul 3 🎀
 
-### BD
+### BD 📚
 |   Lab                                                |
 |-----------------------------------------------------|
 | [Labs](https://github.com/stefnmUBB/BD_Lab)        |
 
-### MAP
+### MAP ♨️
 |   Lab                                                    | Descriere problema           |
 |----------------------------------------------------------|-------------------------------|
 | [Lab1](https://github.com/stefnmUBB/MAP_Lab1)            | Familiarizare Java, parser numere complexe |
@@ -88,44 +88,38 @@
 | [Lab3-7](https://github.com/stefnmUBB/MAP_SocialNetwork) | Simulare retea socializare, GUI, PostgreSQL |
 | [Lab Facultativ C#](https://github.com/stefnmUBB/MAP_LabFacultativCS) | Aplicatie management meciuri NBA Romania |
 
-
-
-
-### PLF
+### PLF ⚙️
 |   Lab                                                | Nr. problema|
 |------------------------------------------------------|------------|
 | [Lab1](https://github.com/stefnmUBB/PLF_Lab1)        | 3           |
 | [Teme](https://github.com/stefnmUBB/PLF_TEME)        | P1 (1,2,8,15), P2(toate), P3(4), L1(13), L2(11), L3(6) |
 
 
-### PS
+### PS 📈
 |   Lab                                                |
 |-----------------------------------------------------|
 | [Labs](https://github.com/stefnmUBB/PS_Labs)        |
 
-### RC
+### RC 🔌
 |  Tema                                                 | Nr. problema| Descriere problema           |
 |------------------------------------------------------|------------|-------------------------------|
 | [1a](https://github.com/stefnmUBB/RC_Tema_1a)        |             |                              |
 
 
-## Anul 2 - Semestrul 4
+## Anul 2 - Semestrul 4 😭
 
-### AI
+### AI 🔮
 |   Lab                                                |
 |-----------------------------------------------------|
 | [Labs](https://github.com/stefnmUBB/AI_Labs)        |
 
 
-### ISS
+### ISS 📐
 |   Lab                                                |
 |-----------------------------------------------------|
 | [Lab](https://github.com/stefnmUBB/ISS_Lab)        |
 
-
-
-
-### MPP
+### MPP ⛏️
 |   Lab                                               | Descriere |
 |-----------------------------------------------------|-----------|
 | [Tema1S3](https://github.com/stefnmUBB/MPP_Lab/tree/master/Homework/lab2) | Domain + Interfata Repo|
@@ -139,8 +133,7 @@
 | [Tema8S14](https://github.com/stefnmUBB/MPP_Lab/tree/master/Homework/sapt14) | ActiveMQ |
 
 
-
-### PW
+### PW 🦋
 |   Lab                                                          | Descriere |
 |----------------------------------------------------------------|-----------|
 | [Lab1](https://github.com/stefnmUBB/PW_Labs/tree/master/Lab1)  | HTML      |
@@ -152,7 +145,7 @@
 | [Lab7](https://github.com/stefnmUBB/PW_Labs/tree/master/Lab7)  | PHP      |
 | [Lab8](https://github.com/stefnmUBB/PW_Labs/tree/master/Lab8%20-%20Java%20Servlet)  | Java Servlet      |
 
-### SGBD
+### SGBD 🌴
 |   Lab                                                             | Descriere|
 |-------------------------------------------------------------------|----------|
 | [Lab1](https://github.com/stefnmUBB/SGBD_Labs/tree/master/Lab1)   | CRUD C#  |
@@ -161,9 +154,9 @@
 | [Lab4](https://github.com/stefnmUBB/SGBD_Labs/tree/master/SGBD.Lab4)   | Concurrency, deadlock  |
 | [Examen Practic](https://github.com/stefnmUBB/SGBD_Labs/tree/master/SGBD.ExamenPractic)   | |
 
-## Anul 3 - Semestrul 5
+## Anul 3 - Semestrul 5 🦝
 
-### LFTC
+### LFTC 🐮
 |   Lab                                                                                                       | Descriere |
 |-------------------------------------------------------------------------------------------------------------|-----------|
 | [Lab1](https://github.com/stefnmUBB/LFTC_Labs/tree/master/Tema1_Spec)  | Specificare mini-limbaj de programare (MLP) |
@@ -174,7 +167,7 @@
 | [Lab5](https://github.com/stefnmUBB/LFTC_Labs/tree/master/Tema5_LR1)  | Analizator LR1         |
 | [Lab6](https://github.com/stefnmUBB/LFTC_Labs/tree/master/Tema6_Compiler)  | Compiler          |
 
-### PPD
+### PPD 🥓
 
 |   Lab                                                             | Descriere |
 |-------------------------------------------------------------------|-----------|
@@ -187,7 +180,7 @@
 | [Tema7](https://github.com/stefnmUBB/PPD_Labs/tree/master/Tema7)  | Convolutie CUDA  |
 
 
-### PDM
+### PDM 🦔
 
 |   Lab                                                             | Descriere |
 |-------------------------------------------------------------------|-----------|
@@ -198,7 +191,7 @@
 |[Native2](https://github.com/stefnmUBB/PDM_Labs/tree/master/Native2) |local storage, background tasks, sync data|
 |[Native3](https://github.com/stefnmUBB/PDM_Labs/tree/master/Native3) |camera, sensors, animations|
 
-### AGI ([Notebook](https://stefnmubb.github.io/AGI_Labs/))
+### AGI 🌌
 
 |   Lab                                                                                                | Descriere |
 |------------------------------------------------------------------------------------------------------|-----------|
@@ -207,12 +200,32 @@
 | [Lab3 Info](https://github.com/stefnmUBB/AGI_Labs/blob/master/LiviuStefan_NeacsuMiclea_235_Lab3Info.pdf)      | Curbe Bézier (probleme)  |
 | [Lab4 Info](https://github.com/stefnmUBB/AGI_Labs/blob/master/LiviuStefan_NeacsuMiclea_235_Lab4Info.py)      | Curbe B-splice (Python)  |
 | [Lab5 Info](https://github.com/stefnmUBB/AGI_Labs/blob/master/LiviuStefan_NeacsuMiclea_235_Lab5Info.py)      | Suprafete Bézier triunghiulare (Python)  |
+|[**Notebook**](https://stefnmubb.github.io/AGI_Labs/)||
 
-### SS
+### SS 🕵🏻‍♂️
 |   Proiect                                                             | Descriere |
 |------------------------------------------------------------------------------------------------------|-----------|
 | [FTP Client](https://github.com/stefnmUBB/SS_Project_FTP_Client)      | Implementarea unui client FTP, cu accent pe tratarea vulnerabilitatilor|
 
-### PC
+### PC 📝
 
-- https://github.com/stefnmUBB/ProiectCercetare
+||
+|-|
+|[Repo](https://github.com/stefnmUBB/ProiectCercetare)|
+
+## Anul 3 - Semestrul 6 😶
+
+### VVSS 🥪
+
+### CN 🧮
+
+### GC 🖼️
+
+|   Lab                                                                                                | Descriere |
+|------------------------------------------------------------------------------------------------------|-----------|
+| [Lab1](https://github.com/stefnmUBB/GC_Labs/tree/master/Lab1_Bresenham)      | Bresenham lines & circles  |
+| [Lab2](https://github.com/stefnmUBB/GC_Labs/tree/master/Lab2_Cube)      | Cube VAO,VBO  |
+| [Lab3](https://github.com/stefnmUBB/GC_Labs/tree/master/Lab3_Textures)      | Textures  |
+| [Lab4](https://github.com/stefnmUBB/GC_Labs/tree/master/Lab4_Light)      | Light  |
+| [Lab5]()     | Rubik's cube  |
+
