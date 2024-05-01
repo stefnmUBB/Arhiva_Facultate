@@ -217,7 +217,24 @@
 
 ### VVSS 🥪
 
+|   Lab                                                                                                | Descriere |
+|------------------------------------------------------------------------------------------------------|-----------|
+| [Lab](https://github.com/stefnmUBB/VVSS_PizzaShop) | Project: PizzaShop |
+
 ### CN 🧮
+
+|   Lab                                                                                                | Descriere |
+|------------------------------------------------------------------------------------------------------|-----------|
+| [Lab1](https://github.com/stefnmUBB/CN/tree/master/Lab1)      | Serii Taylor  |
+| [Lab2](https://github.com/stefnmUBB/CN/tree/master/Lab2)      | Erori  |
+| [Lab3](https://github.com/stefnmUBB/CN/tree/master/Lab3)      | Conditionare  |
+| [Lab4](https://github.com/stefnmUBB/CN/tree/master/Lab4)      | Sisteme liniare, metode directe  |
+| [Lab5](https://github.com/stefnmUBB/CN/tree/master/Lab5)      | Sisteme liniare, metode iterative  |
+| [Lab6](https://github.com/stefnmUBB/CN/tree/master/Lab6)      | Interpolare Lagrange  |
+| [Lab7](https://github.com/stefnmUBB/CN/tree/master/Lab7)      | Interpolare Hermite  |
+| [Lab8](https://github.com/stefnmUBB/CN/tree/master/Lab8)      | Interpolare spline  |
+
+
 
 ### GC 🖼️
 
