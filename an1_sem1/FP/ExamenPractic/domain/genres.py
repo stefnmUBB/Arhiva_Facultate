@@ -1,0 +1,1 @@
+GENRES = ["Rock", "Pop", "Jazz", "Altele"]

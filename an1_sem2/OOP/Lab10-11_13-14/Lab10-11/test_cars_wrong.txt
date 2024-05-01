@@ -1,0 +1,7 @@
+[0,AB54QGH,Audi,A4 Allroad]
+[2,BZ29YKA,Opel,Corsa,ttt]
+[4,VS96NQD,Dacia,1300,Large family car]
+[26,CJ20COK,Audi,A5,Coupe]
+[27,DJ66VAT,Ford,Mustang,Coupe]
+[28,AR84LYJ,Audi,A5,Coupe]
+[29,MH09XJS,Dacia,1300,Large family car]

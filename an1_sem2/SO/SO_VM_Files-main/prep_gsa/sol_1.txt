@@ -1,0 +1,1 @@
+grep -E "economica.+ Sun" last.fake | sort | sed -E "s/([a-z0-9]+)(.*)/\1/" | uniq

@@ -1,0 +1,19 @@
+@Client
+id = 12
+name = Name1
+surname = Surname1
+cnp = 1111111111111
+
+@Client
+id = 24
+name = Name2
+surname = Surname2 Surname3
+cnp = 2111111111111
+
+@Movie
+id = 1
+title = Movie1
+description = desc
+genre = genre
+year = 2015
+

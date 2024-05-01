@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ui\body.cpp" />
+    <ClCompile Include="Service\cars_service.cpp" />
+    <ClCompile Include="Service\undo.cpp" />
+    <ClCompile Include="Tests\test_all.cpp" />
+    <ClCompile Include="Tests\test_car.cpp" />
+    <ClCompile Include="Tests\test_list.cpp" />
+    <ClCompile Include="Tests\test_list_item.cpp" />
+    <ClCompile Include="Tests\test_list_storage.cpp" />
+    <ClCompile Include="Tests\test_number_plate.cpp" />
+    <ClCompile Include="Tests\test_service.cpp" />
+    <ClCompile Include="Domain\car.cpp" />
+    <ClCompile Include="Domain\list_item.cpp" />
+    <ClCompile Include="Domain\number_plate.cpp" />
+    <ClCompile Include="Domain\report_item.cpp" />
+    <ClCompile Include="Repo\list_storage.cpp" />
+    <ClCompile Include="ui\filter_results.cpp" />
+    <ClCompile Include="ui\washlist_crud_gui.cpp" />
+    <ClCompile Include="ui\washlist_read_only_gui.cpp" />
+    <ClCompile Include="Service\wash_list.cpp" />
+    <ClCompile Include="ui\car_list_model.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ui\body.h" />
+    <ClInclude Include="Service\cars_service.h" />
+    <ClInclude Include="Service\undo.h" />
+    <ClInclude Include="Tests\test_all.h" />
+    <ClInclude Include="Tests\test_car.h" />
+    <ClInclude Include="Tests\test_list.h" />
+    <ClInclude Include="Tests\test_list_item.h" />
+    <ClInclude Include="Tests\test_list_storage.h" />
+    <ClInclude Include="Tests\test_number_plate.h" />
+    <ClInclude Include="Tests\test_service.h" />
+    <ClInclude Include="Domain\car.h" />
+    <ClInclude Include="Domain\list_item.h" />
+    <ClInclude Include="Domain\number_plate.h" />
+    <ClInclude Include="Domain\report_item.h" />
+    <ClInclude Include="Repo\list.h" />
+    <ClInclude Include="Repo\list_storage.h" />
+    <ClInclude Include="Repo\vector.h" />
+    <ClInclude Include="ui\filter_results.h" />
+    <ClInclude Include="ui\washlist_crud_gui.h" />
+    <ClInclude Include="ui\washlist_read_only_gui.h" />
+    <ClInclude Include="ui\observer.h" />
+    <ClInclude Include="Service\wash_list.h" />
+    <ClInclude Include="ui\car_list_model.h" />
+  </ItemGroup>
+</Project>

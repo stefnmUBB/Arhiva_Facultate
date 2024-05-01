@@ -1,0 +1,2 @@
+wk -F: '{print $1, $5}' passwd.fake | sed -E "s/([a-z]{4})([0-9]{4}) (.*)/\2:\3/" | awk -F: '$1%7==0 {print $2}' | grep -E "^M.*"
+

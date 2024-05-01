@@ -1,0 +1,21 @@
+total 100
+drwxr-x--- 2 stefan stefan 4096 mar  9 17:37 c-test-practice
+-rw-rw-r-- 1 stefan stefan 3066 mar  3 12:06 c-test-practice.zip
+drwxr-xr-x 2 stefan stefan 4096 apr 19 13:04 Desktop
+drwxr-xr-x 2 stefan stefan 4096 feb 23 20:24 Documents
+drwxr-xr-x 2 stefan stefan 4096 mar 20 22:01 Downloads
+-rw-r--r-- 1 stefan stefan 8980 feb 23 20:17 examples.desktop
+-rw-rw-r-- 1 stefan stefan   87 mar 20 18:50 example.txt
+-rwxrwxr-x 1 stefan stefan 9176 mai 12 09:45 game
+-rw-rw-r-- 1 stefan stefan 2107 mai 12 09:45 game.c
+drwxr-xr-x 2 stefan stefan 4096 feb 23 20:24 Music
+-rw-rw-r-- 1 stefan stefan    0 iun 12 10:15 output.txt
+drwxr-xr-x 3 stefan stefan 4096 mar 20 17:50 Pictures
+drwxr-xr-x 2 stefan stefan 4096 feb 23 20:24 Public
+drwxrwxr-x 9 stefan stefan 4096 mai 26 22:52 SO
+-rw-rw-r-- 1 stefan stefan  140 mar 20 18:38 sol-2.txt
+-rw-rw-r-- 1 stefan stefan  131 mar 20 18:46 sol-3.txt
+drwxr-xr-x 2 stefan stefan 4096 feb 23 20:24 Templates
+drwxr-xr-x 2 stefan stefan 4096 feb 23 20:24 Videos
+-rwxrwxr-x 1 stefan stefan 9568 iun 12 10:04 x
+-rw-rw-r-- 1 stefan stefan  138 iun 12 10:04 x.c
