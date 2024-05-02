@@ -1,0 +1,1 @@
+1. Un client trimite unui server un sir de numere. Serverul va returna clientului suma numerelor primite.

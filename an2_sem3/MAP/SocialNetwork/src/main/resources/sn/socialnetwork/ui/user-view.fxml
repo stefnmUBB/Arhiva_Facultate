@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sn.socialnetwork.controller.UserViewController">
+   <children>
+      <TabPane id="body" fx:id="tabControl" layoutX="33.0" layoutY="14.0" prefHeight="400.0" prefWidth="600.0" side="LEFT" style="-fx-background-color: #ebf7fc;" stylesheets="@tabs.css" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="Profile">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="14.0" layoutY="34.0" text="Name" />
+                        <Label layoutX="14.0" layoutY="83.0" text="Email" />
+                        <Label layoutX="14.0" layoutY="134.0" text="Age" />
+                        <TextField fx:id="nameTextField" disable="true" layoutX="96.0" layoutY="30.0" />
+                        <TextField fx:id="emailTextField" disable="true" layoutX="96.0" layoutY="79.0" />
+                        <TextField fx:id="ageTextField" disable="true" layoutX="96.0" layoutY="130.0" />
+                        <Hyperlink layoutX="96.0" layoutY="165.0" text="Edit user data" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Friends">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <TabPane depthTest="DISABLE" layoutX="77.0" layoutY="60.0" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <tabs>
+                            <Tab text="My friends">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <TableView fx:id="friendsTable" layoutX="14.0" layoutY="14.0" onMouseClicked="#friendsTableClicked" prefHeight="371.0" prefWidth="366.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="135.0" AnchorPane.topAnchor="0.0">
+                                            <columns>
+                                              <TableColumn fx:id="friendSurnameColumn" prefWidth="99.0" text="Surname" />
+                                              <TableColumn fx:id="friendNameColumn" prefWidth="105.0" text="Name" />
+                                                <TableColumn fx:id="friendAgeColumn" prefWidth="51.0" text="Age" />
+                                                <TableColumn fx:id="friendSinceColumn" prefWidth="93.0" text="Friends since" />
+                                            </columns>
+                                          </TableView>
+                                          <Button fx:id="removeFriendButton" disable="true" layoutX="368.0" layoutY="14.0" mnemonicParsing="false" onAction="#removeFriendButtonClicked" prefHeight="25.0" prefWidth="113.0" text="Remove friend" AnchorPane.rightAnchor="14.0" />
+                                          <Button fx:id="loginAsFriendButton" layoutX="374.0" layoutY="46.0" mnemonicParsing="false" onAction="#loginAsFriendButtonClicked" prefHeight="25.0" prefWidth="113.0" text="Login as Friend (Dbg)" AnchorPane.rightAnchor="14.0">
+                                             <font>
+                                                <Font size="10.0" />
+                                             </font>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                              </content>
+                            </Tab>
+                            <Tab text="Pending requests">
+                              <content>
+                                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <TableView fx:id="fshipsTable" layoutX="14.0" layoutY="6.0" onMouseClicked="#fshipsTableClicked" prefHeight="371.0" prefWidth="343.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="158.0" AnchorPane.topAnchor="0.0">
+                                            <columns>
+                                              <TableColumn fx:id="fshipUserNameColumn" prefWidth="75.0" text="Name" />
+                                              <TableColumn fx:id="fshipSentColumn" prefWidth="75.0" text="Date sent" />
+                                                <TableColumn fx:id="fshipStatusColumn" prefWidth="75.0" text="Status" />
+                                            </columns>
+                                          </TableView>
+                                          <Button fx:id="removeFriendshipButton" layoutX="350.0" layoutY="8.0" mnemonicParsing="false" onAction="#removeFriendshipButtonClicked" prefHeight="25.0" prefWidth="137.0" text="Remove friendship" AnchorPane.rightAnchor="14.0" />
+                                          <Button fx:id="acceptRequestButton" disable="true" layoutX="347.0" layoutY="47.0" mnemonicParsing="false" onAction="#acceptRequestButtonClicked" prefHeight="25.0" prefWidth="141.0" text="Accept friend request" AnchorPane.rightAnchor="13.0" />
+                                       </children>
+                                    </AnchorPane>
+                              </content>
+                            </Tab>
+                              <Tab text="Discover">
+                                <content>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <TextField fx:id="searchTextField" layoutX="14.0" layoutY="39.0" prefHeight="25.0" prefWidth="473.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" />
+                                          <Label layoutX="14.0" layoutY="14.0" text="Search for user name" />
+                                          <TableView fx:id="discTable" layoutX="13.0" layoutY="70.0" onMouseClicked="#discTableMouseClicked" prefHeight="256.0" prefWidth="475.0" AnchorPane.bottomAnchor="45.0" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="13.0" AnchorPane.topAnchor="70.0">
+                                            <columns>
+                                              <TableColumn fx:id="discSurnameColumn" prefWidth="189.0" text="Surname" />
+                                              <TableColumn fx:id="discNameColumn" prefWidth="165.0" text="Name" />
+                                            </columns>
+                                          </TableView>
+                                          <Button fx:id="discAddFriendButton" disable="true" layoutX="394.0" layoutY="332.0" mnemonicParsing="false" onAction="#discAddFriendButtonClicked" prefHeight="25.0" prefWidth="93.0" text="Add friend" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0" />
+                                       </children>
+                                    </AnchorPane>
+                                </content>
+                              </Tab>
+                          </tabs>
+                        </TabPane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Chat">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <SplitPane dividerPositions="0.29797979797979796" layoutY="-7.0" prefHeight="327.0" prefWidth="491.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <items>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <TableView fx:id="chatFriendsTable" layoutX="-40.0" layoutY="-118.0" onMouseClicked="#chatFriendsTableClicked" prefHeight="400.0" prefWidth="137.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                      <columns>
+                                        <TableColumn fx:id="chatFriendsTableNameColumn" prefWidth="136.0" text="Name" />
+                                      </columns>
+                                    </TableView>
+                                 </children>
+                              </AnchorPane>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                                 <children>
+                                    <ListView fx:id="chatListView" layoutX="-122.0" layoutY="-101.0" prefHeight="302.0" prefWidth="340.0" style="-fx-background-color: skyblue;" AnchorPane.bottomAnchor="23.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                    <TextField fx:id="messageTextField" layoutX="5.0" layoutY="293.0" prefHeight="25.0" prefWidth="289.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="51.0" />
+                                    <Button fx:id="sendButton" layoutX="249.0" layoutY="245.0" mnemonicParsing="false" onAction="#sendButtonClicked" prefHeight="25.0" prefWidth="52.0" text="Send" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+                                 </children>
+                              </AnchorPane>
+                          </items>
+                        </SplitPane>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab text="Account">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="logoutButton" layoutX="45.0" layoutY="34.0" mnemonicParsing="false" onAction="#logoutButtonClicked" prefHeight="25.0" prefWidth="92.0" text="Log out" />
+                        <Button layoutX="43.0" layoutY="75.0" mnemonicParsing="false" style="-fx-background-color: red; -fx-text-fill: white;" text="Delete account" />
+                        <Label layoutX="155.0" layoutY="79.0" text="&lt;-- press it and have a social life" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+         <effect>
+            <Lighting diffuseConstant="1.42" specularConstant="1.65" specularExponent="40.0" surfaceScale="1.73">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant>
+                     <color>
+                        <Color red="0.8799999952316284" green="0.991428554058075" blue="1.0" />
+                     </color>
+                  </Light.Distant>
+               </light>
+            </Lighting>
+         </effect>
+      </TabPane>
+   </children>
+</AnchorPane>

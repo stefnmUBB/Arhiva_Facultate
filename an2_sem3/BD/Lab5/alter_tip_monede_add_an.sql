@@ -1,0 +1,1 @@
+ALTER TABLE TipMonede ADD An INT;

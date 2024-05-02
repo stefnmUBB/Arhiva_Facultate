@@ -1,0 +1,11 @@
+#body.tab-pane > .tab-header-area > .headers-region > .tab *.tab-label {
+    -fx-rotate: 90;
+}
+
+.tab-pane:focused > .tab-header-area > .headers-region > .tab:selected .focus-indicator {
+    -fx-border-color: transparent;
+}
+
+#body.tab-pane > .tab-header-area > .headers-region > .tab {
+    -fx-padding: 3em 0.5em 3em 0.5em;
+}

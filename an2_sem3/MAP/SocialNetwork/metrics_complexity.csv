@@ -1,0 +1,297 @@
+Complexity metrics,joi, 12 ian. 2023 10:26:12 EET
+Method,CogC,ev(G),iv(G),v(G)
+sn.socialnetwork.Main.main(String[]),0,1,1,1
+sn.socialnetwork.controller.Globals.getNetwork(),0,1,1,1
+sn.socialnetwork.controller.LoginViewController.displayError(String),0,1,1,1
+sn.socialnetwork.controller.LoginViewController.loginButtonClicked(),1,2,2,2
+"sn.socialnetwork.controller.LoginViewController.setCredentials(String, String)",0,1,1,1
+"sn.socialnetwork.controller.SocialNetworkController.createStage(String, int, int)",1,1,1,2
+sn.socialnetwork.controller.SocialNetworkController.getNetwork(),0,1,1,1
+sn.socialnetwork.controller.SocialNetworkController.getStage(Control),0,1,1,1
+sn.socialnetwork.controller.SocialNetworkController.setNetwork(Network),0,1,1,1
+sn.socialnetwork.controller.SocialNetworkController.showErrorBox(String),2,1,2,2
+sn.socialnetwork.controller.UserViewController.acceptRequestButtonClicked(),1,2,1,2
+sn.socialnetwork.controller.UserViewController.chatFriendsTableClicked(),0,1,1,1
+sn.socialnetwork.controller.UserViewController.discAddFriendButtonClicked(),1,1,2,2
+sn.socialnetwork.controller.UserViewController.discTableMouseClicked(),1,2,2,2
+sn.socialnetwork.controller.UserViewController.discoverFilter(),2,1,3,3
+sn.socialnetwork.controller.UserViewController.friendsTableClicked(),2,2,2,3
+sn.socialnetwork.controller.UserViewController.fshipsTableClicked(),2,2,2,3
+sn.socialnetwork.controller.UserViewController.getUser(),0,1,1,1
+sn.socialnetwork.controller.UserViewController.initChatFriendsTable(),0,1,1,1
+sn.socialnetwork.controller.UserViewController.initChatListView(),15,1,4,5
+sn.socialnetwork.controller.UserViewController.initDiscover(),0,1,1,1
+sn.socialnetwork.controller.UserViewController.initFriendsTable(),3,2,2,3
+sn.socialnetwork.controller.UserViewController.initRequestsTable(),2,2,1,2
+sn.socialnetwork.controller.UserViewController.initTabsUI(),3,2,1,2
+sn.socialnetwork.controller.UserViewController.initialize(),0,1,1,1
+sn.socialnetwork.controller.UserViewController.loadChatListView(),1,2,1,2
+sn.socialnetwork.controller.UserViewController.loginAsFriendButtonClicked(),1,2,1,2
+sn.socialnetwork.controller.UserViewController.logoutButtonClicked(),0,1,1,1
+sn.socialnetwork.controller.UserViewController.refreshFriends(),0,1,1,1
+sn.socialnetwork.controller.UserViewController.refreshRequests(),0,1,1,1
+sn.socialnetwork.controller.UserViewController.removeFriendButtonClicked(),2,2,2,3
+sn.socialnetwork.controller.UserViewController.removeFriendshipButtonClicked(),2,2,2,3
+sn.socialnetwork.controller.UserViewController.sendButtonClicked(),1,1,2,2
+sn.socialnetwork.controller.UserViewController.setUser(User),0,1,1,1
+sn.socialnetwork.domain.Entity.getId(),0,1,1,1
+sn.socialnetwork.domain.Entity.isDeleted(),0,1,1,1
+sn.socialnetwork.domain.Entity.setDeleted(),0,1,1,1
+sn.socialnetwork.domain.Entity.setId(ID),0,1,1,1
+sn.socialnetwork.domain.Entity.unsetDeleted(),0,1,1,1
+sn.socialnetwork.domain.Friendship.Friendship(),0,1,1,1
+"sn.socialnetwork.domain.Friendship.Friendship(Long, Long, LocalDateTime)",0,1,1,1
+sn.socialnetwork.domain.Friendship.containsUser(Long),1,1,2,2
+sn.socialnetwork.domain.Friendship.equals(Object),4,3,5,7
+sn.socialnetwork.domain.Friendship.getFriendsFrom(),0,1,1,1
+sn.socialnetwork.domain.Friendship.getSender(),0,1,1,1
+sn.socialnetwork.domain.Friendship.getTheOtherOne(Long),0,1,1,1
+sn.socialnetwork.domain.Friendship.getUserIds(),0,1,1,1
+sn.socialnetwork.domain.Friendship.hashCode(),0,1,1,1
+sn.socialnetwork.domain.Friendship.isPending(),0,1,1,1
+sn.socialnetwork.domain.Friendship.isSender(Long),0,1,1,1
+sn.socialnetwork.domain.Friendship.setPending(boolean),0,1,1,1
+sn.socialnetwork.domain.Friendship.setSender(Long),0,1,1,1
+sn.socialnetwork.domain.Friendship.toString(),0,1,1,1
+sn.socialnetwork.domain.Message.Message(),0,1,1,1
+"sn.socialnetwork.domain.Message.Message(Long, Long, String, LocalDateTime)",0,1,1,1
+sn.socialnetwork.domain.Message.equals(Object),4,3,4,6
+sn.socialnetwork.domain.Message.getAuthorID(),0,1,1,1
+sn.socialnetwork.domain.Message.getContent(),0,1,1,1
+sn.socialnetwork.domain.Message.getDateSent(),0,1,1,1
+sn.socialnetwork.domain.Message.getReceiverID(),0,1,1,1
+sn.socialnetwork.domain.Message.hashCode(),0,1,1,1
+sn.socialnetwork.domain.Message.setAuthorID(Long),0,1,1,1
+sn.socialnetwork.domain.Message.setContent(String),0,1,1,1
+sn.socialnetwork.domain.Message.setDateSent(LocalDateTime),0,1,1,1
+sn.socialnetwork.domain.Message.setReceiverID(Long),0,1,1,1
+sn.socialnetwork.domain.Message.toString(),0,1,1,1
+sn.socialnetwork.domain.User.User(),0,1,1,1
+"sn.socialnetwork.domain.User.User(String, String, String, String, Integer)",0,1,1,1
+sn.socialnetwork.domain.User.getAge(),0,1,1,1
+sn.socialnetwork.domain.User.getEmail(),0,1,1,1
+sn.socialnetwork.domain.User.getFirstName(),0,1,1,1
+sn.socialnetwork.domain.User.getFullName(),0,1,1,1
+sn.socialnetwork.domain.User.getLastName(),0,1,1,1
+sn.socialnetwork.domain.User.getPassword(),0,1,1,1
+sn.socialnetwork.domain.User.setAge(Integer),0,1,1,1
+sn.socialnetwork.domain.User.setEmail(String),0,1,1,1
+sn.socialnetwork.domain.User.setFirstName(String),0,1,1,1
+sn.socialnetwork.domain.User.setLastName(String),0,1,1,1
+sn.socialnetwork.domain.User.setPassword(String),0,1,1,1
+sn.socialnetwork.domain.User.toString(),0,1,1,1
+sn.socialnetwork.domain.validators.EmailValidator.validate(String),2,3,1,3
+"sn.socialnetwork.domain.validators.FriendshipValidator.FriendshipValidator(IRepo<Long, User>)",0,1,1,1
+sn.socialnetwork.domain.validators.FriendshipValidator.validate(Friendship),3,4,1,4
+"sn.socialnetwork.domain.validators.MessageValidator.MessageValidator(IRepo<Long, User>)",0,1,1,1
+sn.socialnetwork.domain.validators.MessageValidator.validate(Message),4,5,1,5
+sn.socialnetwork.domain.validators.NameValidator.validate(String),11,9,2,9
+sn.socialnetwork.domain.validators.UserValidator.validate(User),3,4,1,4
+sn.socialnetwork.domain.validators.ValidationException.ValidationException(),0,1,1,1
+sn.socialnetwork.domain.validators.ValidationException.ValidationException(String),0,1,1,1
+"sn.socialnetwork.domain.validators.ValidationException.ValidationException(String, Throwable)",0,1,1,1
+"sn.socialnetwork.domain.validators.ValidationException.ValidationException(String, Throwable, boolean, boolean)",0,1,1,1
+sn.socialnetwork.domain.validators.ValidationException.ValidationException(Throwable),0,1,1,1
+sn.socialnetwork.factory.ReportFactory.ReportFactory(),0,1,1,1
+"sn.socialnetwork.factory.ReportFactory.createReport(ReportType, E)",1,4,1,4
+sn.socialnetwork.factory.ReportFactory.getInstance(),0,1,1,1
+sn.socialnetwork.repo.AbstractDatabaseRepo.AbstractDatabaseRepo(IValidator<E>),0,1,1,1
+"sn.socialnetwork.repo.AbstractDatabaseRepo.AbstractDatabaseRepo(String, String, String, IValidator<E>)",0,1,1,1
+sn.socialnetwork.repo.AbstractDatabaseRepo.add(E),3,2,3,3
+sn.socialnetwork.repo.AbstractDatabaseRepo.getAll(),2,1,3,3
+sn.socialnetwork.repo.AbstractDatabaseRepo.getById(ID),2,2,3,3
+sn.socialnetwork.repo.AbstractDatabaseRepo.remove(ID),2,2,2,3
+sn.socialnetwork.repo.AbstractDatabaseRepo.update(E),3,2,2,3
+"sn.socialnetwork.repo.DatabaseRepo.DatabaseRepo(Class<E>, IValidator<E>)",0,1,1,1
+"sn.socialnetwork.repo.DatabaseRepo.DatabaseRepo(Class<E>, String, String, String, IValidator<E>)",0,1,1,1
+sn.socialnetwork.repo.DatabaseRepo.add(E),6,3,4,8
+sn.socialnetwork.repo.DatabaseRepo.buildEntity(ResultSet),7,2,2,10
+sn.socialnetwork.repo.DatabaseRepo.getAll(),2,1,3,3
+sn.socialnetwork.repo.DatabaseRepo.getById(ID),2,2,3,3
+sn.socialnetwork.repo.DatabaseRepo.getEntityFieldNames(),0,1,1,1
+sn.socialnetwork.repo.DatabaseRepo.getEntityFieldType(String),1,1,1,2
+"sn.socialnetwork.repo.DatabaseRepo.getEntityFieldValue(E, String)",2,1,1,3
+sn.socialnetwork.repo.DatabaseRepo.getEntityTypeName(),0,1,1,1
+"sn.socialnetwork.repo.DatabaseRepo.loadFromRepo(IRepo<ID, E>)",1,1,2,2
+sn.socialnetwork.repo.DatabaseRepo.remove(ID),2,2,2,3
+"sn.socialnetwork.repo.DatabaseRepo.setEntityFieldValue(E, String, Object)",2,1,1,3
+sn.socialnetwork.repo.DatabaseRepo.update(E),6,3,3,6
+"sn.socialnetwork.repo.FileRepo.FileRepo(String, IValidator<E>)",0,1,1,1
+sn.socialnetwork.repo.FileRepo.add(E),1,1,2,2
+sn.socialnetwork.repo.FileRepo.load(),9,1,8,9
+sn.socialnetwork.repo.FileRepo.newLineExists(File),3,3,2,4
+sn.socialnetwork.repo.FileRepo.remove(ID),1,1,2,2
+sn.socialnetwork.repo.FileRepo.saveAll(),2,1,3,3
+sn.socialnetwork.repo.FileRepo.saveAppend(E),2,1,3,3
+sn.socialnetwork.repo.FileRepo.update(E),0,1,1,1
+sn.socialnetwork.repo.FriendshipDatabaseRepo.FriendshipDatabaseRepo(IValidator<Friendship>),0,1,1,1
+"sn.socialnetwork.repo.FriendshipDatabaseRepo.FriendshipDatabaseRepo(String, String, String, IValidator<Friendship>)",0,1,1,1
+sn.socialnetwork.repo.FriendshipDatabaseRepo.buildEntity(ResultSet),0,1,1,1
+"sn.socialnetwork.repo.FriendshipDatabaseRepo.getByIdQuery(Connection, Long)",0,1,1,1
+"sn.socialnetwork.repo.FriendshipDatabaseRepo.getInsertQuery(Connection, Friendship)",0,1,1,1
+"sn.socialnetwork.repo.FriendshipDatabaseRepo.getRemoveQuery(Connection, Long)",0,1,1,1
+sn.socialnetwork.repo.FriendshipDatabaseRepo.getSelectQuery(Connection),0,1,1,1
+"sn.socialnetwork.repo.FriendshipDatabaseRepo.getUpdateQuery(Connection, Friendship)",0,1,1,1
+"sn.socialnetwork.repo.FriendshipFileRepo.FriendshipFileRepo(String, IValidator<Friendship>)",0,1,1,1
+sn.socialnetwork.repo.FriendshipFileRepo.entityAsString(Friendship),0,1,1,1
+sn.socialnetwork.repo.FriendshipFileRepo.extractEntity(List<String>),0,1,1,1
+sn.socialnetwork.repo.InMemoryRepo.InMemoryRepo(IValidator<E>),0,1,1,1
+sn.socialnetwork.repo.InMemoryRepo.add(E),2,3,1,3
+sn.socialnetwork.repo.InMemoryRepo.getAll(),0,1,1,1
+sn.socialnetwork.repo.InMemoryRepo.getById(ID),0,1,1,1
+sn.socialnetwork.repo.InMemoryRepo.remove(ID),2,2,2,3
+sn.socialnetwork.repo.InMemoryRepo.update(E),1,2,1,2
+"sn.socialnetwork.repo.MessageFileRepo.MessageFileRepo(String, IValidator<Message>)",0,1,1,1
+sn.socialnetwork.repo.MessageFileRepo.entityAsString(Message),0,1,1,1
+sn.socialnetwork.repo.MessageFileRepo.extractEntity(List<String>),0,1,1,1
+sn.socialnetwork.repo.UserDatabaseRepo.UserDatabaseRepo(IValidator<User>),0,1,1,1
+"sn.socialnetwork.repo.UserDatabaseRepo.UserDatabaseRepo(String, String, String, IValidator<User>)",0,1,1,1
+sn.socialnetwork.repo.UserDatabaseRepo.buildEntity(ResultSet),0,1,1,1
+"sn.socialnetwork.repo.UserDatabaseRepo.getByIdQuery(Connection, Long)",0,1,1,1
+"sn.socialnetwork.repo.UserDatabaseRepo.getInsertQuery(Connection, User)",0,1,1,1
+"sn.socialnetwork.repo.UserDatabaseRepo.getRemoveQuery(Connection, Long)",0,1,1,1
+sn.socialnetwork.repo.UserDatabaseRepo.getSelectQuery(Connection),0,1,1,1
+"sn.socialnetwork.repo.UserDatabaseRepo.getUpdateQuery(Connection, User)",0,1,1,1
+"sn.socialnetwork.repo.UserFileRepo.UserFileRepo(String, IValidator<User>)",0,1,1,1
+sn.socialnetwork.repo.UserFileRepo.entityAsString(User),0,1,1,1
+sn.socialnetwork.repo.UserFileRepo.extractEntity(List<String>),0,1,1,1
+sn.socialnetwork.reports.AbstractReport.AbstractReport(ReportType),0,1,1,1
+sn.socialnetwork.reports.AbstractReport.toString(),0,1,1,1
+sn.socialnetwork.reports.CombinedReport.CombinedReport(),0,1,1,1
+sn.socialnetwork.reports.CombinedReport.add(AbstractReport),0,1,1,1
+sn.socialnetwork.reports.CombinedReport.toString(),0,1,1,1
+sn.socialnetwork.reports.Report.Report(E),0,1,1,1
+"sn.socialnetwork.reports.Report.Report(E, ReportType)",0,1,1,1
+sn.socialnetwork.reports.Report.getTarget(),0,1,1,1
+sn.socialnetwork.reports.Report.toString(),0,1,1,1
+sn.socialnetwork.reports.actions.AddReport.AddReport(E),0,1,1,1
+sn.socialnetwork.reports.actions.AddReport.toString(),0,1,1,1
+sn.socialnetwork.reports.actions.RemoveReport.RemoveReport(E),0,1,1,1
+sn.socialnetwork.reports.actions.RemoveReport.toString(),0,1,1,1
+sn.socialnetwork.reports.actions.UpdateReport.UpdateReport(E),0,1,1,1
+sn.socialnetwork.reports.actions.UpdateReport.toString(),0,1,1,1
+sn.socialnetwork.service.Auth.Auth(Network),0,1,1,1
+"sn.socialnetwork.service.Auth.login(String, String)",2,2,2,3
+"sn.socialnetwork.service.Community.Community(Network, Long)",0,1,1,1
+"sn.socialnetwork.service.Community.addFriends(Long, Long)",0,1,1,1
+"sn.socialnetwork.service.Community.addItem(Long, Long)",2,1,3,3
+sn.socialnetwork.service.Community.contains(Long),0,1,1,1
+sn.socialnetwork.service.Community.discover(Long),8,1,4,4
+sn.socialnetwork.service.Community.getLongestPathLength(),19,5,5,9
+sn.socialnetwork.service.Community.size(),0,1,1,1
+sn.socialnetwork.service.Community.toString(),0,1,1,1
+"sn.socialnetwork.service.FriendshipService.FriendshipService(IRepo<Long, Friendship>)",0,1,1,1
+sn.socialnetwork.service.FriendshipService.add(Friendship),2,2,2,3
+sn.socialnetwork.service.FriendshipService.generateNewId(),0,1,1,1
+"sn.socialnetwork.service.MessageService.MessageService(IRepo<Long, Message>)",0,1,1,1
+sn.socialnetwork.service.MessageService.generateNewId(),0,1,1,1
+"sn.socialnetwork.service.Network.Network(IService<Long, User>, IService<Long, Friendship>, IService<Long, Message>)",0,1,1,1
+sn.socialnetwork.service.Network.addFriendship(Friendship),0,1,1,1
+sn.socialnetwork.service.Network.addMessage(Message),0,1,1,1
+sn.socialnetwork.service.Network.addUser(User),0,1,1,1
+sn.socialnetwork.service.Network.communitiesCount(),0,1,1,1
+sn.socialnetwork.service.Network.getAllFriendships(),0,1,1,1
+sn.socialnetwork.service.Network.getAllUsers(),0,1,1,1
+sn.socialnetwork.service.Network.getCommunities(),2,1,2,2
+sn.socialnetwork.service.Network.getFriendRequestsOf(User),1,1,2,2
+sn.socialnetwork.service.Network.getFriendsOf(User),1,1,2,2
+"sn.socialnetwork.service.Network.getMessagesBetween(Long, Long)",3,1,4,4
+sn.socialnetwork.service.Network.getMessagesFrom(Long),0,1,1,1
+sn.socialnetwork.service.Network.getUserById(Long),0,1,1,1
+sn.socialnetwork.service.Network.loadDefaultNetwork(),0,1,1,1
+sn.socialnetwork.service.Network.mostSociableCommunity(),3,1,2,3
+sn.socialnetwork.service.Network.postMessage(Message),0,1,1,1
+sn.socialnetwork.service.Network.removeFriendship(Long),0,1,1,1
+sn.socialnetwork.service.Network.removeUser(Long),0,1,1,1
+sn.socialnetwork.service.Network.updateFriendship(Friendship),0,1,1,1
+sn.socialnetwork.service.Network.updateUser(User),0,1,1,1
+sn.socialnetwork.service.Path.Path(),0,1,1,1
+"sn.socialnetwork.service.Path.Path(Long, Long)",0,1,1,1
+sn.socialnetwork.service.Path.canJoin(Path),11,7,5,9
+sn.socialnetwork.service.Path.head(),0,1,1,1
+sn.socialnetwork.service.Path.join(Path),5,4,3,5
+sn.socialnetwork.service.Path.length(),0,1,1,1
+sn.socialnetwork.service.Path.reversed(),1,1,2,2
+sn.socialnetwork.service.Path.tail(),0,1,1,1
+sn.socialnetwork.service.Path.toString(),0,1,1,1
+"sn.socialnetwork.service.Service.Service(IRepo<ID, E>)",0,1,1,1
+sn.socialnetwork.service.Service.add(E),0,1,1,1
+sn.socialnetwork.service.Service.exists(Predicate<E>),3,3,2,3
+sn.socialnetwork.service.Service.getAll(),0,1,1,1
+sn.socialnetwork.service.Service.getById(ID),0,1,1,1
+sn.socialnetwork.service.Service.remove(ID),1,2,1,2
+sn.socialnetwork.service.Service.update(E),0,1,1,1
+"sn.socialnetwork.service.UserService.UserService(IRepo<Long, User>, IService<Long, Friendship>)",0,1,1,1
+sn.socialnetwork.service.UserService.generateNewId(),0,1,1,1
+sn.socialnetwork.service.UserService.remove(Long),3,1,3,3
+sn.socialnetwork.ui.SocialNetworkApplication.getLoader(String),0,1,1,1
+sn.socialnetwork.ui.SocialNetworkApplication.main(String[]),0,1,1,1
+sn.socialnetwork.ui.SocialNetworkApplication.start(Stage),0,1,1,1
+"updateItem(Message, boolean)",9,n/a,n/a,n/a
+
+Class,OCavg,OCmax,WMC
+sn.socialnetwork.Main,"1,00",1,1
+sn.socialnetwork.controller.Globals,"1,00",1,1
+sn.socialnetwork.controller.LoginViewController,"1,33",2,4
+sn.socialnetwork.controller.SocialNetworkController,"1,20",2,6
+sn.socialnetwork.controller.UserViewController,"1,60",4,40
+sn.socialnetwork.domain.Entity,"1,00",1,5
+sn.socialnetwork.domain.Friendship,"1,14",3,16
+sn.socialnetwork.domain.Message,"1,15",3,15
+sn.socialnetwork.domain.User,"1,00",1,14
+sn.socialnetwork.domain.validators.EmailValidator,"3,00",3,3
+sn.socialnetwork.domain.validators.FriendshipValidator,"2,50",4,5
+sn.socialnetwork.domain.validators.MessageValidator,"3,00",5,6
+sn.socialnetwork.domain.validators.NameValidator,"9,00",9,9
+sn.socialnetwork.domain.validators.UserValidator,"4,00",4,4
+sn.socialnetwork.domain.validators.ValidationException,"1,00",1,5
+sn.socialnetwork.factory.ReportFactory,"2,33",5,7
+sn.socialnetwork.repo.AbstractDatabaseRepo,"1,71",2,12
+sn.socialnetwork.repo.DatabaseRepo,"2,57",8,36
+sn.socialnetwork.repo.EntityAlreadyExistsException,n/a,n/a,0
+sn.socialnetwork.repo.FileRepo,"2,00",3,16
+sn.socialnetwork.repo.FriendshipDatabaseRepo,"1,00",1,8
+sn.socialnetwork.repo.FriendshipFileRepo,"1,00",1,3
+sn.socialnetwork.repo.IdNullException,n/a,n/a,0
+sn.socialnetwork.repo.InMemoryRepo,"1,83",3,11
+sn.socialnetwork.repo.MessageFileRepo,"1,00",1,3
+sn.socialnetwork.repo.UserDatabaseRepo,"1,00",1,8
+sn.socialnetwork.repo.UserFileRepo,"1,00",1,3
+sn.socialnetwork.reports.AbstractReport,"1,00",1,2
+sn.socialnetwork.reports.CombinedReport,"1,00",1,3
+sn.socialnetwork.reports.Report,"1,00",1,4
+sn.socialnetwork.reports.ReportType,n/a,n/a,0
+sn.socialnetwork.reports.actions.AddReport,"1,00",1,2
+sn.socialnetwork.reports.actions.RemoveReport,"1,00",1,2
+sn.socialnetwork.reports.actions.UpdateReport,"1,00",1,2
+sn.socialnetwork.service.Auth,"1,50",2,3
+sn.socialnetwork.service.Community,"2,62",9,21
+sn.socialnetwork.service.EntityIdNotFoundException,n/a,n/a,0
+sn.socialnetwork.service.FriendshipService,"1,33",2,4
+sn.socialnetwork.service.MessageService,"1,00",1,2
+sn.socialnetwork.service.Network,"1,15",3,23
+sn.socialnetwork.service.Path,"2,22",7,20
+sn.socialnetwork.service.Service,"1,43",3,10
+sn.socialnetwork.service.UserService,"1,67",3,5
+sn.socialnetwork.ui.SocialNetworkApplication,"1,00",1,3
+sn.socialnetwork.utils.Constants,n/a,n/a,0
+sn.socialnetwork.utils.find_strategies.UserFindStrategy,n/a,n/a,0
+
+Package,v(G)avg,v(G)tot
+sn.socialnetwork,"1,00",1
+sn.socialnetwork.controller,"1,82",60
+sn.socialnetwork.domain,"1,26",58
+sn.socialnetwork.domain.validators,"2,67",32
+sn.socialnetwork.factory,"2,00",6
+sn.socialnetwork.repo,"2,08",125
+sn.socialnetwork.reports,"1,00",9
+sn.socialnetwork.reports.actions,"1,00",6
+sn.socialnetwork.service,"1,80",97
+sn.socialnetwork.ui,"1,00",3
+
+Module,v(G)avg,v(G)tot
+SocialNetwork.main,"1,75",397
+
+Project,v(G)avg,v(G)tot
+project,"1,75",397
+

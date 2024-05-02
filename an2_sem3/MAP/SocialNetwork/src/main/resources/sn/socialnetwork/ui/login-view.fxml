@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+
+<AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sn.socialnetwork.controller.LoginViewController">
+   <children>
+      <Pane layoutX="81.0" layoutY="47.0" prefHeight="293.0" prefWidth="439.0" style="-fx-background-color: lightgray; -fx-background-radius: 10;" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <TextField fx:id="emailTextField" layoutX="33.0" layoutY="51.0" prefHeight="25.0" prefWidth="386.0" text="darius-melisa.focsineanu@hotmail.com" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" />
+            <TextField fx:id="passwordTextField" layoutX="33.0" layoutY="125.0" prefHeight="25.0" prefWidth="386.0" text="aakTkJtbk" />
+            <Button fx:id="loginButton" layoutX="33.0" layoutY="195.0" mnemonicParsing="false" onAction="#loginButtonClicked" prefHeight="25.0" prefWidth="386.0" style="-fx-background-color: dodgerblue; -fx-text-fill: white;" text="Login" />
+            <Label layoutX="33.0" layoutY="34.0" text="Email" />
+            <Label layoutX="33.0" layoutY="108.0" text="Password" />
+            <Hyperlink fx:id="registerButton" layoutX="157.0" layoutY="252.0" text="No account? Create one!" />
+            <Label fx:id="errorLabel" layoutX="33.0" layoutY="235.0" prefHeight="17.0" prefWidth="386.0" text="Error Here" textAlignment="CENTER" textFill="RED" visible="false" />
+         </children>
+      </Pane>
+   </children>
+   <effect>
+      <Lighting diffuseConstant="1.42" specularConstant="1.65" specularExponent="40.0" surfaceScale="1.73">
+         <bumpInput>
+            <Shadow />
+         </bumpInput>
+         <light>
+            <Light.Distant>
+               <color>
+                  <Color red="0.8799999952316284" green="0.991428554058075" blue="1.0" />
+               </color>
+            </Light.Distant>
+         </light>
+      </Lighting>
+   </effect>
+</AnchorPane>
