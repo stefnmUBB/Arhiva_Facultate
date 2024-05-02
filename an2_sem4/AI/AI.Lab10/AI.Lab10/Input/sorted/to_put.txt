@@ -1,0 +1,1 @@
+google word2vec decompressed, sorted, spread through multiple files for easier access

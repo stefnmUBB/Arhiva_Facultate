@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CE2A7FE6-9349-4310-BAA1-BC3E5FACDE99}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AI.Lab9</RootNamespace>
+    <AssemblyName>AI.Lab9</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\Misc\ConfusionMatrix.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Misc\ConfusionMatrix.Designer.cs">
+      <DependentUpon>ConfusionMatrix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Misc\PaintBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Misc\PaintBox.Designer.cs">
+      <DependentUpon>PaintBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Plot\AbstractPlottable.cs" />
+    <Compile Include="Controls\Plot\CartesianPlotter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Plot\CartesianPlotter.designer.cs">
+      <DependentUpon>CartesianPlotter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Plot\FunctionPlottable.cs" />
+    <Compile Include="Controls\Plot\IPlottable.cs" />
+    <Compile Include="Controls\Plot\IPlotter.cs" />
+    <Compile Include="Controls\Plot\NormalizationMethodSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Plot\NormalizationMethodSelector.designer.cs">
+      <DependentUpon>NormalizationMethodSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Plot\PlanePlottable.cs" />
+    <Compile Include="Controls\Plot\PointsPlottable.cs" />
+    <Compile Include="Controls\Tabs\ANNController.cs" />
+    <Compile Include="Controls\Tabs\ANNStatusBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Tabs\IANNNotifier.cs" />
+    <Compile Include="Controls\Tabs\DigitsSimTab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tabs\DigitsSimTab.Designer.cs">
+      <DependentUpon>DigitsSimTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tabs\SepiaSimTab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tabs\SepiaSimTab.Designer.cs">
+      <DependentUpon>SepiaSimTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tabs\IrisSimTab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tabs\IrisSimTab.Designer.cs">
+      <DependentUpon>IrisSimTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tabs\LegendTTPlot.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Tabs\LegendTTPlot.Designer.cs">
+      <DependentUpon>LegendTTPlot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data\Flower.cs" />
+    <Compile Include="DigitViewMockForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DigitViewMockForm.Designer.cs">
+      <DependentUpon>DigitViewMockForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Solvers\DataSets.cs" />
+    <Compile Include="Solvers\IrisSolver.cs" />
+    <Compile Include="Solvers\Networks.cs" />
+    <Compile Include="Solvers\NumberSolver.cs" />
+    <Compile Include="Solvers\SepiaSolver.cs" />
+    <Compile Include="Tools\Algebra\Functions.cs" />
+    <Compile Include="Tools\Algebra\Matrix.cs" />
+    <Compile Include="Tools\Algebra\MatrixUtils.cs" />
+    <Compile Include="Tools\ANNFinder.cs" />
+    <Compile Include="Tools\ANNModel.cs" />
+    <Compile Include="Tools\ANN\ActivationFunction.cs" />
+    <Compile Include="Tools\ANN\AssertionFailedException.cs" />
+    <Compile Include="Tools\ANN\Neuron.cs" />
+    <Compile Include="Tools\ANN\NeuralNetwork.cs" />
+    <Compile Include="Tools\ANN\Neurons.cs" />
+    <Compile Include="Tools\Normalization\ClipNorm.cs" />
+    <Compile Include="Tools\Normalization\INormalizationMethod.cs" />
+    <Compile Include="Tools\Normalization\LogNorm.cs" />
+    <Compile Include="Tools\Normalization\MinMaxNorm.cs" />
+    <Compile Include="Tools\Normalization\NoNorm.cs" />
+    <Compile Include="Tools\Normalization\ZNorm.cs" />
+    <Compile Include="Utils\CsvData.cs" />
+    <Compile Include="Utils\Extensions.cs" />
+    <Compile Include="Utils\Rand.cs" />
+    <Compile Include="Utils\SepiaDatasetGen.cs" />
+    <EmbeddedResource Include="Controls\Misc\ConfusionMatrix.resx">
+      <DependentUpon>ConfusionMatrix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Misc\PaintBox.resx">
+      <DependentUpon>PaintBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Plot\NormalizationMethodSelector.resx">
+      <DependentUpon>NormalizationMethodSelector.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tabs\DigitsSimTab.resx">
+      <DependentUpon>DigitsSimTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tabs\SepiaSimTab.resx">
+      <DependentUpon>SepiaSimTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tabs\IrisSimTab.resx">
+      <DependentUpon>IrisSimTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Tabs\LegendTTPlot.resx">
+      <DependentUpon>LegendTTPlot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DigitViewMockForm.resx">
+      <DependentUpon>DigitViewMockForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Input\iris.data">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Input\Numbers\optdigits-orig.cv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Input\Numbers\optdigits-orig.wdep">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Input\Numbers\optdigits-orig.windep">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\iris.data" />
+    <None Include="Resources\optdigits-orig.cv" />
+    <None Include="Resources\optdigits-orig.wdep" />
+    <None Include="Resources\optdigits-orig.windep" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
