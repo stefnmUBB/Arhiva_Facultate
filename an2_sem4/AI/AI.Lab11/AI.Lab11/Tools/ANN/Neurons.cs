@@ -1,0 +1,13 @@
+﻿using System;
+
+namespace AI.Lab11.Tools.ANN
+{
+    public class Neurons
+    {
+        public static Func<Neuron> Input => () => new Neuron();
+
+        public static Func<Neuron> Hidden(ActivationFunction activate) => () => new Neuron(activate);
+        public static Func<Neuron> Output(ActivationFunction activate) => () => new Neuron(activate);
+
+    }
+}
