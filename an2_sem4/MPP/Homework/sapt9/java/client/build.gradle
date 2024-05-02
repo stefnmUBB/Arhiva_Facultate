@@ -1,0 +1,50 @@
+plugins {
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+    id 'application'
+}
+
+group 'ro.ubbcluj.cs.stefnmubb.festivalsellpoint'
+version 'unspecified'
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = '17.0.2'
+    modules = ['javafx.controls', 'javafx.fxml']
+}
+
+application {
+    mainClass = 'ro.ubbcluj.cs.stefnmubb.festivalsellpoint.Application'
+}
+
+dependencies {
+    implementation project(':domain')
+    implementation project(':repo')
+    implementation project(':service')
+    implementation project(':network')
+
+    implementation('org.controlsfx:controlsfx:11.1.1')
+    implementation('com.dlsc.formsfx:formsfx-core:11.5.0') {
+        exclude(group: 'org.openjfx')
+    }
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jar {
+    duplicatesStrategy (DuplicatesStrategy.EXCLUDE)
+    manifest {
+        attributes('Main-Class':'ro.ubbcluj.cs.stefnmubb.festivalsellpoint.Application')
+    }
+    from {
+        configurations.runtimeClasspath.collect{it.isDirectory()?it:zipTree(it)}
+    }
+}

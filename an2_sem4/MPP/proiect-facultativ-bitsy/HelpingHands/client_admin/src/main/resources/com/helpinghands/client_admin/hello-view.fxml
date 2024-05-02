@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="375.0" prefWidth="562.0">
+         <children>
+            <Button layoutX="131.0" layoutY="97.0" mnemonicParsing="false" text="Button" />
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

@@ -1,0 +1,60 @@
+plugins {
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+    id 'application'
+}
+
+group 'ro.ubbcluj.cs.stefnmubb.festivalsellpoint'
+version 'unspecified'
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = '17.0.2'
+    modules = ['javafx.controls', 'javafx.fxml']
+}
+
+application {
+    mainClass = 'ro.ubbcluj.cs.stefnmubb.festivalsellpoint.Application'
+}
+
+dependencies {
+    implementation project(':domain')
+    implementation project(':repo')
+    implementation project(':service')
+    implementation project(':network')
+
+    implementation('org.controlsfx:controlsfx:11.1.1')
+    implementation('com.dlsc.formsfx:formsfx-core:11.5.0') {
+        exclude(group: 'org.openjfx')
+    }
+
+    testImplementation group: 'junit', name: 'junit', version: '4.11'
+    implementation "org.springframework:spring-context:$springVersion"
+    implementation "org.springframework:spring-jms:$springVersion"
+    implementation "org.apache.activemq:activemq-spring:$activeMQVersion"
+    // https://mvnrepository.com/artifact/log4j/log4j
+    implementation group: 'log4j', name: 'log4j', version: '1.2.17'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.3'
+    //implementation "org.slf4j:slf4j-api:$slf4jVersion"
+    //implementation "org.slf4j:slf4j-simple:$slf4jVersion"
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jar {
+    duplicatesStrategy (DuplicatesStrategy.EXCLUDE)
+    manifest {
+        attributes('Main-Class':'ro.ubbcluj.cs.stefnmubb.festivalsellpoint.Application')
+    }
+    from {
+        configurations.runtimeClasspath.collect{it.isDirectory()?it:zipTree(it)}
+    }
+}

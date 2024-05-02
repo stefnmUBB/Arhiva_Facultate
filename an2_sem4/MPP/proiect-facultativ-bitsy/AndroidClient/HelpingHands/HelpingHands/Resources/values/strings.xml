@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HelpingHands</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_post">Posts</string>
+  <string name="title_profile">Profile</string>
+  <string name="meniu_help">Help</string>
+</resources>

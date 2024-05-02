@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ComputerRepairRequestTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-03-08T06:38:22" hostname="DESKTOP-9HMTO67" time="0.039">
+  <properties/>
+  <testcase name="Test1 - ComputerRepairRequest create" classname="ComputerRepairRequestTest" time="0.028"/>
+  <testcase name="Test2 - ComputerRepairRequest get/set" classname="ComputerRepairRequestTest" time="0.003"/>
+  <testcase name="Test3 - repo add" classname="ComputerRepairRequestTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

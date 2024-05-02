@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.ubbcluj.cs.stefnmubb.festivalsellpoint.controller.SpectacoleViewController">
+   <children>
+      <SplitPane dividerPositions="0.5989974937343359" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TableView fx:id="spectacoleTable" layoutX="61.0" layoutY="41.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <columns>
+                        <TableColumn fx:id="artistColumn" prefWidth="71.0" text="Artist" />
+                        <TableColumn fx:id="dataColumn" prefWidth="70.0" text="Data" />
+                        <TableColumn fx:id="locatieColumn" prefWidth="84.0" text="Locatie" />
+                        <TableColumn fx:id="nrLocuriDisponibileColumn" prefWidth="118.0" text="Nr. Locuri Disponibile" />
+                        <TableColumn fx:id="nrLocuriVanduteColumn" prefWidth="124.0" text="Nr. Locuri Vandute" />
+                     </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TableView fx:id="filteredSpectacoleTable" layoutX="15.0" layoutY="49.0" prefHeight="200.0" prefWidth="288.0" AnchorPane.bottomAnchor="249.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="49.0">
+                     <columns>
+                        <TableColumn fx:id="filteredArtistColumn" prefWidth="40.0" text="Artist" />
+                        <TableColumn fx:id="filteredOraColumn" prefWidth="42.0" text="Ora" />
+                        <TableColumn fx:id="filteredLocatieColumn" prefWidth="46.0" text="Locatie" />
+                        <TableColumn fx:id="filteredNrLocuriDisponibileColumn" prefWidth="60.0" text="Nr. Locuri Disponibile" />
+                        <TableColumn fx:id="filteredNrLocuriVanduteColumn" prefWidth="75.0" text="Nr. Locuri Vandute" />
+                     </columns>
+                  </TableView>
+                  <DatePicker fx:id="datePicker" layoutX="14.0" layoutY="14.0" onAction="#datePickerInputChanged" prefHeight="25.0" prefWidth="368.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="14.0" />
+                  <Pane layoutX="14.0" layoutY="263.0" prefHeight="200.0" prefWidth="287.0" AnchorPane.bottomAnchor="35.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="16.0">
+                     <children>
+                        <Label layoutX="22.0" layoutY="35.0" text="Nume Cumparator" />
+                        <Label layoutX="22.0" layoutY="73.0" text="Nr. Locuri Dorite" />
+                        <TextField fx:id="numeCumparatorBox" layoutX="131.0" layoutY="31.0" prefHeight="25.0" prefWidth="139.0" />
+                        <TextField fx:id="nrLocuriDoriteBox" layoutX="131.0" layoutY="69.0" prefHeight="25.0" prefWidth="139.0" />
+                        <Button fx:id="rezervaBiletButton" layoutX="186.0" layoutY="111.0" mnemonicParsing="false" onAction="#rezervaBiletButtonClicked" text="Reserva Bilet" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

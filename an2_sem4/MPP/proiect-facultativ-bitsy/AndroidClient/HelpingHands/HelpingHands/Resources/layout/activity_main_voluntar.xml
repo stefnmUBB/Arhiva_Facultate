@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">        
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="4" android:columnCount="1"
+        >        
+        <LinearLayout
+            android:layout_rowWeight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_row="0" 
+            android:orientation="vertical"
+            android:scrollbars="vertical">
+
+            <!-- Taburile aici, sub forma de GridLayout .... -->               
+
+
+            <GridLayout
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"                
+                android:id="@+id/ProfileView"                
+                >
+
+                <TableLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent" 
+                    >
+                    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">                    
+                        <GridLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" android:layout_span="2" android:layout_marginBottom="15dp">
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="155dp"
+                                android:layout_height="155dp"
+                                app:cardCornerRadius="250dp"
+                                android:layout_span="2"                                
+                                app:cardBackgroundColor="#ff0000"
+                                android:layout_gravity="center">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="150dp"
+                                    android:layout_height="150dp"
+                                    app:cardCornerRadius="250dp"
+                                    android:layout_gravity="center">
+
+                                    <ImageView      
+                                        xmlns:tools="http://schemas.android.com/tools"
+                                        android:contentDescription="pp"
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        android:id="@+id/ProfilePicView"
+                                        android:src="@drawable/default_pp"                                        
+                                        android:scaleType="centerCrop"/>
+
+                                </androidx.cardview.widget.CardView>
+
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_row="0"
+                                android:layout_column="0"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                app:cardCornerRadius="100dp"
+                                android:layout_gravity="center_horizontal|bottom"
+                                android:layout_marginLeft="80dp"
+                                android:outlineAmbientShadowColor="#000000"
+                                android:outlineSpotShadowColor="#000000"
+                                >
+                                <ImageButton
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/camera_icon"
+                                    android:backgroundTint="#ffffff"
+                                    android:tint="#911E45"                                    
+                                    android:scaleType="fitXY"
+                                    android:id="@+id/SelectPPButton"
+                                    
+                                />
+                            </androidx.cardview.widget.CardView>
+
+
+                            <!--GridLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"/>
+                                <androidx.cardview.widget.CardView
+                                        android:layout_width="150dp"
+                                        android:layout_height="150dp"
+                                        app:cardCornerRadius="250dp"
+                                        android:layout_gravity="center">
+                                <Button
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="Camera"/>
+                                </androidx.cardview.widget.CardView>
+                            </GridLayout-->
+                        </GridLayout>                                                    
+                    </TableRow>
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView                                 
+                            android:textSize="22dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"            
+                            android:text="First Name"
+                            android:minWidth="25px"
+                            android:minHeight="25px"
+                            android:layout_column="0"
+                            android:layout_marginRight="10dp"
+                            />
+                        <TextView
+                            android:textSize="22dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="(First Name)"  
+                            android:textColor="#B30064"
+                            android:id="@+id/AccPrenume"
+                            android:layout_gravity="fill_horizontal"/> 
+                    </TableRow>
+                    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="22dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"                    
+                            android:text="Last Name"                                                            
+                            />
+                        <TextView
+                            android:textSize="22dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"                    
+                            android:text="(Last Name)"    
+                            android:textColor="#B30064"
+                            android:id="@+id/AccNume"                     
+                            />
+                    </TableRow>
+                    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="22dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"                    
+                            android:text="Email"
+                            />
+                        <TextView
+                            android:textSize="22dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"                    
+                            android:text="(Email)"     
+                            android:textColor="#B30064"
+                            android:id="@+id/AccEmail"                     
+                            />
+                    </TableRow>
+                    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="22dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"                    
+                            android:text="Xp Points"
+                            />
+                        <TextView
+                            android:textSize="22dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"                    
+                            android:text="(XP)"      
+                            android:textColor="#B30064"
+                            android:id="@+id/AccXpPct"                     
+                            />
+                    </TableRow>
+                    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="22dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"                    
+                            android:text="Interests"
+                            />
+                        <TextView
+                            android:layout_width="220dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="22dp"
+                            android:textColor="#B30064"
+                            android:text="(Interese)"
+                            android:id="@+id/AccInterests"
+                        />
+
+                    </TableRow>
+                    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+                
+                        <TextView
+                            android:textSize="22dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"                    
+                            android:text="Sponsor"
+                            />
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />                                     
+                     </TableRow>
+                     <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">                                        
+                        <Button
+                            android:textSize="15dp"
+                            android:layout_width="182.5dp"
+                            android:text="Apply for sponsor account"
+                            android:id="@+id/AccApplyForSponsorButton"
+                            android:gravity="center"
+                            android:layout_span="2"
+                            android:layout_gravity="left"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="#B30064"
+                            android:textColor="#ffffff"                    
+                            />
+                    </TableRow>            
+                    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">                                        
+                        <Button
+                            android:textSize="15dp"
+                            android:layout_width="182.5dp"
+                            android:text="Logout"
+                            android:id="@+id/AccLogoutButton"
+                            android:gravity="center"
+                            android:layout_span="2"
+                            android:layout_gravity="left"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="#B30064"
+                            android:textColor="#ffffff"                    
+                            />
+                    </TableRow>            
+                </TableLayout>        
+            </GridLayout>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/MeniuHelpView" >
+                 <WebView
+                 android:id="@+id/PgWeb"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent" />
+            </GridLayout>
+
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/PostView"
+                android:columnCount="1"
+                android:padding="@dimen/activity_horizontal_margin"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"                    
+                    android:textSize="20dp"
+                    android:text="Posts About Your Events"
+                    />          
+
+                <ListView                    
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp"
+                    android:id="@+id/PostariListView"
+                    android:fadeScrollbars="true"
+                    android:scrollbars="vertical"
+                    android:verticalScrollbarPosition="right" 
+                    />                
+              
+            </GridLayout> 
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/DashboardView"
+                android:columnCount="1"
+                android:padding="@dimen/activity_horizontal_margin"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"                    
+                    android:textSize="20dp"
+                    android:text="Evenimente organizate"
+                    />          
+                
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Creeaza un eveniment"                    
+                    android:backgroundTint="#B30064"
+                    android:textColor="#ffffff"                    
+                    android:id="@+id/CreateEvButton" />
+
+                <ListView                    
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:id="@+id/OrganizatorEvenimenteListView"
+                    android:fadeScrollbars="true"
+                    android:scrollbars="vertical"
+                    android:verticalScrollbarPosition="right" 
+                    />                
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"                    
+                    android:textSize="20dp"
+                    android:text="Evenimente la care particip"
+                    />
+
+                <ListView                    
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:id="@+id/VoluntarEvenimenteListView"
+                    android:fadeScrollbars="true"
+                    android:scrollbars="vertical"
+                    android:verticalScrollbarPosition="right" 
+                    />
+              
+            </GridLayout>            
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/HomeView"
+                android:padding="@dimen/activity_horizontal_margin"
+                android:columnCount="1">
+                 <TextView                    
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginStart="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:textSize="25dp"
+                    android:text="Evenimente" />
+                <TextView                    
+                    android:text="Filtreaza dupa interes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"                    
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    />
+                <Spinner android:layout_width="300dp" android:layout_height="wrap_content" 
+                    android:id="@+id/InterestBox" />
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <Button
+                        android:id="@+id/EvPrevButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Previous"                                 
+                        android:backgroundTint="#B30064"
+                        android:textColor="#ffffff"
+                        />
+                    <TextView
+                        android:id="@+id/EvPageTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" 
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        />
+                     <Button
+                        android:id="@+id/EvNextButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Next"                                 
+                        android:backgroundTint="#B30064"
+                        android:textColor="#ffffff"
+                        />
+                </GridLayout>
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/EvenimenteListView"                    
+                    android:fadeScrollbars="true"
+                    android:scrollbars="vertical"
+                    android:verticalScrollbarPosition="right" 
+                    />                
+            </GridLayout>           
+        </LinearLayout>
+    
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_rowWeight="0"
+            android:layout_row="1"
+            android:id="@+id/navigation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="0dp"
+            android:background="?android:attr/windowBackground"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/navigation" />
+    </GridLayout>    
+</RelativeLayout>

@@ -1,0 +1,1219 @@
+21 Mar 2023 10:12:19,069 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 15 <init> - Initializing AngajatDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+21 Mar 2023 10:12:19,073 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 26 add - Inserting ro.ubbcluj.cs.stefnmubb.festivalsellpoint.domain.Angajat@957e06
+21 Mar 2023 10:12:19,077 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 23 executeNonQuery - Enter executing query
+21 Mar 2023 10:12:19,078 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 10:12:19,079 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 10:12:19,079 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 10:12:19,080 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 10:12:19,080 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 10:12:19,196 ERROR ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 38 getNewConnection - org.postgresql.util.PSQLException: The authentication type 10 is not supported. Check that you have configured the pg_hba.conf file to include the client's IP address or subnet, and that it is using an authentication scheme supported by the driver.
+21 Mar 2023 10:12:19,198 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit
+21 Mar 2023 10:16:25,890 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 15 <init> - Initializing AngajatDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+21 Mar 2023 10:16:25,896 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 26 add - Inserting ro.ubbcluj.cs.stefnmubb.festivalsellpoint.domain.Angajat@4dbb42b7
+21 Mar 2023 10:16:25,905 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 23 executeNonQuery - Enter executing query
+21 Mar 2023 10:16:25,905 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 10:16:25,906 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 10:16:25,907 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 10:16:25,909 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 10:16:25,911 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 10:16:26,071 ERROR ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 38 getNewConnection - org.postgresql.util.PSQLException: The authentication type 10 is not supported. Check that you have configured the pg_hba.conf file to include the client's IP address or subnet, and that it is using an authentication scheme supported by the driver.
+21 Mar 2023 10:16:26,073 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit
+21 Mar 2023 10:17:59,485 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 15 <init> - Initializing AngajatDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+21 Mar 2023 10:17:59,498 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 26 add - Inserting ro.ubbcluj.cs.stefnmubb.festivalsellpoint.domain.Angajat@4dbb42b7
+21 Mar 2023 10:17:59,507 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 23 executeNonQuery - Enter executing query
+21 Mar 2023 10:17:59,509 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 10:17:59,513 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 10:17:59,515 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 10:17:59,516 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 10:17:59,517 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 10:17:59,766 ERROR ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 38 getNewConnection - org.postgresql.util.PSQLException: The authentication type 10 is not supported. Check that you have configured the pg_hba.conf file to include the client's IP address or subnet, and that it is using an authentication scheme supported by the driver.
+21 Mar 2023 10:17:59,768 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit
+21 Mar 2023 10:20:06,568 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 15 <init> - Initializing AngajatDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+21 Mar 2023 10:20:06,575 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 26 add - Inserting ro.ubbcluj.cs.stefnmubb.festivalsellpoint.domain.Angajat@550dbc7a
+21 Mar 2023 10:20:06,584 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 23 executeNonQuery - Enter executing query
+21 Mar 2023 10:20:06,585 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 10:20:06,587 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 10:20:06,589 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 10:20:06,590 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 10:20:06,593 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 10:20:07,413 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@352c1b98)
+21 Mar 2023 10:20:07,476 ERROR ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 32 executeNonQuery - org.postgresql.util.PSQLException: ERROR: relation "angajat" does not exist
+  Position: 13
+21 Mar 2023 10:20:07,479 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 35 executeNonQuery - Exit
+21 Mar 2023 10:20:07,480 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 33 add - Inserted successfully
+21 Mar 2023 10:20:07,481 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 34 add - Exit
+21 Mar 2023 10:21:22,715 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 15 <init> - Initializing AngajatDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+21 Mar 2023 10:21:22,722 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 26 add - Inserting ro.ubbcluj.cs.stefnmubb.festivalsellpoint.domain.Angajat@550dbc7a
+21 Mar 2023 10:21:22,728 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 23 executeNonQuery - Enter executing query
+21 Mar 2023 10:21:22,729 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 10:21:22,729 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 10:21:22,730 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 10:21:22,731 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 10:21:22,731 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 10:21:23,544 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@282cb7c7)
+21 Mar 2023 10:21:23,592 ERROR ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 32 executeNonQuery - org.postgresql.util.PSQLException: ERROR: syntax error at or near "'Angajat'"
+  Position: 13
+21 Mar 2023 10:21:23,594 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 35 executeNonQuery - Exit
+21 Mar 2023 10:21:23,595 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 33 add - Inserted successfully
+21 Mar 2023 10:21:23,596 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 34 add - Exit
+21 Mar 2023 10:21:48,969 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 15 <init> - Initializing AngajatDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+21 Mar 2023 10:21:48,975 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 26 add - Inserting ro.ubbcluj.cs.stefnmubb.festivalsellpoint.domain.Angajat@550dbc7a
+21 Mar 2023 10:21:48,983 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 23 executeNonQuery - Enter executing query
+21 Mar 2023 10:21:48,983 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 10:21:48,983 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 10:21:48,984 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 10:21:48,984 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 10:21:48,985 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 10:21:49,814 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@352c1b98)
+21 Mar 2023 10:21:49,869 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 30 executeNonQuery - Eexcuted query on 1 instances
+21 Mar 2023 10:21:49,870 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 35 executeNonQuery - Exit
+21 Mar 2023 10:21:49,870 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 33 add - Inserted successfully
+21 Mar 2023 10:21:49,871 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 34 add - Exit
+21 Mar 2023 10:27:55,882 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 17 <init> - Initializing SpectacolDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+21 Mar 2023 10:27:55,889 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 27 add - Inserting ro.ubbcluj.cs.stefnmubb.festivalsellpoint.domain.Spectacol@1e1a0406
+21 Mar 2023 10:27:55,894 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 23 executeNonQuery - Enter executing query
+21 Mar 2023 10:27:55,895 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 10:27:55,895 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 10:27:55,896 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 10:27:55,897 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 10:27:55,898 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 10:27:56,696 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7aaca91a)
+21 Mar 2023 10:27:56,738 ERROR ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 32 executeNonQuery - org.postgresql.util.PSQLException: ERROR: null value in column "id" of relation "Spectacol" violates not-null constraint
+  Detail: Failing row contains (null, artist1, 2023-03-21 10:27:55.887268, loc, 10, 2).
+21 Mar 2023 10:27:56,739 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 35 executeNonQuery - Exit
+21 Mar 2023 10:27:56,740 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 36 add - Inserted successfully
+21 Mar 2023 10:27:56,740 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 37 add - Exit
+21 Mar 2023 10:28:51,675 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 17 <init> - Initializing SpectacolDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+21 Mar 2023 10:28:51,684 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 27 add - Inserting ro.ubbcluj.cs.stefnmubb.festivalsellpoint.domain.Spectacol@1e1a0406
+21 Mar 2023 10:28:51,696 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 23 executeNonQuery - Enter executing query
+21 Mar 2023 10:28:51,700 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 10:28:51,702 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 10:28:51,703 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 10:28:51,705 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 10:28:51,706 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 10:28:52,448 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@9573584)
+21 Mar 2023 10:28:52,505 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 30 executeNonQuery - Eexcuted query on 1 instances
+21 Mar 2023 10:28:52,507 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 35 executeNonQuery - Exit
+21 Mar 2023 10:28:52,507 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 36 add - Inserted successfully
+21 Mar 2023 10:28:52,508 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 37 add - Exit
+21 Mar 2023 10:48:35,978 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 19 <init> - Initializing SpectacolDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+21 Mar 2023 10:48:35,989 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 25 select - Enter
+21 Mar 2023 10:48:35,990 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 10:48:35,990 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 10:48:35,991 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 10:48:35,991 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 10:48:35,992 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 10:48:36,789 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@21129f1f)
+21 Mar 2023 10:48:36,847 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 42 select - Exit
+21 Mar 2023 10:48:36,848 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 32 add - Inserting ro.ubbcluj.cs.stefnmubb.festivalsellpoint.domain.Bilet@768fc0f2
+21 Mar 2023 10:48:36,850 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 47 executeNonQuery - Enter executing query
+21 Mar 2023 10:48:36,851 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 10:48:36,851 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 10:48:36,852 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 10:48:36,852 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 10:48:36,852 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 10:48:37,024 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@41ab013)
+21 Mar 2023 10:48:37,042 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 54 executeNonQuery - Eexcuted query on 1 instances
+21 Mar 2023 10:48:37,043 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 60 executeNonQuery - Exit
+21 Mar 2023 10:48:37,044 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 39 add - Inserted successfully
+21 Mar 2023 10:48:37,046 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 40 add - Exit
+21 Mar 2023 10:51:32,646 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 19 <init> - Initializing SpectacolDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+21 Mar 2023 10:51:32,656 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 25 select - Enter
+21 Mar 2023 10:51:32,657 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 26 select - Query: select * from "Spectacol" where "id"=?
+21 Mar 2023 10:51:32,658 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 10:51:32,659 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 10:51:32,659 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 10:51:32,660 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 10:51:32,661 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 10:51:33,294 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@21129f1f)
+21 Mar 2023 10:51:33,359 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 43 select - Select query returned 1 items
+21 Mar 2023 10:51:33,360 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 44 select - Exit
+21 Mar 2023 10:51:33,361 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 33 add - Inserting ro.ubbcluj.cs.stefnmubb.festivalsellpoint.domain.Bilet@768fc0f2
+21 Mar 2023 10:51:33,363 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 49 executeNonQuery - Enter executing query
+21 Mar 2023 10:51:33,364 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 10:51:33,365 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 10:51:33,365 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 10:51:33,366 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 10:51:33,366 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 10:51:33,497 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@41ab013)
+21 Mar 2023 10:51:33,509 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 56 executeNonQuery - Eexcuted query on 1 instances
+21 Mar 2023 10:51:33,510 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 62 executeNonQuery - Exit
+21 Mar 2023 10:51:33,510 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 40 add - Inserted successfully
+21 Mar 2023 10:51:33,511 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 41 add - Exit
+21 Mar 2023 11:15:08,353 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 19 <init> - Initializing SpectacolDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+21 Mar 2023 11:15:08,359 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+21 Mar 2023 11:15:08,360 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+21 Mar 2023 11:15:08,361 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 11:15:08,362 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 11:15:08,362 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 11:15:08,362 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 11:15:08,363 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 11:15:08,892 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@13d4992d)
+21 Mar 2023 11:15:08,935 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+21 Mar 2023 11:15:08,935 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+21 Mar 2023 11:15:08,936 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 43 add - Inserting ro.ubbcluj.cs.stefnmubb.festivalsellpoint.domain.Bilet@609db546
+21 Mar 2023 11:15:08,938 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 51 executeNonQuery - Enter executing query
+21 Mar 2023 11:15:08,939 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 11:15:08,940 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 11:15:08,940 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 11:15:08,941 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 11:15:08,941 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 11:15:09,059 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@59cba5a)
+21 Mar 2023 11:15:09,071 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 58 executeNonQuery - Eexcuted query on 1 instances
+21 Mar 2023 11:15:09,072 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 64 executeNonQuery - Exit
+21 Mar 2023 11:15:09,073 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 50 add - Inserted successfully
+21 Mar 2023 11:15:09,074 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 51 add - Exit
+21 Mar 2023 11:17:16,488 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 19 <init> - Initializing SpectacolDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+21 Mar 2023 11:17:16,498 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+21 Mar 2023 11:17:16,499 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+21 Mar 2023 11:17:16,500 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 11:17:16,500 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 11:17:16,500 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 11:17:16,501 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 11:17:16,501 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 11:17:17,363 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7d898981)
+21 Mar 2023 11:17:17,429 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+21 Mar 2023 11:17:17,430 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+21 Mar 2023 11:17:17,484 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 43 add - Inserting Bilet{numeCumparator='Andrei', nrLocuri=15, spectacol=Spectacol{artist='artist1', data=2023-03-21T10:28:51.680598, locatie='loc', nrLocuriDisponibile=10, nrLocuriVandute=2}}
+21 Mar 2023 11:17:17,493 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 51 executeNonQuery - Enter executing query
+21 Mar 2023 11:17:17,493 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 11:17:17,494 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 11:17:17,494 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 11:17:17,495 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 11:17:17,495 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 11:17:17,687 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@31add175)
+21 Mar 2023 11:17:17,706 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 58 executeNonQuery - Eexcuted query on 1 instances
+21 Mar 2023 11:17:17,709 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 64 executeNonQuery - Exit
+21 Mar 2023 11:17:17,710 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 50 add - Inserted successfully
+21 Mar 2023 11:17:17,711 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 51 add - Exit
+21 Mar 2023 11:18:39,734 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 19 <init> - Initializing SpectacolDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+21 Mar 2023 11:18:39,745 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+21 Mar 2023 11:18:39,747 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+21 Mar 2023 11:18:39,765 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 11:18:39,765 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 11:18:39,767 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 11:18:39,772 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 11:18:39,773 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 11:18:40,453 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@13d4992d)
+21 Mar 2023 11:18:40,505 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+21 Mar 2023 11:18:40,506 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+21 Mar 2023 11:18:40,532 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 43 add - Inserting Bilet{numeCumparator='Andrei', nrLocuri=15, spectacol=Spectacol{artist='artist1', data=2023-03-21T10:28:51.680598, locatie='loc', nrLocuriDisponibile=10, nrLocuriVandute=2}}
+21 Mar 2023 11:18:40,535 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 51 executeNonQuery - Enter executing query
+21 Mar 2023 11:18:40,535 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 11:18:40,536 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 11:18:40,537 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 11:18:40,537 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 11:18:40,538 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 11:18:40,763 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@1838ccb8)
+21 Mar 2023 11:18:40,777 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 58 executeNonQuery - Eexcuted query on 1 instances
+21 Mar 2023 11:18:40,778 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 64 executeNonQuery - Exit
+21 Mar 2023 11:18:40,779 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 50 add - Inserted successfully
+21 Mar 2023 11:18:40,780 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 51 add - Exit
+21 Mar 2023 11:19:07,065 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 19 <init> - Initializing SpectacolDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+21 Mar 2023 11:19:07,073 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+21 Mar 2023 11:19:07,073 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+21 Mar 2023 11:19:07,073 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 11:19:07,074 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 11:19:07,074 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 11:19:07,074 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 11:19:07,075 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 11:19:07,791 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@176b75f7)
+21 Mar 2023 11:19:07,828 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+21 Mar 2023 11:19:07,828 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+21 Mar 2023 11:19:07,867 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 43 add - Inserting Bilet{numeCumparator='Andrei', nrLocuri=15, spectacol=Spectacol{artist='artist1', data=2023-03-21T10:28:51.680598, locatie='loc', nrLocuriDisponibile=10, nrLocuriVandute=2}}
+21 Mar 2023 11:19:07,869 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 51 executeNonQuery - Enter executing query
+21 Mar 2023 11:19:07,871 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 11:19:07,872 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 11:19:07,872 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 11:19:07,873 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 11:19:07,874 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 11:19:08,025 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@457c9034)
+21 Mar 2023 11:19:08,043 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 58 executeNonQuery - Eexcuted query on 1 instances
+21 Mar 2023 11:19:08,044 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 64 executeNonQuery - Exit
+21 Mar 2023 11:19:08,044 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 50 add - Inserted successfully
+21 Mar 2023 11:19:08,045 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 51 add - Exit
+21 Mar 2023 18:28:09,617 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 19 <init> - Initializing SpectacolDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+21 Mar 2023 18:28:09,626 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+21 Mar 2023 18:28:09,627 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+21 Mar 2023 18:28:09,627 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 18:28:09,628 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 18:28:09,628 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 18:28:09,630 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 18:28:09,631 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 18:28:10,326 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@13d4992d)
+21 Mar 2023 18:28:10,397 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+21 Mar 2023 18:28:10,398 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+21 Mar 2023 18:28:10,414 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 43 add - Inserting Bilet{numeCumparator='Andrei', nrLocuri=15, spectacol=Spectacol{artist='artist1', data=2023-03-21T10:28:51.680598, locatie='loc', nrLocuriDisponibile=10, nrLocuriVandute=2}}
+21 Mar 2023 18:28:10,416 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 51 executeNonQuery - Enter executing query
+21 Mar 2023 18:28:10,417 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+21 Mar 2023 18:28:10,417 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+21 Mar 2023 18:28:10,418 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+21 Mar 2023 18:28:10,418 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+21 Mar 2023 18:28:10,419 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+21 Mar 2023 18:28:10,507 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@1838ccb8)
+21 Mar 2023 18:28:10,527 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 58 executeNonQuery - Eexcuted query on 1 instances
+21 Mar 2023 18:28:10,527 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 64 executeNonQuery - Exit
+21 Mar 2023 18:28:10,528 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 50 add - Inserted successfully
+21 Mar 2023 18:28:10,529 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 51 add - Exit
+22 Mar 2023 07:23:09,357 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 17 <init> - Initializing AngajatDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+22 Mar 2023 07:23:09,366 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 19 <init> - Initializing SpectacolDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+22 Mar 2023 07:23:09,375 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:23:09,378 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:23:09,391 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:23:09,394 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+22 Mar 2023 07:23:09,395 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 07:23:09,396 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 07:23:09,397 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 07:23:10,142 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@60b4beb4)
+22 Mar 2023 07:23:10,190 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:23:10,190 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:23:10,215 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 43 add - Inserting Bilet{numeCumparator='Andrei', nrLocuri=15, spectacol=Spectacol{artist='artist1', data=2023-03-21T10:28:51.680598, locatie='loc', nrLocuriDisponibile=10, nrLocuriVandute=2}}
+22 Mar 2023 07:23:10,221 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 51 executeNonQuery - Enter executing query
+22 Mar 2023 07:23:10,225 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:23:10,227 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+22 Mar 2023 07:23:10,228 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 07:23:10,228 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 07:23:10,229 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 07:23:10,349 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@35645047)
+22 Mar 2023 07:23:10,372 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 58 executeNonQuery - Eexcuted query on 1 instances
+22 Mar 2023 07:23:10,373 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 64 executeNonQuery - Exit
+22 Mar 2023 07:23:10,373 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 50 add - Inserted successfully
+22 Mar 2023 07:23:10,374 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 51 add - Exit
+22 Mar 2023 07:23:10,374 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:23:10,375 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Angajat"
+22 Mar 2023 07:23:10,375 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:23:10,375 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+22 Mar 2023 07:23:10,375 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 07:23:10,376 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 07:23:10,376 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 07:23:10,677 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@5ef5c734)
+22 Mar 2023 07:23:10,688 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:23:10,689 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:23:10,694 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:23:10,694 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol"
+22 Mar 2023 07:23:10,697 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:23:10,698 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@60b4beb4)
+22 Mar 2023 07:23:10,707 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:23:10,708 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:23:10,709 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:23:10,709 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Bilet"
+22 Mar 2023 07:23:10,714 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:23:10,716 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@35645047)
+22 Mar 2023 07:23:10,727 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:23:10,728 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:23:10,728 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:23:10,729 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@60b4beb4)
+22 Mar 2023 07:23:10,733 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:23:10,733 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:23:10,734 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:23:10,735 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:23:10,735 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:23:10,738 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@60b4beb4)
+22 Mar 2023 07:23:10,740 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:23:10,741 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:23:10,742 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:23:10,742 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:23:10,742 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:23:10,743 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@60b4beb4)
+22 Mar 2023 07:23:10,746 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:23:10,747 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:23:10,747 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:23:10,748 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:23:10,749 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:23:10,749 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@60b4beb4)
+22 Mar 2023 07:23:10,754 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:23:10,754 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:23:10,755 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:23:10,755 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:23:10,756 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:23:10,756 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@60b4beb4)
+22 Mar 2023 07:23:10,761 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:23:10,762 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:23:10,762 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:23:10,763 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:23:10,763 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:23:10,764 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@60b4beb4)
+22 Mar 2023 07:23:10,765 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:23:10,766 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:23:10,766 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:23:10,767 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:23:10,768 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:23:10,768 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@60b4beb4)
+22 Mar 2023 07:23:10,771 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:23:10,772 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:23:10,773 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:23:10,774 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:23:10,774 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:23:10,775 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@60b4beb4)
+22 Mar 2023 07:23:10,777 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:23:10,778 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:23:10,779 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 8 items
+22 Mar 2023 07:23:10,780 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:24:07,883 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 17 <init> - Initializing AngajatDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+22 Mar 2023 07:24:07,889 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 19 <init> - Initializing SpectacolDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+22 Mar 2023 07:24:07,892 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:24:07,893 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:24:07,893 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:24:07,894 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+22 Mar 2023 07:24:07,894 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 07:24:07,895 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 07:24:07,895 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 07:24:09,710 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@71e693fa)
+22 Mar 2023 07:24:09,757 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:24:09,758 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:24:09,808 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 43 add - Inserting Bilet{numeCumparator='Andrei', nrLocuri=15, spectacol=Spectacol{artist='artist1', data=2023-03-21T10:28:51.680598, locatie='loc', nrLocuriDisponibile=10, nrLocuriVandute=2}}
+22 Mar 2023 07:24:09,811 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 51 executeNonQuery - Enter executing query
+22 Mar 2023 07:24:09,813 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:24:09,815 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+22 Mar 2023 07:24:09,816 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 07:24:09,817 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 07:24:09,818 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 07:24:10,054 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@71e9ebae)
+22 Mar 2023 07:24:10,074 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 58 executeNonQuery - Eexcuted query on 1 instances
+22 Mar 2023 07:24:10,075 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 64 executeNonQuery - Exit
+22 Mar 2023 07:24:10,075 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 50 add - Inserted successfully
+22 Mar 2023 07:24:10,076 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 51 add - Exit
+22 Mar 2023 07:24:10,077 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:24:10,077 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Angajat"
+22 Mar 2023 07:24:10,078 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:24:10,079 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+22 Mar 2023 07:24:10,079 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 07:24:10,080 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 07:24:10,080 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 07:24:10,443 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@181e731e)
+22 Mar 2023 07:24:10,454 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:24:10,455 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:24:10,457 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:24:10,459 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol"
+22 Mar 2023 07:24:10,460 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:24:10,460 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@71e693fa)
+22 Mar 2023 07:24:10,466 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:24:10,466 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:24:10,467 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:24:10,468 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Bilet"
+22 Mar 2023 07:24:10,468 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:24:10,469 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@71e9ebae)
+22 Mar 2023 07:24:10,471 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:24:10,472 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:24:10,473 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:24:10,474 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@71e693fa)
+22 Mar 2023 07:24:10,477 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:24:10,477 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:24:10,478 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:24:10,478 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:24:10,479 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:24:10,480 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@71e693fa)
+22 Mar 2023 07:24:10,481 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:24:10,482 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:24:10,482 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:24:10,483 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:24:10,483 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:24:10,485 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@71e693fa)
+22 Mar 2023 07:24:10,486 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:24:10,487 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:24:10,487 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:24:10,488 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:24:10,488 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:24:10,488 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@71e693fa)
+22 Mar 2023 07:24:10,491 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:24:10,491 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:24:10,492 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:24:10,495 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:24:10,495 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:24:10,496 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@71e693fa)
+22 Mar 2023 07:24:10,515 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:24:10,515 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:24:10,516 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:24:10,517 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:24:10,518 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:24:10,519 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@71e693fa)
+22 Mar 2023 07:24:10,522 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:24:10,524 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:24:10,525 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:24:10,526 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:24:10,526 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:24:10,526 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@71e693fa)
+22 Mar 2023 07:24:10,531 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:24:10,534 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:24:10,538 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:24:10,539 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:24:10,542 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:24:10,542 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@71e693fa)
+22 Mar 2023 07:24:10,566 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:24:10,566 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:24:10,660 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:24:10,682 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:24:10,690 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:24:10,762 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@71e693fa)
+22 Mar 2023 07:24:10,779 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:24:10,781 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:24:10,782 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 9 items
+22 Mar 2023 07:24:10,784 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:25:16,233 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 17 <init> - Initializing AngajatDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+22 Mar 2023 07:25:16,238 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 19 <init> - Initializing SpectacolDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+22 Mar 2023 07:25:16,241 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:25:16,241 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:25:16,241 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:25:16,241 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+22 Mar 2023 07:25:16,242 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 07:25:16,242 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 07:25:16,243 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 07:25:16,808 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@409c54f)
+22 Mar 2023 07:25:16,832 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:25:16,832 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:25:16,847 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 43 add - Inserting Bilet{numeCumparator='Andrei', nrLocuri=15, spectacol=Spectacol{artist='artist1', data=2023-03-21T10:28:51.680598, locatie='loc', nrLocuriDisponibile=10, nrLocuriVandute=2}}
+22 Mar 2023 07:25:16,849 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 51 executeNonQuery - Enter executing query
+22 Mar 2023 07:25:16,850 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:25:16,851 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+22 Mar 2023 07:25:16,851 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 07:25:16,852 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 07:25:16,852 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 07:25:16,950 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@50de186c)
+22 Mar 2023 07:25:16,960 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 58 executeNonQuery - Eexcuted query on 1 instances
+22 Mar 2023 07:25:16,961 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 64 executeNonQuery - Exit
+22 Mar 2023 07:25:16,962 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 50 add - Inserted successfully
+22 Mar 2023 07:25:16,962 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 51 add - Exit
+22 Mar 2023 07:25:16,963 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:25:16,963 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Angajat"
+22 Mar 2023 07:25:16,963 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:25:16,964 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+22 Mar 2023 07:25:16,964 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 07:25:16,964 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 07:25:16,966 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 07:25:17,068 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@432038ec)
+22 Mar 2023 07:25:17,081 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 3 items
+22 Mar 2023 07:25:17,082 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:25:17,086 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:25:17,086 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol"
+22 Mar 2023 07:25:17,087 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:25:17,102 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@409c54f)
+22 Mar 2023 07:25:17,107 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:25:17,108 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:25:17,108 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:25:17,109 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Bilet"
+22 Mar 2023 07:25:17,109 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:25:17,109 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@50de186c)
+22 Mar 2023 07:25:17,122 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:25:17,123 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:25:17,124 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:25:17,125 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@409c54f)
+22 Mar 2023 07:25:17,127 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:25:17,129 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:25:17,143 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:25:17,144 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:25:17,144 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:25:17,145 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@409c54f)
+22 Mar 2023 07:25:17,148 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:25:17,148 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:25:17,149 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:25:17,149 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:25:17,150 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:25:17,152 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@409c54f)
+22 Mar 2023 07:25:17,155 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:25:17,156 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:25:17,157 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:25:17,158 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:25:17,159 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:25:17,159 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@409c54f)
+22 Mar 2023 07:25:17,164 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:25:17,164 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:25:17,165 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:25:17,165 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:25:17,166 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:25:17,166 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@409c54f)
+22 Mar 2023 07:25:17,170 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:25:17,170 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:25:17,178 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:25:17,183 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:25:17,185 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:25:17,185 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@409c54f)
+22 Mar 2023 07:25:17,206 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:25:17,208 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:25:17,208 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:25:17,216 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:25:17,217 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:25:17,217 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@409c54f)
+22 Mar 2023 07:25:17,223 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:25:17,223 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:25:17,224 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:25:17,224 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:25:17,226 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:25:17,226 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@409c54f)
+22 Mar 2023 07:25:17,306 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:25:17,307 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:25:17,308 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:25:17,312 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:25:17,313 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:25:17,314 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@409c54f)
+22 Mar 2023 07:25:17,322 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:25:17,328 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:25:17,329 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:25:17,331 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:25:17,332 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:25:17,333 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@409c54f)
+22 Mar 2023 07:25:17,335 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:25:17,336 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:25:17,337 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 10 items
+22 Mar 2023 07:25:17,337 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:26:52,365 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 17 <init> - Initializing AngajatDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+22 Mar 2023 07:26:52,374 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 19 <init> - Initializing SpectacolDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+22 Mar 2023 07:26:52,377 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 07:26:52,378 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 07:26:52,379 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 07:26:53,218 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 07:26:53,219 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 07:26:53,221 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 07:26:53,516 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 50 add - Inserted successfully
+22 Mar 2023 07:26:53,517 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 07:26:53,518 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 07:26:53,519 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 07:27:28,250 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 17 <init> - Initializing AngajatDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+22 Mar 2023 07:27:28,260 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 19 <init> - Initializing SpectacolDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+22 Mar 2023 07:27:28,267 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:27:28,267 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:27:28,268 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:27:28,269 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+22 Mar 2023 07:27:28,270 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 07:27:28,272 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 07:27:28,273 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 07:27:29,707 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 07:27:29,814 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:27:29,814 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:27:29,835 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 43 add - Inserting Bilet{numeCumparator='Andrei', nrLocuri=15, spectacol=Spectacol{artist='artist1', data=2023-03-21T10:28:51.680598, locatie='loc', nrLocuriDisponibile=10, nrLocuriVandute=2}}
+22 Mar 2023 07:27:29,838 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 51 executeNonQuery - Enter executing query
+22 Mar 2023 07:27:29,839 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:27:29,839 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+22 Mar 2023 07:27:29,850 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 07:27:29,851 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 07:27:29,851 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 07:27:30,106 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@60410cd)
+22 Mar 2023 07:27:30,125 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 58 executeNonQuery - Eexcuted query on 1 instances
+22 Mar 2023 07:27:30,125 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 64 executeNonQuery - Exit
+22 Mar 2023 07:27:30,126 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 50 add - Inserted successfully
+22 Mar 2023 07:27:30,126 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 51 add - Exit
+22 Mar 2023 07:27:30,126 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:27:30,127 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Angajat"
+22 Mar 2023 07:27:30,127 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:27:30,127 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+22 Mar 2023 07:27:30,128 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 07:27:30,128 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 07:27:30,129 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 07:27:30,293 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@31add175)
+22 Mar 2023 07:27:30,298 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 3 items
+22 Mar 2023 07:27:30,299 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:27:30,301 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:27:30,302 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol"
+22 Mar 2023 07:27:30,302 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:27:30,303 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 07:27:30,305 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:27:30,305 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:27:30,306 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:27:30,306 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Bilet"
+22 Mar 2023 07:27:30,307 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:27:30,308 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@60410cd)
+22 Mar 2023 07:27:30,310 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:27:30,311 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:27:30,311 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:27:30,312 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 07:27:30,313 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:27:30,314 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:27:30,315 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:27:30,315 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:27:30,315 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:27:30,316 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 07:27:30,318 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:27:30,318 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:27:30,319 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:27:30,319 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:27:30,320 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:27:30,320 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 07:27:30,322 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:27:30,322 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:27:30,517 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:27:30,518 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:27:30,519 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:27:30,520 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 07:27:30,523 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:27:30,523 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:27:30,523 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:27:30,524 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:27:30,524 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:27:30,524 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 07:27:30,528 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:27:30,528 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:27:30,529 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:27:30,529 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:27:30,529 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:27:30,530 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 07:27:30,531 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:27:30,531 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:27:30,532 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:27:30,532 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:27:30,532 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:27:30,533 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 07:27:30,534 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:27:30,535 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:27:30,535 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:27:30,536 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:27:30,536 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:27:30,537 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 07:27:30,539 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:27:30,539 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:27:30,539 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:27:30,539 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:27:30,540 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:27:30,540 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 07:27:30,542 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:27:30,542 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:27:30,542 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:27:30,543 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:27:30,543 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:27:30,543 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 07:27:30,545 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:27:30,545 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:27:30,545 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:27:30,546 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:27:30,546 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:27:30,546 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 07:27:30,547 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:27:30,548 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:27:30,548 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:27:30,548 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:27:30,549 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:27:30,549 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 07:27:30,550 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:27:30,551 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:27:30,551 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 12 items
+22 Mar 2023 07:27:30,551 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:31:28,669 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 17 <init> - Initializing AngajatDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+22 Mar 2023 07:31:28,674 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 19 <init> - Initializing SpectacolDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+22 Mar 2023 07:31:28,678 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:31:28,679 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:31:28,679 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:31:28,680 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+22 Mar 2023 07:31:28,680 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 07:31:28,681 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 07:31:28,681 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 07:31:29,267 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@48d61b48)
+22 Mar 2023 07:31:29,313 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:31:29,313 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:31:29,330 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 43 add - Inserting Bilet{numeCumparator='Andrei', nrLocuri=15, spectacol=Spectacol{artist='artist1', data=2023-03-21T10:28:51.680598, locatie='loc', nrLocuriDisponibile=10, nrLocuriVandute=2}}
+22 Mar 2023 07:31:29,333 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 51 executeNonQuery - Enter executing query
+22 Mar 2023 07:31:29,334 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:31:29,335 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+22 Mar 2023 07:31:29,335 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 07:31:29,336 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 07:31:29,337 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 07:31:29,540 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@ae3540e)
+22 Mar 2023 07:31:29,589 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 58 executeNonQuery - Eexcuted query on 1 instances
+22 Mar 2023 07:31:29,590 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 64 executeNonQuery - Exit
+22 Mar 2023 07:31:29,590 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 50 add - Inserted successfully
+22 Mar 2023 07:31:29,591 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 51 add - Exit
+22 Mar 2023 07:31:29,594 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:31:29,594 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Angajat"
+22 Mar 2023 07:31:29,595 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:31:29,595 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+22 Mar 2023 07:31:29,596 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 07:31:29,596 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 07:31:29,597 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 07:31:29,707 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@50de186c)
+22 Mar 2023 07:31:29,712 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 3 items
+22 Mar 2023 07:31:29,712 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:31:29,714 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:31:29,715 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol"
+22 Mar 2023 07:31:29,715 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:31:29,716 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@48d61b48)
+22 Mar 2023 07:31:29,717 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:31:29,718 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:31:29,719 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:31:29,719 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Bilet"
+22 Mar 2023 07:31:29,720 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:31:29,721 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@ae3540e)
+22 Mar 2023 07:31:29,725 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:31:29,725 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:31:29,726 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:31:29,727 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@48d61b48)
+22 Mar 2023 07:31:29,729 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:31:29,730 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:31:29,732 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:31:29,733 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:31:29,734 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:31:29,736 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@48d61b48)
+22 Mar 2023 07:31:29,738 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:31:29,739 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:31:29,740 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:31:29,740 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:31:29,742 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:31:29,743 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@48d61b48)
+22 Mar 2023 07:31:29,745 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:31:29,745 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:31:29,746 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:31:29,747 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:31:29,747 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:31:29,747 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@48d61b48)
+22 Mar 2023 07:31:29,749 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:31:29,750 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:31:29,750 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:31:29,750 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:31:29,750 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:31:29,751 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@48d61b48)
+22 Mar 2023 07:31:29,758 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:31:29,758 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:31:29,759 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:31:29,759 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:31:29,759 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:31:29,759 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@48d61b48)
+22 Mar 2023 07:31:29,770 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:31:29,771 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:31:29,772 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:31:29,772 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:31:29,772 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:31:29,773 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@48d61b48)
+22 Mar 2023 07:31:29,775 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:31:29,776 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:31:29,777 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:31:29,777 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:31:29,778 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:31:29,778 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@48d61b48)
+22 Mar 2023 07:31:29,783 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:31:29,783 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:31:29,783 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:31:29,784 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:31:29,784 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:31:29,784 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@48d61b48)
+22 Mar 2023 07:31:29,787 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:31:29,787 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:31:29,787 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:31:29,788 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:31:29,788 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:31:29,788 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@48d61b48)
+22 Mar 2023 07:31:29,789 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:31:29,790 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:31:29,790 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:31:29,790 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:31:29,790 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:31:29,791 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@48d61b48)
+22 Mar 2023 07:31:29,792 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:31:29,792 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:31:29,793 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:31:29,801 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:31:29,801 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:31:29,802 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@48d61b48)
+22 Mar 2023 07:31:29,803 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:31:29,803 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:31:29,804 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 07:31:29,804 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 07:31:29,804 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 07:31:29,804 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@48d61b48)
+22 Mar 2023 07:31:29,806 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 07:31:29,806 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 07:31:29,807 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 13 items
+22 Mar 2023 07:31:29,807 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 08:13:16,018 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 17 <init> - Initializing AngajatDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+22 Mar 2023 08:13:16,024 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 19 <init> - Initializing SpectacolDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+22 Mar 2023 08:13:16,028 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 08:13:16,029 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 08:13:16,029 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 08:13:16,030 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+22 Mar 2023 08:13:16,030 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 08:13:16,030 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 08:13:16,030 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 08:13:16,700 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 08:13:16,762 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 08:13:16,763 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 08:13:16,784 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 43 add - Inserting Bilet{numeCumparator='Andrei', nrLocuri=15, spectacol=Spectacol{artist='artist1', data=2023-03-21T10:28:51.680598, locatie='loc', nrLocuriDisponibile=10, nrLocuriVandute=2}}
+22 Mar 2023 08:13:16,786 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 51 executeNonQuery - Enter executing query
+22 Mar 2023 08:13:16,787 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 08:13:16,787 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+22 Mar 2023 08:13:16,788 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 08:13:16,788 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 08:13:16,788 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 08:13:17,003 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@60410cd)
+22 Mar 2023 08:13:17,032 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 58 executeNonQuery - Eexcuted query on 1 instances
+22 Mar 2023 08:13:17,034 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 64 executeNonQuery - Exit
+22 Mar 2023 08:13:17,040 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 50 add - Inserted successfully
+22 Mar 2023 08:13:17,041 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 51 add - Exit
+22 Mar 2023 08:13:17,043 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 08:13:17,044 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Angajat"
+22 Mar 2023 08:13:17,045 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 08:13:17,045 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+22 Mar 2023 08:13:17,046 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+22 Mar 2023 08:13:17,047 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+22 Mar 2023 08:13:17,048 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+22 Mar 2023 08:13:17,149 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@31add175)
+22 Mar 2023 08:13:17,157 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 3 items
+22 Mar 2023 08:13:17,158 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 08:13:17,164 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 08:13:17,165 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol"
+22 Mar 2023 08:13:17,165 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 08:13:17,165 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 08:13:17,175 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 08:13:17,176 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 08:13:17,176 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 08:13:17,177 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Bilet"
+22 Mar 2023 08:13:17,177 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 08:13:17,177 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@60410cd)
+22 Mar 2023 08:13:17,182 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 08:13:17,182 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 08:13:17,183 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 08:13:17,184 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 08:13:17,186 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 08:13:17,187 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 08:13:17,188 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 08:13:17,188 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 08:13:17,188 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 08:13:17,189 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 08:13:17,191 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 08:13:17,192 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 08:13:17,193 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 08:13:17,194 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 08:13:17,195 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 08:13:17,198 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 08:13:17,200 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 08:13:17,201 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 08:13:17,201 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 08:13:17,202 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 08:13:17,203 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 08:13:17,204 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 08:13:17,206 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 08:13:17,207 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 08:13:17,207 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 08:13:17,208 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 08:13:17,208 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 08:13:17,208 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 08:13:17,213 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 08:13:17,213 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 08:13:17,214 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 08:13:17,214 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 08:13:17,214 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 08:13:17,215 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 08:13:17,217 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 08:13:17,217 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 08:13:17,218 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 08:13:17,218 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 08:13:17,218 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 08:13:17,219 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 08:13:17,221 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 08:13:17,221 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 08:13:17,222 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 08:13:17,222 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 08:13:17,222 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 08:13:17,223 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 08:13:17,224 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 08:13:17,225 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 08:13:17,225 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 08:13:17,225 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 08:13:17,226 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 08:13:17,226 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 08:13:17,228 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 08:13:17,229 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 08:13:17,229 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 08:13:17,230 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 08:13:17,230 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 08:13:17,230 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 08:13:17,232 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 08:13:17,232 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 08:13:17,232 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 08:13:17,233 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 08:13:17,234 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 08:13:17,236 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 08:13:17,247 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 08:13:17,248 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 08:13:17,250 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 08:13:17,252 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 08:13:17,253 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 08:13:17,254 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 08:13:17,257 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 08:13:17,258 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 08:13:17,259 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 08:13:17,260 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 08:13:17,260 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 08:13:17,261 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 08:13:17,264 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 08:13:17,265 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 08:13:17,267 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+22 Mar 2023 08:13:17,268 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+22 Mar 2023 08:13:17,270 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+22 Mar 2023 08:13:17,271 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@63eef88a)
+22 Mar 2023 08:13:17,275 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+22 Mar 2023 08:13:17,287 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+22 Mar 2023 08:13:17,314 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 14 items
+22 Mar 2023 08:13:17,315 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 19:25:01,131 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 17 <init> - Initializing AngajatDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+29 Mar 2023 19:25:01,139 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 19 <init> - Initializing SpectacolDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+29 Mar 2023 19:25:01,144 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 19:25:01,145 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 19:25:01,146 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 19:25:01,146 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+29 Mar 2023 19:25:01,147 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+29 Mar 2023 19:25:01,148 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+29 Mar 2023 19:25:01,150 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+29 Mar 2023 19:25:02,391 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6c0d7c83)
+29 Mar 2023 19:25:02,475 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 19:25:02,475 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 19:25:02,495 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 43 add - Inserting Bilet{numeCumparator='Andrei', nrLocuri=15, spectacol=Spectacol{artist='artist1', data=2023-03-21T10:28:51.680598, locatie='loc', nrLocuriDisponibile=10, nrLocuriVandute=2}}
+29 Mar 2023 19:25:02,498 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 51 executeNonQuery - Enter executing query
+29 Mar 2023 19:25:02,498 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 19:25:02,499 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+29 Mar 2023 19:25:02,499 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+29 Mar 2023 19:25:02,500 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+29 Mar 2023 19:25:02,500 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+29 Mar 2023 19:25:02,678 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7922d892)
+29 Mar 2023 19:25:02,724 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 58 executeNonQuery - Eexcuted query on 1 instances
+29 Mar 2023 19:25:02,725 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 64 executeNonQuery - Exit
+29 Mar 2023 19:25:02,725 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 50 add - Inserted successfully
+29 Mar 2023 19:25:02,726 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 51 add - Exit
+29 Mar 2023 19:25:02,730 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 19:25:02,736 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Angajat"
+29 Mar 2023 19:25:02,755 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 19:25:02,757 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+29 Mar 2023 19:25:02,761 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+29 Mar 2023 19:25:02,763 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+29 Mar 2023 19:25:02,763 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+29 Mar 2023 19:25:02,996 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@71e9ebae)
+29 Mar 2023 19:25:03,009 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 3 items
+29 Mar 2023 19:25:03,010 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 19:25:03,014 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 19:25:03,014 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol"
+29 Mar 2023 19:25:03,015 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 19:25:03,015 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6c0d7c83)
+29 Mar 2023 19:25:03,036 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 19:25:03,037 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 19:25:03,037 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 19:25:03,037 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Bilet"
+29 Mar 2023 19:25:03,038 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 19:25:03,038 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7922d892)
+29 Mar 2023 19:25:03,043 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 19:25:03,043 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 19:25:03,046 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 19:25:03,047 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6c0d7c83)
+29 Mar 2023 19:25:03,054 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 19:25:03,069 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 19:25:03,072 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 19:25:03,078 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 19:25:03,081 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 19:25:03,086 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6c0d7c83)
+29 Mar 2023 19:25:03,089 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 19:25:03,091 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 19:25:03,092 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 19:25:03,092 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 19:25:03,096 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 19:25:03,103 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6c0d7c83)
+29 Mar 2023 19:25:03,110 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 19:25:03,112 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 19:25:03,114 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 19:25:03,117 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 19:25:03,122 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 19:25:03,123 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6c0d7c83)
+29 Mar 2023 19:25:03,126 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 19:25:03,127 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 19:25:03,127 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 19:25:03,128 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 19:25:03,129 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 19:25:03,129 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6c0d7c83)
+29 Mar 2023 19:25:03,132 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 19:25:03,133 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 19:25:03,134 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 19:25:03,134 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 19:25:03,134 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 19:25:03,135 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6c0d7c83)
+29 Mar 2023 19:25:03,137 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 19:25:03,138 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 19:25:03,138 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 19:25:03,138 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 19:25:03,139 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 19:25:03,139 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6c0d7c83)
+29 Mar 2023 19:25:03,140 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 19:25:03,141 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 19:25:03,142 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 19:25:03,142 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 19:25:03,142 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 19:25:03,143 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6c0d7c83)
+29 Mar 2023 19:25:03,144 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 19:25:03,145 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 19:25:03,145 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 19:25:03,145 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 19:25:03,145 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 19:25:03,146 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6c0d7c83)
+29 Mar 2023 19:25:03,150 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 19:25:03,151 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 19:25:03,152 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 19:25:03,153 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 19:25:03,154 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 19:25:03,154 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6c0d7c83)
+29 Mar 2023 19:25:03,156 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 19:25:03,156 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 19:25:03,157 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 19:25:03,158 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 19:25:03,158 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 19:25:03,159 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6c0d7c83)
+29 Mar 2023 19:25:03,161 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 19:25:03,162 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 19:25:03,163 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 19:25:03,164 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 19:25:03,164 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 19:25:03,165 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6c0d7c83)
+29 Mar 2023 19:25:03,166 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 19:25:03,167 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 19:25:03,168 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 19:25:03,169 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 19:25:03,169 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 19:25:03,169 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6c0d7c83)
+29 Mar 2023 19:25:03,171 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 19:25:03,172 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 19:25:03,172 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 19:25:03,173 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 19:25:03,174 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 19:25:03,175 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6c0d7c83)
+29 Mar 2023 19:25:03,177 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 19:25:03,179 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 19:25:03,180 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 19:25:03,181 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 19:25:03,182 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 19:25:03,182 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@6c0d7c83)
+29 Mar 2023 19:25:03,184 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 19:25:03,185 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 19:25:03,186 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 15 items
+29 Mar 2023 19:25:03,186 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 20:30:05,985 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo 17 <init> - Initializing AngajatDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+29 Mar 2023 20:30:05,993 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo 19 <init> - Initializing SpectacolDbRepo with properties: {jdbc.user=postgres, jdbc.url=jdbc:postgresql://localhost:5432/festivalsellpoint, jdbc.pass=0000} 
+29 Mar 2023 20:30:05,997 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 20:30:05,998 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 20:30:05,998 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:05,999 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+29 Mar 2023 20:30:05,999 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+29 Mar 2023 20:30:06,000 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+29 Mar 2023 20:30:06,000 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+29 Mar 2023 20:30:06,776 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+29 Mar 2023 20:30:06,848 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 20:30:06,849 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 20:30:06,863 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 43 add - Inserting Bilet{numeCumparator='Andrei', nrLocuri=15, spectacol=Spectacol{artist='artist1', data=2023-03-21T10:28:51.680598, locatie='loc', nrLocuriDisponibile=10, nrLocuriVandute=2}}
+29 Mar 2023 20:30:06,866 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 51 executeNonQuery - Enter executing query
+29 Mar 2023 20:30:06,867 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:06,867 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+29 Mar 2023 20:30:06,868 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+29 Mar 2023 20:30:06,868 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+29 Mar 2023 20:30:06,868 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+29 Mar 2023 20:30:06,982 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3f57bcad)
+29 Mar 2023 20:30:07,002 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 58 executeNonQuery - Eexcuted query on 1 instances
+29 Mar 2023 20:30:07,003 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 64 executeNonQuery - Exit
+29 Mar 2023 20:30:07,004 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 50 add - Inserted successfully
+29 Mar 2023 20:30:07,004 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo 51 add - Exit
+29 Mar 2023 20:30:07,006 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 20:30:07,007 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Angajat"
+29 Mar 2023 20:30:07,007 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:07,008 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 22 getNewConnection - Enter
+29 Mar 2023 20:30:07,009 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 27 getNewConnection - trying to connect to database ... jdbc:postgresql://localhost:5432/festivalsellpoint
+29 Mar 2023 20:30:07,009 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 28 getNewConnection - user: postgres
+29 Mar 2023 20:30:07,010 INFO  ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 29 getNewConnection - pass: 0000
+29 Mar 2023 20:30:07,157 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@7daa0fbd)
+29 Mar 2023 20:30:07,162 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 3 items
+29 Mar 2023 20:30:07,163 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 20:30:07,166 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 20:30:07,167 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol"
+29 Mar 2023 20:30:07,167 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:07,169 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+29 Mar 2023 20:30:07,170 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 20:30:07,171 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 20:30:07,171 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 20:30:07,172 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Bilet"
+29 Mar 2023 20:30:07,173 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:07,173 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3f57bcad)
+29 Mar 2023 20:30:07,177 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 20:30:07,177 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 20:30:07,178 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:07,179 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+29 Mar 2023 20:30:07,183 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 20:30:07,184 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 20:30:07,184 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 20:30:07,185 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 20:30:07,185 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:07,186 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+29 Mar 2023 20:30:07,188 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 20:30:07,189 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 20:30:07,190 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 20:30:07,190 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 20:30:07,190 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:07,191 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+29 Mar 2023 20:30:07,192 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 20:30:07,193 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 20:30:07,193 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 20:30:07,194 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 20:30:07,194 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:07,195 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+29 Mar 2023 20:30:07,197 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 20:30:07,198 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 20:30:07,199 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 20:30:07,200 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 20:30:07,200 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:07,201 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+29 Mar 2023 20:30:07,204 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 20:30:07,205 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 20:30:07,205 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 20:30:07,206 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 20:30:07,206 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:07,206 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+29 Mar 2023 20:30:07,208 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 20:30:07,208 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 20:30:07,209 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 20:30:07,209 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 20:30:07,210 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:07,210 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+29 Mar 2023 20:30:07,214 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 20:30:07,218 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 20:30:07,218 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 20:30:07,219 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 20:30:07,219 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:07,220 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+29 Mar 2023 20:30:07,223 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 20:30:07,223 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 20:30:07,224 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 20:30:07,224 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 20:30:07,224 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:07,225 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+29 Mar 2023 20:30:07,227 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 20:30:07,227 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 20:30:07,228 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 20:30:07,228 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 20:30:07,228 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:07,229 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+29 Mar 2023 20:30:07,230 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 20:30:07,230 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 20:30:07,231 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 20:30:07,231 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 20:30:07,231 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:07,232 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+29 Mar 2023 20:30:07,233 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 20:30:07,234 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 20:30:07,234 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 20:30:07,235 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 20:30:07,236 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:07,236 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+29 Mar 2023 20:30:07,237 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 20:30:07,237 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 20:30:07,238 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 20:30:07,238 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 20:30:07,238 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:07,238 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+29 Mar 2023 20:30:07,240 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 20:30:07,240 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 20:30:07,241 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 20:30:07,241 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 20:30:07,241 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:07,242 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+29 Mar 2023 20:30:07,243 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 20:30:07,244 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 20:30:07,244 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 20:30:07,245 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 20:30:07,245 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:07,246 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+29 Mar 2023 20:30:07,248 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 20:30:07,249 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 20:30:07,249 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 27 select - Enter
+29 Mar 2023 20:30:07,249 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 28 select - Query: select * from "Spectacol" where "id"=?
+29 Mar 2023 20:30:07,250 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 45 getConnection - Enter
+29 Mar 2023 20:30:07,250 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.JdbcUtils 54 getConnection - Exit with(org.postgresql.jdbc.PgConnection@3e74829)
+29 Mar 2023 20:30:07,253 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 1 items
+29 Mar 2023 20:30:07,253 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit
+29 Mar 2023 20:30:07,253 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 45 select - Select query returned 16 items
+29 Mar 2023 20:30:07,253 TRACE ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.DatabaseRepoUtils 46 select - Exit

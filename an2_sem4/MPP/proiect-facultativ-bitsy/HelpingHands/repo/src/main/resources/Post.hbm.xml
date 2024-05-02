@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.helpinghands.domain.Post" table="Posts">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+
+        <property name="descriere" column="descriere"/>
+        <property name="data" column="data"/>
+
+        <many-to-one name="eveniment" class="com.helpinghands.domain.Eveniment" fetch="select">
+            <column name="idEveniment" not-null="true" />
+        </many-to-one>
+
+        <many-to-one name="author" class="com.helpinghands.domain.Utilizator" fetch="select">
+            <column name="idUser" not-null="true" />
+        </many-to-one>
+    </class>
+</hibernate-mapping>

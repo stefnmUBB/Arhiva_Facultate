@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+   <androidx.cardview.widget.CardView
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        app:cardCornerRadius="250dp"
+        android:id="@+id/ProfilePicContainer"
+        android:layout_gravity="center">
+
+        <ImageView      
+            xmlns:tools="http://schemas.android.com/tools"
+            android:contentDescription="pp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ProfilePic"    
+            android:src="@drawable/default_pp"                                        
+            android:scaleType="centerCrop"/>
+
+    </androidx.cardview.widget.CardView>    
+    <TextView
+        android:id="@+id/NumePrenumeBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:text="Nitup Rimidalv"
+        android:textSize="17dp"
+        android:maxWidth="200dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"              
+        android:layout_toRightOf="@id/ProfilePicContainer"        
+        android:layout_marginLeft="5dp"
+        
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/OranizerBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:text=" (Organizer)"
+        android:layout_toRightOf="@id/NumePrenumeBox"
+        android:textSize="15dp"
+        android:maxWidth="200dp"
+        android:singleLine="true"
+        android:layout_alignBaseline="@id/NumePrenumeBox"
+        android:ellipsize="marquee"
+        android:textStyle="italic"        
+        />
+    <ImageView
+        android:layout_toRightOf="@id/OranizerBox"            
+        android:src="@drawable/remove_icon"
+        android:id="@+id/RemoveButton"            
+        android:layout_width="16dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="16dp"
+        android:scaleType="centerInside"
+            />
+</RelativeLayout> 

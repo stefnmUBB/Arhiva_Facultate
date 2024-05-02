@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:columnCount="2"      
+         android:padding="@dimen/activity_horizontal_margin"
+        >
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"                
+        android:text="Creeaza un eveniment" android:layout_columnSpan="2" android:textSize="18dp" />        
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_columnSpan="2"/>        
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"                
+        android:text="Nume"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:id="@+id/NumeBox"                                    
+             />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"                
+        android:text="Descriere"/>
+        <EditText android:id="@+id/DescriereBox"
+            android:inputType="textMultiLine" android:layout_height="130dp"
+            android:layout_width="200dp"/>
+        
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"                
+        android:text="Data inceput"/>        
+        <EditText android:layout_width="300dp" android:layout_height="wrap_content" 
+            android:id="@+id/StartDateBox"  />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"                
+        android:text="Data sfarsit"/>        
+        <EditText android:layout_width="300dp" android:layout_height="wrap_content" 
+            android:id="@+id/EndDateBox" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"                
+        android:text="Locatie"/>        
+        <EditText android:layout_width="300dp" android:layout_height="wrap_content" 
+            android:id="@+id/LocatieBox" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"                
+        android:text="Interes"/>        
+        <Spinner android:layout_width="300dp" android:layout_height="wrap_content" 
+            android:id="@+id/InterestBox" />
+
+
+
+        <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/AddEventButton"
+             android:layout_marginRight="70dp"
+             android:backgroundTint="#B30064" 
+             android:textColor="#ffffff"
+             android:text="Creeaza"/>        
+        
+
+    </GridLayout>
+    
+   
+
+</RelativeLayout>

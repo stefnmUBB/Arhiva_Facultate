@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <util:properties id="jdbcProps" location="classpath:bd.properties"/>
+
+    <bean id="angajatRepo" class="ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.AngajatDbRepo">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="angajatService" class="ro.ubbcluj.cs.stefnmubb.festivalsellpoint.service.AngajatService">
+        <constructor-arg ref="angajatRepo"/>
+    </bean>
+
+    <bean id="spectacolRepo" class="ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.SpectacolDbRepo">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="spectacolService" class="ro.ubbcluj.cs.stefnmubb.festivalsellpoint.service.SpectacolService">
+        <constructor-arg ref="spectacolRepo"/>
+    </bean>
+
+    <bean id="biletRepo" class="ro.ubbcluj.cs.stefnmubb.festivalsellpoint.repo.BiletDbRepo">
+        <constructor-arg ref="jdbcProps"/>
+        <constructor-arg ref="spectacolRepo"/>
+    </bean>
+
+    <bean id="biletService" class="ro.ubbcluj.cs.stefnmubb.festivalsellpoint.service.BiletService">
+        <constructor-arg ref="biletRepo"/>
+    </bean>
+
+    <bean id="connectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory"/>
+
+    <bean id="topic" class="org.apache.activemq.command.ActiveMQTopic">
+        <constructor-arg value="ChatTopic"/>
+    </bean>
+
+    <bean id="converter" class="org.springframework.jms.support.converter.MappingJackson2MessageConverter">
+        <property name="targetType" value="TEXT"/>
+        <!--property name="typeIdPropertyName" value="_notification"/-->
+    </bean>
+
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <constructor-arg ref="connectionFactory"/>
+        <property name="defaultDestination" ref="topic"/>
+        <property name="messageConverter" ref="converter"/>
+    </bean>
+
+    <bean id="notificationService" class="ro.ubbcluj.cs.stefnmubb.festivalsellpoint.server.NotificationServiceImpl">
+        <constructor-arg ref="jmsTemplate"/>
+    </bean>
+
+    <bean id="appService" class="ro.ubbcluj.cs.stefnmubb.festivalsellpoint.service.AppService">
+        <constructor-arg ref="angajatService"/>
+        <constructor-arg ref="biletService"/>
+        <constructor-arg ref="spectacolService"/>
+    </bean>
+
+    <bean id="serviceImpl" class="ro.ubbcluj.cs.stefnmubb.festivalsellpoint.server.ServiceImplementation">
+        <constructor-arg ref="appService"/>
+        <constructor-arg ref="notificationService"/>
+    </bean>
+
+    <bean id="server" class="ro.ubbcluj.cs.stefnmubb.festivalsellpoint.network.ams.AMSConcurrentServer">
+        <constructor-arg value="15000"/>
+        <constructor-arg ref="serviceImpl"/>
+    </bean>
+</beans>

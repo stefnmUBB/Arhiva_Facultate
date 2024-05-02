@@ -1,0 +1,6 @@
+include 'domain'
+include 'repo'
+include 'application'
+include 'service'
+include 'ui'
+

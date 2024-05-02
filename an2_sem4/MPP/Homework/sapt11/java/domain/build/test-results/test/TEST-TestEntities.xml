@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestEntities" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-03-15T06:51:55" hostname="DESKTOP-9HMTO67" time="0.05">
+  <properties/>
+  <testcase name="Test create Spectacol" classname="TestEntities" time="0.044"/>
+  <testcase name="Test create Angajat" classname="TestEntities" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

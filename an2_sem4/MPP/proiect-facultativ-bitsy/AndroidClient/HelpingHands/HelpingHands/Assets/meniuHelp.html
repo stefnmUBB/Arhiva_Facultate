@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meniu Help/FAQ</title>
+  <style>
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+
+    li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #333;
+    }
+    
+    .collapsible {
+      background-color: #B60065;
+      color: white;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      font-family: Helvetica;
+    }
+    body{
+        font-family: Helvetica;
+    }
+    .content {
+          display: none; /* Ascunde div-urile initial */
+      }
+  </style>
+</head>
+<body>
+  <button type="button" class="collapsible">Ce este HelpingHands?</button>
+    <div class="content">
+      <p>HelpingHands este o aplicație mobilă inovatoare care facilitează organizarea și participarea la evenimente cu diverse scopuri, cum ar fi caritabile, de divertisment sau de ajutorare a copiilor, bătrânilor și a populației în general. Cu ajutorul HelpingHands, utilizatorii pot contribui activ la comunitate prin organizarea, sponsorizarea sau participarea ca voluntari la aceste evenimente.</p>
+</div>
+<br><br>
+
+  <button type="button" class="collapsible">Cum ajută HelpingHands comunitatea?</button>
+    <div class="content">
+      <p>  HelpingHands contribuie la îmbunătățirea comunității prin facilitarea organizării evenimentelor cu scopuri caritabile, de divertisment sau de ajutorare a copiilor, bătrânilor și a populației. Aplicația reunește oameni cu interese comune și îi motivează să participe activ în acțiuni care aduc beneficii societății în ansamblu. </p>
+</div>
+<br><br>
+  <button type="button" class="collapsible">Cum funcționează HelpingHands?</button>
+    <div class="content">
+      <p>HelpingHands oferă o platformă intuitivă și ușor de utilizat, disponibilă pe dispozitive mobile. Utilizatorii pot crea un cont personal și pot explora evenimentele disponibile sau pot căuta evenimente în funcție de scopul acestora.</p>
+</div>
+<br><br>
+  <button type="button" class="collapsible">Cum pot organiza evenimente folosind HelpingHands?</button>
+    <div class="content">
+      <p>Utilizatorii pot organiza evenimente prin intermediul HelpingHands completând un formular de înregistrare pentru organizatori. Acest formular conține informații importante despre eveniment, cum ar fi data, locația, scopul și detalii suplimentare. După ce organizatorii completează formularul, evenimentul este publicat pe platformă pentru a fi vizibil pentru utilizatori.</p>
+</div>
+<br><br>
+  <button type="button" class="collapsible">Cum pot sponsoriza evenimente prin intermediul HelpingHands?</button>
+    <div class="content">
+      <p>HelpingHands oferă posibilitatea utilizatorilor de a sponsoriza evenimentele disponibile pe platformă. Utilizatorii pot trimite o cerere de obtinere a titlului de sponsor. Dupa ce aceasta cerere este aprobata de echipa HelpingHands, acestia pot selecta un eveniment și pot contribui prin donații financiare sau materiale pentru susținerea acestuia. </p>
+</div>
+<br><br>
+
+  <button type="button" class="collapsible">Cum pot deveni voluntar la evenimentele HelpingHands?</button>
+    <div class="content">
+      <p> Utilizatorii care doresc să se implice activ în evenimente pot opta pentru a deveni voluntari prin intermediul HelpingHands. Aceștia pot căuta evenimentele care necesită voluntari și se pot alătura echipei de voluntari. </p>
+</div>
+<br><br>
+  <button type="button" class="collapsible">Cum securizează HelpingHands informațiile personale ale utilizatorilor?</button>
+    <div class="content">
+      <p>  HelpingHands acordă o atenție deosebită securității datelor personale ale utilizatorilor. Toate informațiile furnizate sunt protejate prin măsuri tehnice și organizatorice adecvate pentru a preveni accesul neautorizat, pierderea sau utilizarea abuzivă a acestora.</p>
+</div>
+<br><br>
+  <button type="button" class="collapsible">Care sunt avantajele utilizării HelpingHands?</button>
+    <div class="content">
+      <p>  Utilizarea HelpingHands aduce numeroase avantaje, cum ar fi:
+      <ul>
+          <li>Posibilitatea de a organiza și promova evenimente cu ușurință</li><br>
+          <li>Oportunitatea de a contribui financiar la susținerea evenimentelor</li><br>
+          <li>Șansa de a participa activ în calitate de voluntar la evenimentele preferate</li><br>
+          <li>Interacțiunea cu o comunitate activă și implicată</li><br>
+    </p>
+</div>
+<br><br>
+  <button type="button" class="collapsible">Cum pot obține suport tehnic pentru utilizarea HelpingHands?</button>
+    <div class="content">
+      <p>  Utilizatorii pot obține suport tehnic prin prin contactarea echipei de suport prin intermediul detaliilor de contact furnizate pe platformă.
+</p>
+</div>
+<br><br>
+ <button type="button" class="collapsible">Vrei sa intri în legătură cu echipa de administrație HelpingHands?</button>
+    <div class="content">
+      <p> Ne poți contacta prin urmatoarele metode:
+      <p> Telefon: 0758963245</p>
+      <p> Email: helpinghands@gmail.com</p>
+      <p> Adresa: Str. Teodor Mihali, nr 58-60</p>
+      <p> Suntem disponibili între orele 8-17 de luni până vineri.</p>
+</p>
+</div>
+
+<br><br>
+  
+  <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+</html>

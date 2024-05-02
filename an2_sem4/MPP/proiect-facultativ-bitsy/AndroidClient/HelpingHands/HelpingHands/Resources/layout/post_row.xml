@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+       <TableLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:stretchColumns="1"
+                      android:id="@+id/tableLayout"
+                    >
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView                    
+                            android:textSize="18dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"            
+                            android:text="Author: "
+                            android:minWidth="20dip"
+                            android:minHeight="25px"
+                            android:layout_column="0"
+                            android:layout_marginRight="10dp"
+                            />
+                         <TextView
+                            android:id="@+id/Text1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dip"
+                            android:text="Autor Postare"
+                            android:textSize="18dip"
+                            android:maxWidth="200dp"
+                            android:singleLine="true"
+                            android:ellipsize="marquee"
+                            android:textColor="#B30064"
+                            android:layout_gravity="fill_horizontal"
+                            />
+
+                     
+                    </TableRow>
+                    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="18dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"                    
+                            android:text="Data: "                                                            
+                            />
+
+                          <TextView
+                            android:id="@+id/Text4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/Text1"
+                            android:layout_marginTop="1dip"
+                            android:text="Data"
+                            android:textSize="16dip"
+                            android:layout_toRightOf="@id/TextDash"                              
+                            android:textColor="#ffffffff"
+                            android:fadingEdge="horizontal|vertical"
+                            android:layerType="none"
+                            android:background="@drawable/startdategradient"
+                            android:padding="2dp"  
+                  android:gravity="center"
+                            />    
+                     
+                    </TableRow>
+                    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/Text2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/Text4"
+                                android:layout_marginTop="1dip"
+                                android:text="Descriere"
+                                android:singleLine="true"
+                                android:ellipsize="marquee"
+                                android:textColor="#B30064"
+                                android:inputType="textMultiLine" 
+                                android:layout_span="2"
+                                android:textSize="22dip"/>
+                    </TableRow>
+                    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView
+                            android:textSize="18dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"                    
+                            android:text="Eveniment: "
+                            />
+                    </TableRow> 
+                    <TableRow android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Text5"
+                android:layout_width="900dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dip"
+                android:textColor="#B30064"
+                android:text="Nume Eveniment"
+                android:singleLine="true"
+                android:layout_span="2"
+                android:textSize="22dip"/>
+                    </TableRow> 
+                    
+                </TableLayout>  
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+*.gradle/
+*.idea
+HelpingHands/client_admin/build/
+HelpingHands/domain/build/
+HelpingHands/repo/build/
+HelpingHands/rest_services/build/
+HelpingHands/server/build/
+HelpingHands/service/build/

@@ -1,0 +1,180 @@
+15 Mar 2023 08:42:38,582 INFO  DeviceDBRepository 18 <init> - Initializing CarsDBRepository with properties: {} 
+15 Mar 2023 08:42:38,592 TRACE DeviceDBRepository 83 add - Enter saving task Device@82de64a
+15 Mar 2023 08:42:38,593 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 08:42:38,594 TRACE JdbcUtils 20 getNewConnection - Enter
+15 Mar 2023 08:42:38,595 INFO  JdbcUtils 25 getNewConnection - trying to connect to database ... null
+15 Mar 2023 08:42:38,596 INFO  JdbcUtils 26 getNewConnection - user: null
+15 Mar 2023 08:42:38,596 INFO  JdbcUtils 27 getNewConnection - pass: null
+15 Mar 2023 08:42:38,598 ERROR JdbcUtils 36 getNewConnection - java.sql.SQLException: The url cannot be null
+15 Mar 2023 08:42:38,600 TRACE JdbcUtils 52 getConnection - Exit
+15 Mar 2023 08:42:43,993 INFO  DeviceDBRepository 18 <init> - Initializing CarsDBRepository with properties: {} 
+15 Mar 2023 08:42:44,003 TRACE DeviceDBRepository 83 add - Enter saving task Device@47e2e487
+15 Mar 2023 08:42:44,004 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 08:42:44,004 TRACE JdbcUtils 20 getNewConnection - Enter
+15 Mar 2023 08:42:44,005 INFO  JdbcUtils 25 getNewConnection - trying to connect to database ... null
+15 Mar 2023 08:42:44,005 INFO  JdbcUtils 26 getNewConnection - user: null
+15 Mar 2023 08:42:44,006 INFO  JdbcUtils 27 getNewConnection - pass: null
+15 Mar 2023 08:42:44,009 ERROR JdbcUtils 36 getNewConnection - java.sql.SQLException: The url cannot be null
+15 Mar 2023 08:42:44,012 TRACE JdbcUtils 52 getConnection - Exit
+15 Mar 2023 08:43:22,640 INFO  DeviceDBRepository 18 <init> - Initializing CarsDBRepository with properties: {} 
+15 Mar 2023 08:43:22,649 TRACE DeviceDBRepository 83 add - Enter saving task Device@47e2e487
+15 Mar 2023 08:43:22,650 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 08:43:22,651 TRACE JdbcUtils 20 getNewConnection - Enter
+15 Mar 2023 08:43:22,652 INFO  JdbcUtils 25 getNewConnection - trying to connect to database ... null
+15 Mar 2023 08:43:22,652 INFO  JdbcUtils 26 getNewConnection - user: null
+15 Mar 2023 08:43:22,653 INFO  JdbcUtils 27 getNewConnection - pass: null
+15 Mar 2023 08:43:22,655 ERROR JdbcUtils 36 getNewConnection - java.sql.SQLException: The url cannot be null
+15 Mar 2023 08:43:22,656 TRACE JdbcUtils 52 getConnection - Exit
+15 Mar 2023 08:46:17,136 INFO  DeviceDBRepository 18 <init> - Initializing CarsDBRepository with properties: {} 
+15 Mar 2023 08:46:17,144 TRACE DeviceDBRepository 83 add - Enter saving task Device@49049a04
+15 Mar 2023 08:46:17,145 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 08:46:17,145 TRACE JdbcUtils 20 getNewConnection - Enter
+15 Mar 2023 08:46:17,145 INFO  JdbcUtils 25 getNewConnection - trying to connect to database ... null
+15 Mar 2023 08:46:17,146 INFO  JdbcUtils 26 getNewConnection - user: null
+15 Mar 2023 08:46:17,146 INFO  JdbcUtils 27 getNewConnection - pass: null
+15 Mar 2023 08:46:17,149 ERROR JdbcUtils 36 getNewConnection - java.sql.SQLException: The url cannot be null
+15 Mar 2023 08:46:17,151 TRACE JdbcUtils 52 getConnection - Exit
+15 Mar 2023 08:47:22,902 INFO  DeviceDBRepository 18 <init> - Initializing CarsDBRepository with properties: {} 
+15 Mar 2023 08:47:22,909 TRACE DeviceDBRepository 83 add - Enter saving task Device@49049a04
+15 Mar 2023 08:47:22,910 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 08:47:22,910 TRACE JdbcUtils 20 getNewConnection - Enter
+15 Mar 2023 08:47:22,911 INFO  JdbcUtils 25 getNewConnection - trying to connect to database ... null
+15 Mar 2023 08:47:22,911 INFO  JdbcUtils 26 getNewConnection - user: null
+15 Mar 2023 08:47:22,912 INFO  JdbcUtils 27 getNewConnection - pass: null
+15 Mar 2023 08:47:22,916 ERROR JdbcUtils 36 getNewConnection - java.sql.SQLException: The url cannot be null
+15 Mar 2023 08:47:22,918 TRACE JdbcUtils 52 getConnection - Exit
+15 Mar 2023 08:48:02,361 INFO  DeviceDBRepository 18 <init> - Initializing CarsDBRepository with properties: {} 
+15 Mar 2023 08:48:02,370 TRACE DeviceDBRepository 83 add - Enter saving task Device@49049a04
+15 Mar 2023 08:48:02,371 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 08:48:02,372 TRACE JdbcUtils 20 getNewConnection - Enter
+15 Mar 2023 08:48:02,372 INFO  JdbcUtils 25 getNewConnection - trying to connect to database ... null
+15 Mar 2023 08:48:02,373 INFO  JdbcUtils 26 getNewConnection - user: null
+15 Mar 2023 08:48:02,374 INFO  JdbcUtils 27 getNewConnection - pass: null
+15 Mar 2023 08:48:02,376 ERROR JdbcUtils 36 getNewConnection - java.sql.SQLException: The url cannot be null
+15 Mar 2023 08:48:02,378 TRACE JdbcUtils 52 getConnection - Exit
+15 Mar 2023 08:58:15,794 INFO  DeviceDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"} 
+15 Mar 2023 08:58:15,803 TRACE DeviceDBRepository 83 add - Enter saving task Device@6253c26
+15 Mar 2023 08:58:15,804 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 08:58:15,804 TRACE JdbcUtils 20 getNewConnection - Enter
+15 Mar 2023 08:58:15,806 INFO  JdbcUtils 25 getNewConnection - trying to connect to database ... "jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"
+15 Mar 2023 08:58:15,806 INFO  JdbcUtils 26 getNewConnection - user: null
+15 Mar 2023 08:58:15,807 INFO  JdbcUtils 27 getNewConnection - pass: null
+15 Mar 2023 08:58:15,817 ERROR JdbcUtils 36 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"
+15 Mar 2023 08:58:15,818 TRACE JdbcUtils 52 getConnection - Exit
+15 Mar 2023 08:58:21,264 INFO  DeviceDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"} 
+15 Mar 2023 08:58:21,271 TRACE DeviceDBRepository 83 add - Enter saving task Device@6253c26
+15 Mar 2023 08:58:21,271 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 08:58:21,272 TRACE JdbcUtils 20 getNewConnection - Enter
+15 Mar 2023 08:58:21,272 INFO  JdbcUtils 25 getNewConnection - trying to connect to database ... "jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"
+15 Mar 2023 08:58:21,272 INFO  JdbcUtils 26 getNewConnection - user: null
+15 Mar 2023 08:58:21,273 INFO  JdbcUtils 27 getNewConnection - pass: null
+15 Mar 2023 08:58:21,281 ERROR JdbcUtils 36 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"
+15 Mar 2023 08:58:21,282 TRACE JdbcUtils 52 getConnection - Exit
+15 Mar 2023 08:58:32,593 INFO  DeviceDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"} 
+15 Mar 2023 08:58:32,605 TRACE DeviceDBRepository 83 add - Enter saving task Device@6253c26
+15 Mar 2023 08:58:32,606 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 08:58:32,607 TRACE JdbcUtils 20 getNewConnection - Enter
+15 Mar 2023 08:58:32,608 INFO  JdbcUtils 25 getNewConnection - trying to connect to database ... "jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"
+15 Mar 2023 08:58:32,609 INFO  JdbcUtils 26 getNewConnection - user: null
+15 Mar 2023 08:58:32,609 INFO  JdbcUtils 27 getNewConnection - pass: null
+15 Mar 2023 08:58:32,619 ERROR JdbcUtils 36 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"
+15 Mar 2023 08:58:32,623 TRACE JdbcUtils 52 getConnection - Exit
+15 Mar 2023 08:58:40,275 INFO  DeviceDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"} 
+15 Mar 2023 08:58:40,284 TRACE DeviceDBRepository 83 add - Enter saving task Device@6253c26
+15 Mar 2023 08:58:40,284 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 08:58:40,285 TRACE JdbcUtils 20 getNewConnection - Enter
+15 Mar 2023 08:58:40,285 INFO  JdbcUtils 25 getNewConnection - trying to connect to database ... "jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"
+15 Mar 2023 08:58:40,286 INFO  JdbcUtils 26 getNewConnection - user: null
+15 Mar 2023 08:58:40,286 INFO  JdbcUtils 27 getNewConnection - pass: null
+15 Mar 2023 08:58:40,295 ERROR JdbcUtils 36 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"
+15 Mar 2023 08:58:40,296 TRACE JdbcUtils 52 getConnection - Exit
+15 Mar 2023 09:00:10,767 INFO  DeviceDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"} 
+15 Mar 2023 09:00:10,778 TRACE DeviceDBRepository 83 add - Enter saving task Device@6253c26
+15 Mar 2023 09:00:10,779 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 09:00:10,779 TRACE JdbcUtils 20 getNewConnection - Enter
+15 Mar 2023 09:00:10,780 INFO  JdbcUtils 25 getNewConnection - trying to connect to database ... "jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"
+15 Mar 2023 09:00:10,780 INFO  JdbcUtils 26 getNewConnection - user: null
+15 Mar 2023 09:00:10,781 INFO  JdbcUtils 27 getNewConnection - pass: null
+15 Mar 2023 09:00:10,790 ERROR JdbcUtils 36 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"
+15 Mar 2023 09:00:10,791 TRACE JdbcUtils 52 getConnection - Exit
+15 Mar 2023 09:00:55,252 INFO  DeviceDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"} 
+15 Mar 2023 09:00:55,260 TRACE DeviceDBRepository 83 add - Enter saving task Device@6253c26
+15 Mar 2023 09:00:55,262 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 09:00:55,263 TRACE JdbcUtils 20 getNewConnection - Enter
+15 Mar 2023 09:00:55,263 INFO  JdbcUtils 25 getNewConnection - trying to connect to database ... "jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"
+15 Mar 2023 09:00:55,264 INFO  JdbcUtils 26 getNewConnection - user: null
+15 Mar 2023 09:00:55,265 INFO  JdbcUtils 27 getNewConnection - pass: null
+15 Mar 2023 09:00:55,276 ERROR JdbcUtils 36 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"
+15 Mar 2023 09:00:55,278 TRACE JdbcUtils 52 getConnection - Exit
+15 Mar 2023 09:03:34,711 INFO  DeviceDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"} 
+15 Mar 2023 09:03:34,719 TRACE DeviceDBRepository 83 add - Enter saving task Device@6253c26
+15 Mar 2023 09:03:34,721 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 09:03:34,722 TRACE JdbcUtils 20 getNewConnection - Enter
+15 Mar 2023 09:03:34,722 INFO  JdbcUtils 25 getNewConnection - trying to connect to database ... "jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"
+15 Mar 2023 09:03:34,723 INFO  JdbcUtils 26 getNewConnection - user: null
+15 Mar 2023 09:03:34,723 INFO  JdbcUtils 27 getNewConnection - pass: null
+15 Mar 2023 09:03:34,733 ERROR JdbcUtils 36 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"
+15 Mar 2023 09:03:34,735 TRACE JdbcUtils 52 getConnection - Exit
+15 Mar 2023 09:04:38,729 INFO  DeviceDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"} 
+15 Mar 2023 09:04:38,737 TRACE DeviceDBRepository 83 add - Enter saving task Device@6253c26
+15 Mar 2023 09:04:38,737 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 09:04:38,738 TRACE JdbcUtils 20 getNewConnection - Enter
+15 Mar 2023 09:04:38,738 INFO  JdbcUtils 25 getNewConnection - trying to connect to database ... "jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"
+15 Mar 2023 09:04:38,738 INFO  JdbcUtils 26 getNewConnection - user: null
+15 Mar 2023 09:04:38,739 INFO  JdbcUtils 27 getNewConnection - pass: null
+15 Mar 2023 09:04:38,748 ERROR JdbcUtils 36 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"
+15 Mar 2023 09:04:38,749 TRACE JdbcUtils 52 getConnection - Exit
+15 Mar 2023 09:05:20,384 INFO  DeviceDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"} 
+15 Mar 2023 09:05:20,394 TRACE DeviceDBRepository 83 add - Enter saving task Device@6253c26
+15 Mar 2023 09:05:20,395 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 09:05:20,395 TRACE JdbcUtils 20 getNewConnection - Enter
+15 Mar 2023 09:05:20,396 INFO  JdbcUtils 25 getNewConnection - trying to connect to database ... "jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"
+15 Mar 2023 09:05:20,396 INFO  JdbcUtils 26 getNewConnection - user: null
+15 Mar 2023 09:05:20,397 INFO  JdbcUtils 27 getNewConnection - pass: null
+15 Mar 2023 09:05:20,408 ERROR JdbcUtils 36 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"
+15 Mar 2023 09:05:20,410 TRACE JdbcUtils 52 getConnection - Exit
+15 Mar 2023 09:05:40,268 INFO  DeviceDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url="jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"} 
+15 Mar 2023 09:05:40,281 TRACE DeviceDBRepository 83 add - Enter saving task Device@6253c26
+15 Mar 2023 09:05:40,284 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 09:05:40,285 TRACE JdbcUtils 20 getNewConnection - Enter
+15 Mar 2023 09:05:40,287 INFO  JdbcUtils 25 getNewConnection - trying to connect to database ... "jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"
+15 Mar 2023 09:05:40,290 INFO  JdbcUtils 26 getNewConnection - user: null
+15 Mar 2023 09:05:40,291 INFO  JdbcUtils 27 getNewConnection - pass: null
+15 Mar 2023 09:05:40,304 ERROR JdbcUtils 36 getNewConnection - java.sql.SQLException: No suitable driver found for "jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db"
+15 Mar 2023 09:05:40,306 TRACE JdbcUtils 52 getConnection - Exit
+15 Mar 2023 09:11:39,874 INFO  DeviceDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db} 
+15 Mar 2023 09:11:39,883 TRACE DeviceDBRepository 83 add - Enter saving task Device@6253c26
+15 Mar 2023 09:11:39,884 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 09:11:39,884 TRACE JdbcUtils 20 getNewConnection - Enter
+15 Mar 2023 09:11:39,884 INFO  JdbcUtils 25 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db
+15 Mar 2023 09:11:39,885 INFO  JdbcUtils 26 getNewConnection - user: null
+15 Mar 2023 09:11:39,886 INFO  JdbcUtils 27 getNewConnection - pass: null
+15 Mar 2023 09:11:40,288 TRACE JdbcUtils 52 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f43c82)
+15 Mar 2023 09:11:40,313 TRACE DeviceDBRepository 92 add - Saved 1 instances
+15 Mar 2023 09:11:40,314 TRACE DeviceDBRepository 97 add - Exit
+15 Mar 2023 09:11:40,316 TRACE DeviceDBRepository 122 findAll - Enter
+15 Mar 2023 09:11:40,316 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 09:11:40,317 TRACE JdbcUtils 52 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f43c82)
+15 Mar 2023 09:11:40,327 TRACE DeviceDBRepository 144 findAll - Exit
+15 Mar 2023 09:11:40,330 TRACE DeviceDBRepository 24 findByManufacturer - Enter
+15 Mar 2023 09:11:40,331 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 09:11:40,332 TRACE JdbcUtils 52 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f43c82)
+15 Mar 2023 09:11:40,333 TRACE DeviceDBRepository 47 findByManufacturer - Exit
+15 Mar 2023 09:26:15,439 INFO  DeviceDBRepository 18 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db} 
+15 Mar 2023 09:26:15,475 TRACE DeviceDBRepository 83 add - Enter saving task Device{name='SolidBook', manufacturer='Toshiba', cpuHz=131678, year=2007, id=null}
+15 Mar 2023 09:26:15,476 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 09:26:15,476 TRACE JdbcUtils 20 getNewConnection - Enter
+15 Mar 2023 09:26:15,477 INFO  JdbcUtils 25 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\Stefan\IdeaProjects\teme-lab-stefnmUBB\sqlite_test\devices.db
+15 Mar 2023 09:26:15,478 INFO  JdbcUtils 26 getNewConnection - user: null
+15 Mar 2023 09:26:15,479 INFO  JdbcUtils 27 getNewConnection - pass: null
+15 Mar 2023 09:26:16,048 TRACE JdbcUtils 52 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@387a8303)
+15 Mar 2023 09:26:16,543 TRACE DeviceDBRepository 92 add - Saved 1 instances
+15 Mar 2023 09:26:16,543 TRACE DeviceDBRepository 97 add - Exit
+15 Mar 2023 09:26:16,544 TRACE DeviceDBRepository 122 findAll - Enter
+15 Mar 2023 09:26:16,545 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 09:26:16,546 TRACE JdbcUtils 52 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@387a8303)
+15 Mar 2023 09:26:16,556 TRACE DeviceDBRepository 144 findAll - Exit
+15 Mar 2023 09:26:16,560 TRACE DeviceDBRepository 24 findByManufacturer - Enter
+15 Mar 2023 09:26:16,561 TRACE JdbcUtils 43 getConnection - Enter
+15 Mar 2023 09:26:16,562 TRACE JdbcUtils 52 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@387a8303)
+15 Mar 2023 09:26:16,564 TRACE DeviceDBRepository 47 findByManufacturer - Exit

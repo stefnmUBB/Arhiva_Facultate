@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="420.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.helpinghands.client_admin.ResetPasswordController">
+    <children>
+      <Label layoutX="165.0" layoutY="31.0" text="Reset password" textFill="#b60065">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="93.0" prefHeight="36.0" prefWidth="111.0" text="username" textFill="#b60065">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="154.0" prefHeight="36.0" prefWidth="111.0" text="password" textFill="#b60065">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="213.0" prefHeight="36.0" prefWidth="180.0" text="Confirm password" textFill="#b60065">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="170.0" fitWidth="192.0" layoutX="416.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../logo.png" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="passwordField" layoutX="244.0" layoutY="160.0" />
+      <PasswordField fx:id="confirmPasswordField" layoutX="244.0" layoutY="219.0" />
+      <TextField fx:id="usernameField" layoutX="245.0" layoutY="99.0" />
+      <Button fx:id="resetButton2" layoutX="237.0" layoutY="314.0" mnemonicParsing="false" onAction="#handleResetPassword" text="Button" textFill="#b60065" >
+         <font>
+         <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

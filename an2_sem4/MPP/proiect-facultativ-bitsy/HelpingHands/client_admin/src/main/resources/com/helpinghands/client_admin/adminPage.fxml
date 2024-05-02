@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="706.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.helpinghands.client_admin.AdminPageController">
+   <children>
+      <TableView fx:id="cerereSponsorsList" layoutX="45.0" layoutY="164.0" prefHeight="186.0" prefWidth="656.0" AnchorPane.bottomAnchor="356.0" AnchorPane.leftAnchor="45.0" AnchorPane.rightAnchor="69.0" AnchorPane.topAnchor="164.0">
+        <columns>
+          <TableColumn fx:id="firmaColumn" prefWidth="200.0" text="Nume firma" />
+          <TableColumn fx:id="cifColumn" prefWidth="123.20001220703125" text="CIF" />
+            <TableColumn fx:id="telefonColumn" prefWidth="163.20001220703125" text="Telefon" />
+            <TableColumn fx:id="adresaColumn" prefWidth="200.800048828125" text="Adresa" />
+            <TableColumn fx:id="sponsorizareColumn" prefWidth="147.99993896484375" text="Sponsorizare" />
+            <TableColumn fx:id="voluntarColumn" prefWidth="173.60003662109375" text="Voluntar" />
+        </columns>
+      </TableView>
+      <ImageView fitHeight="170.0" fitWidth="192.0" layoutX="956.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="7.0">
+         <image>
+            <Image url="@../../../../../../../logo.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="12.0" layoutY="14.0" prefHeight="36.0" prefWidth="753.0" text="Administration" textFill="#b60065" AnchorPane.leftAnchor="12.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="128.0" prefHeight="36.0" prefWidth="250.0" text="Sponsorship applications" textFill="#b60065">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="logoutButton" layoutX="48.0" layoutY="55.0" mnemonicParsing="false" onAction="#logoutButtonClicked" text="Logout" textFill="#b60065">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="acceptButton" layoutX="43.0" layoutY="367.0" mnemonicParsing="false" onAction="#handleAcceptCerereSponsor" prefWidth="158.0" text="Accept application" textFill="#b60065" AnchorPane.bottomAnchor="308.0" AnchorPane.leftAnchor="43.0">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="declineButton" layoutX="283.0" layoutY="368.0" mnemonicParsing="false" onAction="#handleDeclineCerereSponsor" text="Decline application" textFill="#b60065" AnchorPane.bottomAnchor="307.0" AnchorPane.leftAnchor="283.0">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="36.0" fitWidth="42.0" layoutX="213.0" layoutY="365.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="305.0" AnchorPane.leftAnchor="213.0">
+         <image>
+            <Image url="@../../../../../../../smiley.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="43.0" layoutX="455.0" layoutY="365.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="304.0" AnchorPane.leftAnchor="455.0">
+         <image>
+            <Image url="@../../../../../../../sad.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="evenimentList" layoutX="45.0" layoutY="576.0" prefHeight="199.0" prefWidth="395.0" AnchorPane.bottomAnchor="41.0" AnchorPane.leftAnchor="45.0" AnchorPane.rightAnchor="330.0">
+        <columns>
+          <TableColumn fx:id="evenimentColumn" prefWidth="168.79998779296875" text="Eveniment" />
+          <TableColumn fx:id="inceputColumn" prefWidth="121.60003662109375" text="Data inceput" />
+            <TableColumn fx:id="sfarsitColumn" prefWidth="119.199951171875" text="Data sfarsit" />
+            <TableColumn fx:id="locatieColumn" prefWidth="134.39996337890625" text="Locatie" />
+            <TableColumn fx:id="descriereColumn" prefWidth="208.00002441406252" text="Descriere" />
+        </columns>
+      </TableView>
+      <Label layoutX="45.0" layoutY="425.0" text="Events" textFill="#b60065" AnchorPane.bottomAnchor="251.0" AnchorPane.leftAnchor="45.0">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="notifyButton" layoutX="496.0" layoutY="431.0" mnemonicParsing="false" onAction="#notifyUsersButtonClicked" prefHeight="31.0" prefWidth="219.0" text="Notify users about event" textFill="#b60065" AnchorPane.bottomAnchor="244.0" AnchorPane.rightAnchor="55.0">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="descriereNotificare" layoutX="852.0" layoutY="590.0" prefHeight="170.0" prefWidth="219.0" text="Hello Dear!&#10;Have you heard about this event? &#10;Don't miss the chance to participate!&#10;See you there!&#10;❤&#10;&#10;&#10;&#10;&#10;&#10;Best regards,&#10;Helping Hands Team" AnchorPane.bottomAnchor="55.0" AnchorPane.rightAnchor="55.0" />
+      <ImageView fitHeight="58.0" fitWidth="60.0" layoutX="577.0" layoutY="353.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="295.0" AnchorPane.rightAnchor="135.0">
+         <image>
+            <Image url="@../../../../../../../clopotel.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="resetButton" layoutX="170.0" layoutY="55.0" mnemonicParsing="false" onAction="#handlereserPassword" text="Reset password" textFill="#b60065">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

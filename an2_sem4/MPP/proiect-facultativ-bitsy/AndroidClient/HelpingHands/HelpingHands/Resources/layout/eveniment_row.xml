@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="This is Line1"
+        android:textSize="20dip"
+        android:maxWidth="200dp"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:layout_below="@id/Text3"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Text1"
+        android:layout_marginTop="1dip"
+        android:text="This is line2"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:textSize="15dip"/>
+    <TextView
+        android:id="@+id/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dip"
+        android:text="This is line3"
+        android:textSize="15dip"                    
+        android:textColor="#ffffffff"
+        android:fadingEdge="horizontal|vertical"
+        android:layerType="none"
+        android:background="@drawable/startdategradient"        
+        android:padding="2dp"        
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_toRightOf="@id/Text3"
+        android:layout_marginTop="1dip"
+        android:text=" - "
+        android:id="@+id/TextDash"        
+        android:textSize="15dip"/>
+    <TextView
+        android:id="@+id/Text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dip"
+        android:text="This is line4"
+        android:textSize="15dip"
+        android:layout_toRightOf="@id/TextDash"                              
+        android:textColor="#ffffffff"
+        android:fadingEdge="horizontal|vertical"
+        android:layerType="none"
+        android:background="@drawable/startdategradient"
+        android:padding="2dp"        
+        />
+</RelativeLayout> 

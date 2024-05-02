@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="788.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.helpinghands.client_admin.LoginPageController">
+   <children>
+      <ImageView fitHeight="315.0" fitWidth="305.0" layoutX="257.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="320.0" layoutY="227.0" text="Administration" textFill="#b60065">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="loginUsername" layoutX="376.0" layoutY="298.0" />
+      <Label layoutX="275.0" layoutY="297.0" text="Username" textFill="#b60065">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="277.0" layoutY="363.0" text="Password" textFill="#b60065">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="loginButton" layoutX="336.0" layoutY="451.0" mnemonicParsing="false" onAction="#loginButtonClicked" prefHeight="38.0" prefWidth="125.0" text="Login" textFill="#b60065">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="loginPassword" layoutX="376.0" layoutY="364.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:columnCount="2"      
+         android:padding="@dimen/activity_horizontal_margin"
+        >
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"                
+        android:text="Inregistrare voluntar" android:layout_columnSpan="2" android:textSize="18dp" />        
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_columnSpan="2"/>        
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"                
+        android:text="Nume utilizator"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:id="@+id/UsernameBox"                                    
+             />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"                
+        android:text="Parola"/>
+        
+        <EditText android:id="@+id/Pass1Box"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_width="300dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"                
+        android:text="Confirma Parola"/>
+        
+        <EditText android:id="@+id/Pass2Box"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_width="300dp"/>
+               
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"                
+        android:text="Email"/>        
+        <EditText android:layout_width="300dp" android:layout_height="wrap_content" 
+            android:id="@+id/EmailBox" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"                
+        android:text="Nume"/>        
+        <EditText android:layout_width="300dp" android:layout_height="wrap_content" 
+            android:id="@+id/NumeBox" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"                
+        android:text="Prenume"/>        
+        <EditText android:layout_width="300dp" android:layout_height="wrap_content" 
+            android:id="@+id/PrenumeBox" />       
+
+        <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/RegisterButton"
+             android:text="Ma inregistrez"
+             android:layout_marginRight="70dp"
+             android:backgroundTint="#B30064" 
+             android:textColor="#ffffff"/>                
+
+    </GridLayout>   
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="dialect">org.sqlite.hibernate.dialect.SQLiteDialect</property>
+        <property name="connection.driver_class">org.sqlite.JDBC</property>
+
+        <property name="connection.url">jdbc:sqlite:C:/db/database.sqlite</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="spring.jpa.hibernate.ddl-auto">update</property>
+        <property name="maximumPoolSize">5</property>
+        <property name="c3p0.timeout">30000</property>
+        <property name="hibernate.c3p0.timeout">30000</property>
+
+        <property name="hibernate.current_session_context_class">thread</property>
+        <!-- Echo all executed SQL to stdout -->
+        <property name="show_sql">false</property>
+        <property name="format_sql">false</property>
+        <property name="hibernate.connection.autocommit">true</property>
+
+        <mapping class="com.helpinghands.domain.Interest"/>
+        <mapping class="com.helpinghands.domain.SponsorType"/>
+        <mapping class="com.helpinghands.domain.Utilizator"/>
+        <mapping class="com.helpinghands.domain.Voluntar"/>
+        <mapping class="com.helpinghands.domain.Admin"/>
+        <mapping class="com.helpinghands.domain.UserSession"/>
+        <mapping class="com.helpinghands.domain.Eveniment"/>
+        <mapping class="com.helpinghands.domain.Post"/>
+        <mapping class="com.helpinghands.domain.ProfilePic"/>
+        <mapping class="com.helpinghands.domain.Participant"/>
+        <mapping class="com.helpinghands.domain.CerereSponsor"/>
+    </session-factory>
+</hibernate-configuration>

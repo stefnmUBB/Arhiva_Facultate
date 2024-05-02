@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:stretchColumns="1">    
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:text="Eveniment"
+            android:layout_marginTop="16dp"
+            />    
+        <EditText
+            android:inputType="text"
+            android:id="@+id/VolEvenimentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginLeft="15dp"
+            android:text="ABCDE" />
+        </TableRow>      
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:text="Descriere"
+            />    
+        <EditText
+            android:inputType="text"
+            android:id="@+id/VolEvenimentDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="ABCDE"
+            android:layout_span="2"/>     
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"                
+        android:text="Data inceput"/>        
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" 
+            android:id="@+id/StartDateBox"  />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"                
+        android:text="Data sfarsit"/>        
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" 
+            android:id="@+id/EndDateBox" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"                
+        android:text="Locatie"/>        
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" 
+            android:id="@+id/LocatieBox" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:text="Interes"            
+            />
+        <Spinner android:layout_width="match_parent" android:layout_height="wrap_content" 
+            android:id="@+id/InterestBox" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:text="Participanți"            
+            />
+        <TextView
+            android:minWidth="30px"
+            android:minHeight="30px"
+            xmlns="http://schemas.android.com/apk/res/android"
+            android:id="@+id/textView1" />   
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:id="@+id/ParticipantListView"         
+            android:fadeScrollbars="true"
+            android:scrollbars="vertical"
+            android:verticalScrollbarPosition="right" 
+            android:layout_span="2"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/VolButtonUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Actualizează"
+            android:backgroundTint="#B30064"
+            android:textColor="#ffffff"                        
+            />
+        <TextView
+            android:minWidth="30px"
+            android:minHeight="30px"
+            xmlns="http://schemas.android.com/apk/res/android"
+            android:id="@+id/textView2" />   
+    </TableRow>         
+</TableLayout>

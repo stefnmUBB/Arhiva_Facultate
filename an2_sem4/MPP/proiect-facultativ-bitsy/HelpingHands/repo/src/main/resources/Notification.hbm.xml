@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.helpinghands.domain.Notification" table="Notifications">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+
+        <property name="text" column="text"/>
+        <property name="viewed" column="viewed"/>
+
+        <many-to-one name="post" class="com.helpinghands.domain.Post" fetch="select">
+            <column name="idPost" not-null="true" />
+        </many-to-one>
+    </class>
+</hibernate-mapping>

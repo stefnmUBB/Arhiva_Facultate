@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.helpinghands.domain.Message" table="Messages">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+
+        <property name="text" column="text"/>
+
+        <many-to-one name="sender" class="com.helpinghands.domain.Utilizator" fetch="select">
+            <column name="idUser" not-null="true" />
+        </many-to-one>
+
+        <many-to-one name="chatRoom" class="com.helpinghands.domain.ChatRoom" fetch="select">
+            <column name="idChatRoom" not-null="true" />
+        </many-to-one>
+    </class>
+</hibernate-mapping>
