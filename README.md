@@ -1,5 +1,7 @@
 # Arhiva Facultate 🙏
 
+Acest repo contine teme facute la facultate, promotia 2021-2024. In caz ca nu doriti sa descarcati intreg continutul o data, exista mai jos link-uri catre repo-uri individuale pe materii/teme.
+
 ## Anul 1 - Semestrul 1 🦠
 
 ### ASC 👨‍💻
