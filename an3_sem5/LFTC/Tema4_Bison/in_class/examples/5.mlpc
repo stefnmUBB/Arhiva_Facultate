@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float pi = 3.14;
+    float r;
+	
+	cin >> r;
+    float perim = 2 * pi * r;    	
+	float aria = pi * r * r;    
+	
+	cout << perim << endl << aria << endl;
+	
+    return 0;
+}

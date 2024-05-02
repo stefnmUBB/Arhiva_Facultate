@@ -1,0 +1,114 @@
+program    -> include using namespace std sc block
+
+include     -> _include ws
+include     -> _include
+_include    -> "#include<iostream>\n"
+using      -> "using" ws
+using      -> "using"
+
+namespace  -> "namespace" ws
+namespace  -> "namespace"
+
+std        -> "std" ws
+std        -> "std"
+
+block      -> int main lparen rparen lbrack instr_list rbrack
+
+instr_list -> instr instr_list
+instr_list -> instr
+
+instr  -> _instr sc
+
+sc     -> _sc
+_sc     -> ";" ws
+_sc     -> ";"
+
+_instr -> attr
+_instr -> decl
+_instr -> cin
+_instr -> cout
+
+attr  -> id op_eq expr
+decl  -> int id
+cin   -> _cin cin_list
+cout  -> _cout cout_list
+
+_cin   -> "cin" ws
+_cin   -> "cin"
+
+_cout  -> "cout" ws
+_cout  -> "cout"
+
+cin_list -> shr id cin_list
+cin_list -> shr id
+
+cout_list -> shl id cout_list
+cout_list -> shl id
+
+shr   -> ">>" ws
+shr   -> ">>"
+
+shl   -> "<<" ws
+shl   -> "<<"
+
+int    -> "int" ws
+main   -> "main" ws
+main   -> "main"
+
+expr  -> term op expr
+expr  -> term
+
+term  -> id
+term  -> const
+term  -> lparen expr rparen
+
+lbrack -> _lbrack ws
+lbrack -> _lbrack
+_lbrack -> "{"
+
+rbrack -> _rbrack ws
+rbrack -> _rbrack
+_rbrack -> "}"
+
+lparen -> _lparen ws
+lparen -> _lparen
+_lparen -> "("
+
+rparen -> _rparen ws
+rparen -> _rparen
+_rparen -> ")"
+
+op_eq -> _op_eq ws
+op_eq -> _op_eq
+_op_eq -> "="
+
+op    -> _op ws
+op    -> _op
+_op   -> "+"
+#_op   -> "-"
+#_op   -> "*"
+#_op   -> "/"
+#_op   -> "%"
+
+id     -> _id ws
+id     -> _id
+_id    -> letter _id
+_id    -> letter
+
+const  -> _const ws
+const  -> _const
+_const -> digit _const
+_const -> digit
+
+letter -> "a"
+letter -> "b"
+letter -> "c"
+
+digit -> "0"
+digit -> "1"
+digit -> "2"
+
+ws    -> "\n" ws
+ws    -> "\s" ws
+ws    -> "\n"
+ws    -> "\s"

@@ -1,0 +1,7 @@
+{
+  "name": "homebrewCorner",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

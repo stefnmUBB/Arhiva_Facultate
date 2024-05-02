@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HomebrewCorner</string>
+    <string name="item">Game</string>
+    <string name="items">Games</string>
+    <string name="login">Login</string>
+</resources>

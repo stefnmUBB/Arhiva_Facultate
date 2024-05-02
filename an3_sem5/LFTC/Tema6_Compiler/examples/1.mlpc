@@ -1,0 +1,8 @@
+int x;
+int y;
+in>>x>>y;
+
+int z=x-y;
+
+out<<z;
+out<<(x+y)*z<<endl;

@@ -1,0 +1,32 @@
+.songContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.disabledComponent {
+  background-color: grey;
+}
+
+.songContainer .songTitle {
+  display: block;
+}
+
+.customInput {
+  padding: 3px !important;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.customSearchBar {
+  max-width: 40%;
+  width: auto;
+}
+
+.selectBar {
+  margin-inline: 2%;
+}

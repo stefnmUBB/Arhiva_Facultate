@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{48A1A3D3-73A9-4BFF-82F3-80E14C539743}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Licenta</RootNamespace>
+    <AssemblyName>Licenta</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Imaging\ColorHSL.cs" />
+    <Compile Include="Imaging\ColorRGB.cs" />
+    <Compile Include="Imaging\ImageRGB.cs" />
+    <Compile Include="Imaging\Kernels.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TraceOver\TracedPath.cs" />
+    <Compile Include="TraceOver\TraceOverDevice.cs" />
+    <Compile Include="Utils\Bitmaps.cs" />
+    <Compile Include="Utils\Display.cs" />
+    <Compile Include="Utils\Forms\ImageRGBDisplayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utils\Forms\ImageRGBDisplayForm.Designer.cs">
+      <DependentUpon>ImageRGBDisplayForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\ParallelModels\CannyEdgeDetectionOptions.cs" />
+    <Compile Include="Utils\Images.cs" />
+    <Compile Include="Utils\ParallelModels\MonochromeParallelModel.cs" />
+    <Compile Include="Utils\ParallelModels\CannyEdgeDetectionParallelModel.cs" />
+    <Compile Include="Utils\ParallelModels\PotraceParallelModel.cs" />
+    <Compile Include="Utils\Potrace.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Licenta.Commons\Licenta.Commons.csproj">
+      <Project>{DDD6E93C-55D4-4B7F-8552-83620B14DA23}</Project>
+      <Name>Licenta.Commons</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Utils\Forms\ImageRGBDisplayForm.resx">
+      <DependentUpon>ImageRGBDisplayForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

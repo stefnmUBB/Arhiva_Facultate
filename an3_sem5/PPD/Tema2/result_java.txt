@@ -1,0 +1,27 @@
+Running {'N': 10, 'M': 10, 'p': [4]}
+Sequencial run
+         1ms         1ms         0ms         1ms         0ms         1ms         0ms         0ms         0ms         1ms | 0.5ms
+Threads: 4
+         1ms         1ms         0ms         0ms         0ms         0ms         1ms         0ms         0ms         0ms | 0.3ms
+Running {'N': 1000, 'M': 1000, 'p': [2, 4, 8, 16]}
+Sequencial run
+       210ms       104ms       100ms        89ms       106ms       173ms       102ms        97ms       178ms       121ms | 128.0ms
+Threads: 2
+       170ms       162ms       135ms        99ms        99ms       142ms       243ms       199ms       119ms       136ms | 150.4ms
+Threads: 4
+       102ms       106ms       110ms        98ms       150ms       105ms       107ms       144ms       109ms       178ms | 120.9ms
+Threads: 8
+        99ms       139ms        85ms       113ms        94ms       116ms        94ms       101ms       107ms        93ms | 104.1ms
+Threads: 16
+       102ms       180ms        91ms       157ms       105ms       123ms       125ms       205ms       113ms        93ms | 129.4ms
+Running {'N': 10000, 'M': 10000, 'p': [2, 4, 8, 16]}
+Sequencial run
+      3291ms      3532ms      3263ms      2762ms      1971ms      2784ms      2238ms      3041ms      1936ms      1871ms | 2668.9ms
+Threads: 2
+      2192ms      1840ms      2298ms      2034ms      1991ms      2018ms      2058ms      1937ms      2199ms      1954ms | 2052.1ms
+Threads: 4
+      1917ms      1889ms      1960ms      1957ms      3528ms      2462ms      2041ms      2075ms      1972ms      4765ms | 2456.6ms
+Threads: 8
+      1931ms      2135ms      2362ms      2441ms      3880ms      3554ms      2348ms      3686ms      2487ms      2418ms | 2724.2ms
+Threads: 16
+      2522ms      1953ms      2465ms      1971ms      2028ms      1846ms      2315ms      3568ms      2638ms      2148ms | 2345.4ms

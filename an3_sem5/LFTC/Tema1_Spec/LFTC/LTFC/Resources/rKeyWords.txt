@@ -1,0 +1,16 @@
+#include
+iostream
+using
+namespace
+std
+int
+float
+main
+return
+while
+for
+if
+else
+cin
+cout
+endl

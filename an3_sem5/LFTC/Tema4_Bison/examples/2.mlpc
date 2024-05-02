@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{    
+    int a; int bcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc;
+    cin>>a>>b;	
+	
+	a=2;
+	
+    while(b!=0)
+    {
+        int r = a%b;
+        a=b;
+        b=r;
+    }    
+    cout<<a;	
+	return 0;
+}

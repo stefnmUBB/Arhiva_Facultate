@@ -1,0 +1,439 @@
+Reserved words and symbols
+        Id | Text
+-----------|------
+      %ID% | 0   
+   %CONST% | 1   
+  #include | 2   
+  iostream | 3   
+     using | 4   
+ namespace | 5   
+       std | 6   
+       int | 7   
+     float | 8   
+      main | 9   
+    return | 10  
+     while | 11  
+       for | 12  
+        if | 13  
+      else | 14  
+       cin | 15  
+      cout | 16  
+      endl | 17  
+         + | 18  
+         - | 19  
+         * | 20  
+         / | 21  
+         % | 22  
+         = | 23  
+         < | 24  
+         > | 25  
+        == | 26  
+        != | 27  
+        <= | 28  
+        >= | 29  
+        << | 30  
+        >> | 31  
+         ( | 32  
+         ) | 33  
+         { | 34  
+         } | 35  
+         ; | 36  
+         , | 37  
+           | 38  
+
+_________________________________________________
+
+Tokens : 
+Token "#include" at position 0, 1:1
+Token "<" at position 8, 1:9
+Token "iostream" at position 9, 1:10
+Token ">" at position 17, 1:18
+Token "using" at position 20, 2:1
+Token "namespace" at position 26, 2:7
+Token "std" at position 36, 2:17
+Token ";" at position 39, 2:20
+Token "int" at position 44, 4:1
+Token "main" at position 48, 4:5
+Token "(" at position 52, 4:9
+Token ")" at position 53, 4:10
+Token "{" at position 56, 5:1
+Token "float" at position 63, 6:5
+Token "pi" at position 69, 6:11
+Token "=" at position 72, 6:14
+Token "3.14" at position 74, 6:16
+Token ";" at position 78, 6:20
+Token "float" at position 85, 7:5
+Token "r" at position 91, 7:11
+Token ";" at position 92, 7:12
+Token "cin" at position 101, 9:5
+Token ">>" at position 105, 9:9
+Token "r" at position 108, 9:12
+Token ";" at position 109, 9:13
+Token "float" at position 116, 10:5
+Token "perim" at position 122, 10:11
+Token "=" at position 128, 10:17
+Token "2" at position 130, 10:19
+Token "*" at position 132, 10:21
+Token "pi" at position 134, 10:23
+Token "*" at position 137, 10:26
+Token "r" at position 139, 10:28
+Token ";" at position 140, 10:29
+Token "float" at position 147, 11:5
+Token "aria" at position 153, 11:11
+Token "=" at position 158, 11:16
+Token "pi" at position 160, 11:18
+Token "*" at position 163, 11:21
+Token "r" at position 165, 11:23
+Token "*" at position 167, 11:25
+Token "r" at position 169, 11:27
+Token ";" at position 170, 11:28
+Token "cout" at position 177, 12:5
+Token "<<" at position 182, 12:10
+Token "perim" at position 185, 12:13
+Token "<<" at position 191, 12:19
+Token "endl" at position 194, 12:22
+Token "<<" at position 199, 12:27
+Token "aria" at position 202, 12:30
+Token "<<" at position 207, 12:35
+Token "endl" at position 210, 12:38
+Token ";" at position 214, 12:42
+Token "return" at position 221, 13:5
+Token "0" at position 228, 13:12
+Token ";" at position 229, 13:13
+Token "}" at position 232, 14:1
+
+ Id | Valoare
+----|---------
+  0 | 0      
+  1 | 2      
+  2 | 3.14   
+  3 | aria   
+  4 | perim  
+  5 | pi     
+  6 | r      
+
+
+ Cod Atom | Poz. in TS
+----------|------------
+        2 | -1        
+       24 | -1        
+        3 | -1        
+       25 | -1        
+        4 | -1        
+        5 | -1        
+        6 | -1        
+       36 | -1        
+        7 | -1        
+        9 | -1        
+       32 | -1        
+       33 | -1        
+       34 | -1        
+        8 | -1        
+        0 | 5         
+       23 | -1        
+        1 | 2         
+       36 | -1        
+        8 | -1        
+        0 | 6         
+       36 | -1        
+       15 | -1        
+       31 | -1        
+        0 | 6         
+       36 | -1        
+        8 | -1        
+        0 | 4         
+       23 | -1        
+        1 | 1         
+       20 | -1        
+        0 | 5         
+       20 | -1        
+        0 | 6         
+       36 | -1        
+        8 | -1        
+        0 | 3         
+       23 | -1        
+        0 | 5         
+       20 | -1        
+        0 | 6         
+       20 | -1        
+        0 | 6         
+       36 | -1        
+       16 | -1        
+       30 | -1        
+        0 | 4         
+       30 | -1        
+       17 | -1        
+       30 | -1        
+        0 | 3         
+       30 | -1        
+       17 | -1        
+       36 | -1        
+       10 | -1        
+        1 | 0         
+       36 | -1        
+       35 | -1        
+
+_________________________________________________
+
+Tokens : 
+Token "#include" at position 0, 1:1
+Token "<" at position 8, 1:9
+Token "iostream" at position 9, 1:10
+Token ">" at position 17, 1:18
+Token "using" at position 20, 2:1
+Token "namespace" at position 26, 2:7
+Token "std" at position 36, 2:17
+Token ";" at position 39, 2:20
+Token "int" at position 44, 4:1
+Token "main" at position 48, 4:5
+Token "(" at position 52, 4:9
+Token ")" at position 53, 4:10
+Token "{" at position 56, 5:1
+Token "int" at position 63, 6:5
+Token "a" at position 67, 6:9
+Token ";" at position 68, 6:10
+Token "int" at position 70, 6:12
+Token "b" at position 74, 6:16
+Token ";" at position 75, 6:17
+Token "cin" at position 82, 7:5
+Token ">>" at position 85, 7:8
+Token "a" at position 87, 7:10
+Token ">>" at position 88, 7:11
+Token "b" at position 90, 7:13
+Token ";" at position 91, 7:14
+Token "while" at position 98, 8:5
+Token "(" at position 103, 8:10
+Token "b" at position 104, 8:11
+Token "!=" at position 105, 8:12
+Token "0" at position 107, 8:14
+Token ")" at position 108, 8:15
+Token "{" at position 115, 9:5
+Token "int" at position 126, 10:9
+Token "r" at position 130, 10:13
+Token "=" at position 132, 10:15
+Token "a" at position 134, 10:17
+Token "%" at position 135, 10:18
+Token "b" at position 136, 10:19
+Token ";" at position 137, 10:20
+Token "a" at position 148, 11:9
+Token "=" at position 149, 11:10
+Token "b" at position 150, 11:11
+Token ";" at position 151, 11:12
+Token "b" at position 162, 12:9
+Token "=" at position 163, 12:10
+Token "r" at position 164, 12:11
+Token ";" at position 165, 12:12
+Token "}" at position 172, 13:5
+Token "cout" at position 183, 14:5
+Token "<<" at position 187, 14:9
+Token "a" at position 189, 14:11
+Token ";" at position 190, 14:12
+Token "return" at position 197, 15:5
+Token "0" at position 204, 15:12
+Token ";" at position 205, 15:13
+Token "}" at position 208, 16:1
+
+ Id | Valoare
+----|---------
+  0 | 0      
+  1 | a      
+  2 | b      
+  3 | r      
+
+
+ Cod Atom | Poz. in TS
+----------|------------
+        2 | -1        
+       24 | -1        
+        3 | -1        
+       25 | -1        
+        4 | -1        
+        5 | -1        
+        6 | -1        
+       36 | -1        
+        7 | -1        
+        9 | -1        
+       32 | -1        
+       33 | -1        
+       34 | -1        
+        7 | -1        
+        0 | 1         
+       36 | -1        
+        7 | -1        
+        0 | 2         
+       36 | -1        
+       15 | -1        
+       31 | -1        
+        0 | 1         
+       31 | -1        
+        0 | 2         
+       36 | -1        
+       11 | -1        
+       32 | -1        
+        0 | 2         
+       27 | -1        
+        1 | 0         
+       33 | -1        
+       34 | -1        
+        7 | -1        
+        0 | 3         
+       23 | -1        
+        0 | 1         
+       22 | -1        
+        0 | 2         
+       36 | -1        
+        0 | 1         
+       23 | -1        
+        0 | 2         
+       36 | -1        
+        0 | 2         
+       23 | -1        
+        0 | 3         
+       36 | -1        
+       35 | -1        
+       16 | -1        
+       30 | -1        
+        0 | 1         
+       36 | -1        
+       10 | -1        
+        1 | 0         
+       36 | -1        
+       35 | -1        
+
+_________________________________________________
+
+Tokens : 
+Token "#include" at position 0, 1:1
+Token "<" at position 8, 1:9
+Token "iostream" at position 9, 1:10
+Token ">" at position 17, 1:18
+Token "using" at position 22, 3:1
+Token "namespace" at position 28, 3:7
+Token "std" at position 38, 3:17
+Token ";" at position 41, 3:20
+Token "int" at position 46, 5:1
+Token "main" at position 50, 5:5
+Token "(" at position 54, 5:9
+Token ")" at position 55, 5:10
+Token "{" at position 58, 6:1
+Token "int" at position 65, 7:5
+Token "n" at position 69, 7:9
+Token ";" at position 70, 7:10
+Token "int" at position 72, 7:12
+Token "a" at position 76, 7:16
+Token ";" at position 77, 7:17
+Token "int" at position 84, 8:5
+Token "s" at position 88, 8:9
+Token ";" at position 89, 8:10
+Token "for" at position 96, 9:5
+Token "(" at position 99, 9:8
+Token "int" at position 100, 9:9
+Token "i" at position 104, 9:13
+Token "=" at position 105, 9:14
+Token "0" at position 106, 9:15
+Token ";" at position 107, 9:16
+Token "i" at position 108, 9:17
+Token "<" at position 109, 9:18
+Token "n" at position 110, 9:19
+Token ";" at position 111, 9:20
+Token "i" at position 112, 9:21
+Token "=" at position 113, 9:22
+Token "i" at position 114, 9:23
+Token "+" at position 115, 9:24
+Token "1" at position 116, 9:25
+Token ")" at position 117, 9:26
+Token "{" at position 124, 10:5
+Token "cin" at position 135, 11:9
+Token ">>" at position 138, 11:12
+Token "a" at position 140, 11:14
+Token ";" at position 141, 11:15
+Token "s" at position 152, 12:9
+Token "=" at position 153, 12:10
+Token "s" at position 154, 12:11
+Token "+" at position 155, 12:12
+Token "a" at position 156, 12:13
+Token ";" at position 157, 12:14
+Token "}" at position 164, 13:5
+Token "cout" at position 171, 14:5
+Token "<<" at position 175, 14:9
+Token "s" at position 177, 14:11
+Token ";" at position 178, 14:12
+Token "return" at position 185, 15:5
+Token "0" at position 192, 15:12
+Token ";" at position 193, 15:13
+Token "}" at position 196, 16:1
+
+ Id | Valoare
+----|---------
+  0 | 0      
+  1 | 1      
+  2 | a      
+  3 | i      
+  4 | n      
+  5 | s      
+
+
+ Cod Atom | Poz. in TS
+----------|------------
+        2 | -1        
+       24 | -1        
+        3 | -1        
+       25 | -1        
+        4 | -1        
+        5 | -1        
+        6 | -1        
+       36 | -1        
+        7 | -1        
+        9 | -1        
+       32 | -1        
+       33 | -1        
+       34 | -1        
+        7 | -1        
+        0 | 4         
+       36 | -1        
+        7 | -1        
+        0 | 2         
+       36 | -1        
+        7 | -1        
+        0 | 5         
+       36 | -1        
+       12 | -1        
+       32 | -1        
+        7 | -1        
+        0 | 3         
+       23 | -1        
+        1 | 0         
+       36 | -1        
+        0 | 3         
+       24 | -1        
+        0 | 4         
+       36 | -1        
+        0 | 3         
+       23 | -1        
+        0 | 3         
+       18 | -1        
+        1 | 1         
+       33 | -1        
+       34 | -1        
+       15 | -1        
+       31 | -1        
+        0 | 2         
+       36 | -1        
+        0 | 5         
+       23 | -1        
+        0 | 5         
+       18 | -1        
+        0 | 2         
+       36 | -1        
+       35 | -1        
+       16 | -1        
+       30 | -1        
+        0 | 5         
+       36 | -1        
+       10 | -1        
+        1 | 0         
+       36 | -1        
+       35 | -1        
+
+
+Done.

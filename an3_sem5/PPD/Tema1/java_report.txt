@@ -1,0 +1,201 @@
+Microsoft Windows [Version 10.0.19045.3324]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Stefan\Desktop\anul3\sem1\PPD_Labs>test_script_java.py
+Method = lines
+Running {'N': 10, 'M': 10, 'n': 3, 'm': 3, 'p': [4]}
+Sequencial run
+         0ms         1ms         1ms         0ms         1ms         0ms         1ms         1ms         1ms         1ms | 0.7ms
+Threads: 4
+         0ms         0ms         0ms         0ms         0ms         1ms         0ms         0ms         0ms         1ms | 0.2ms
+Running {'N': 1000, 'M': 1000, 'n': 5, 'm': 5, 'p': [2, 4, 8, 16]}
+Sequencial run
+       179ms       196ms       171ms       174ms       106ms       162ms       138ms       190ms       226ms       185ms | 172.7ms
+Threads: 2
+       122ms       179ms       121ms       200ms       169ms       171ms       182ms       114ms       145ms       194ms | 159.7ms
+Threads: 4
+       178ms       184ms       199ms       177ms       180ms       119ms       184ms       111ms       185ms       200ms | 171.7ms
+Threads: 8
+       202ms       182ms       183ms       182ms       172ms       175ms       193ms       218ms       181ms       194ms | 188.2ms
+Threads: 16
+       184ms       195ms       182ms       178ms       185ms       219ms       167ms       174ms       175ms       116ms | 177.5ms
+Running {'N': 10, 'M': 10000, 'n': 5, 'm': 5, 'p': [2, 4, 8, 16]}
+Sequencial run
+        54ms        59ms        60ms        59ms        70ms        65ms        85ms        74ms        70ms        69ms | 66.5ms
+Threads: 2
+        70ms        78ms        56ms        95ms        69ms        67ms        60ms        70ms        67ms        82ms | 71.4ms
+Threads: 4
+        68ms        98ms        75ms        71ms        69ms        88ms        51ms        62ms        47ms        55ms | 68.4ms
+Threads: 8
+        58ms        59ms        46ms        58ms        58ms        57ms        46ms        61ms        52ms        49ms | 54.4ms
+Threads: 16
+        52ms        57ms        41ms        61ms        60ms        60ms        58ms        69ms        60ms        59ms | 57.7ms
+Running {'N': 10000, 'M': 10, 'n': 5, 'm': 5, 'p': [2, 4, 8, 16]}
+Sequencial run
+        45ms        69ms        65ms        42ms        46ms        48ms        40ms        73ms        47ms        47ms | 52.2ms
+Threads: 2
+        71ms        36ms        37ms        40ms        35ms        90ms        40ms        37ms        42ms        47ms | 47.5ms
+Threads: 4
+        36ms        40ms        34ms        41ms        46ms        41ms        48ms        43ms        43ms        45ms | 41.7ms
+Threads: 8
+        39ms        72ms        38ms        45ms        45ms        51ms        38ms        73ms        47ms        41ms | 48.9ms
+Threads: 16
+        68ms        37ms        34ms       112ms        58ms        50ms        60ms        54ms       100ms        63ms | 63.6ms
+Method = columns
+Running {'N': 10, 'M': 10, 'n': 3, 'm': 3, 'p': [4]}
+Sequencial run
+         0ms         1ms         1ms         1ms         0ms         0ms         1ms         1ms         1ms         0ms | 0.6ms
+Threads: 4
+         0ms         0ms         0ms         0ms         0ms         0ms         0ms         0ms         0ms         1ms | 0.1ms
+Running {'N': 1000, 'M': 1000, 'n': 5, 'm': 5, 'p': [2, 4, 8, 16]}
+Sequencial run
+       315ms       180ms       301ms       293ms       292ms       300ms       311ms       307ms       329ms       298ms | 292.6ms
+Threads: 2
+       305ms       296ms       308ms       306ms       324ms       309ms       183ms       307ms       326ms       318ms | 298.2ms
+Threads: 4
+       311ms       304ms       310ms       304ms       304ms       314ms       197ms       310ms       192ms       325ms | 287.1ms
+Threads: 8
+       189ms       306ms       318ms       298ms       338ms       302ms       302ms       191ms       288ms       288ms | 282.0ms
+Threads: 16
+       173ms       311ms       192ms       316ms       314ms       299ms       302ms       308ms       323ms       314ms | 285.2ms
+Running {'N': 10, 'M': 10000, 'n': 5, 'm': 5, 'p': [2, 4, 8, 16]}
+Sequencial run
+        74ms        82ms        88ms        84ms        62ms        82ms        68ms       108ms        65ms        75ms | 78.8ms
+Threads: 2
+        64ms        64ms        73ms        87ms        71ms        68ms        71ms        62ms        71ms        72ms | 70.3ms
+Threads: 4
+        74ms        51ms        68ms        76ms        80ms        70ms        67ms        65ms        74ms        66ms | 69.1ms
+Threads: 8
+        70ms        76ms        62ms        73ms        92ms        81ms        78ms        62ms        71ms        87ms | 75.2ms
+Threads: 16
+        79ms        85ms        68ms        68ms        75ms        68ms        68ms        70ms        63ms        60ms | 70.4ms
+Running {'N': 10000, 'M': 10, 'n': 5, 'm': 5, 'p': [2, 4, 8, 16]}
+Sequencial run
+       104ms        57ms        40ms        58ms        58ms        57ms        80ms        60ms        53ms        61ms | 62.8ms
+Threads: 2
+        58ms        57ms        50ms        58ms        55ms        51ms        59ms        90ms        48ms        58ms | 58.4ms
+Threads: 4
+        52ms        58ms        56ms        59ms        56ms        49ms        50ms        83ms        90ms        61ms | 61.4ms
+Threads: 8
+        56ms        59ms        51ms        61ms        63ms        39ms        62ms        60ms        60ms        58ms | 56.9ms
+Threads: 16
+        56ms        59ms        96ms        52ms        59ms        57ms        57ms        56ms        57ms        59ms | 60.8ms
+Method = blocks
+Running {'N': 10, 'M': 10, 'n': 3, 'm': 3, 'p': [4]}
+Sequencial run
+         1ms         0ms         1ms         1ms         0ms         1ms         0ms         1ms         1ms         1ms | 0.7ms
+Threads: 4
+         1ms         1ms         1ms         1ms         1ms         1ms         1ms         1ms         1ms         0ms | 0.9ms
+Running {'N': 1000, 'M': 1000, 'n': 5, 'm': 5, 'p': [2, 4, 8, 16]}
+Sequencial run
+       315ms       293ms       327ms       306ms       290ms       310ms       306ms       320ms       319ms       331ms | 311.7ms
+Threads: 2
+       194ms       313ms       309ms       303ms       184ms       185ms       309ms       186ms       308ms       283ms | 257.4ms
+Threads: 4
+       300ms       310ms       191ms       164ms       311ms       285ms       317ms       311ms       303ms       322ms | 281.4ms
+Threads: 8
+       310ms       311ms       314ms       190ms       303ms       198ms       310ms       305ms       305ms       303ms | 284.9ms
+Threads: 16
+       321ms       318ms       302ms       306ms       306ms       315ms       293ms       316ms       308ms       308ms | 309.3ms
+Running {'N': 10, 'M': 10000, 'n': 5, 'm': 5, 'p': [2, 4, 8, 16]}
+Sequencial run
+        68ms        72ms        96ms        66ms        82ms        66ms        77ms        65ms        66ms        50ms | 70.8ms
+Threads: 2
+        74ms        67ms        65ms        75ms        68ms        67ms        73ms        85ms        53ms        73ms | 70.0ms
+Threads: 4
+        67ms        77ms        68ms        72ms        66ms        76ms        60ms        78ms        79ms        67ms | 71.0ms
+Threads: 8
+        63ms        99ms        70ms        64ms        79ms        67ms        57ms        67ms        92ms        84ms | 74.2ms
+Threads: 16
+        94ms        64ms        63ms        62ms        71ms        68ms        78ms        79ms        63ms        72ms | 71.4ms
+Running {'N': 10000, 'M': 10, 'n': 5, 'm': 5, 'p': [2, 4, 8, 16]}
+Sequencial run
+        84ms        53ms        62ms        58ms       109ms        85ms        48ms        57ms        44ms        57ms | 65.7ms
+Threads: 2
+        58ms        49ms        57ms        51ms        61ms        58ms        53ms        57ms        58ms        58ms | 56.0ms
+Threads: 4
+        60ms        57ms        58ms        55ms        49ms        49ms        61ms        58ms        55ms        55ms | 55.7ms
+Threads: 8
+        53ms        52ms        47ms        59ms        51ms        57ms        59ms        57ms        52ms        56ms | 54.3ms
+Threads: 16
+        83ms        63ms        57ms        58ms        59ms        58ms        57ms        46ms        58ms        57ms | 59.6ms
+Method = lind
+Running {'N': 10, 'M': 10, 'n': 3, 'm': 3, 'p': [4]}
+Sequencial run
+         1ms         1ms         0ms         1ms         1ms         0ms         0ms         0ms         1ms         0ms | 0.5ms
+Threads: 4
+         1ms         1ms         1ms         1ms         0ms         1ms         1ms         0ms         0ms         1ms | 0.7ms
+Running {'N': 1000, 'M': 1000, 'n': 5, 'm': 5, 'p': [2, 4, 8, 16]}
+Sequencial run
+       340ms       313ms       194ms       181ms       312ms       308ms       304ms       180ms       308ms       310ms | 275.0ms
+Threads: 2
+       315ms       215ms       319ms       329ms       315ms       307ms       300ms       315ms       317ms       305ms | 303.7ms
+Threads: 4
+       330ms       301ms       189ms       319ms       325ms       312ms       319ms       307ms       318ms       310ms | 303.0ms
+Threads: 8
+       314ms       313ms       315ms       306ms       333ms       319ms       315ms       302ms       308ms       320ms | 314.5ms
+Threads: 16
+       312ms       174ms       306ms       321ms       306ms       319ms       310ms       307ms       305ms       306ms | 296.6ms
+Running {'N': 10, 'M': 10000, 'n': 5, 'm': 5, 'p': [2, 4, 8, 16]}
+Sequencial run
+        73ms        70ms        68ms        72ms        74ms        92ms        63ms        82ms        64ms        58ms | 71.6ms
+Threads: 2
+        82ms        72ms        79ms        69ms        67ms        63ms        78ms        74ms        81ms        71ms | 73.6ms
+Threads: 4
+        82ms        73ms        68ms        69ms        66ms        64ms        73ms        75ms        72ms        69ms | 71.1ms
+Threads: 8
+        72ms        88ms        68ms        67ms        70ms        68ms        67ms        65ms        70ms        62ms | 69.7ms
+Threads: 16
+        68ms        91ms        70ms        65ms        70ms        99ms        57ms        67ms        59ms        75ms | 72.1ms
+Running {'N': 10000, 'M': 10, 'n': 5, 'm': 5, 'p': [2, 4, 8, 16]}
+Sequencial run
+        45ms        62ms        43ms        45ms        55ms        70ms        53ms        56ms        57ms        48ms | 53.4ms
+Threads: 2
+        50ms        60ms        55ms        57ms        55ms        84ms        55ms        59ms        49ms        52ms | 57.6ms
+Threads: 4
+        47ms        80ms        58ms        56ms        59ms        51ms        60ms        55ms        60ms        47ms | 57.3ms
+Threads: 8
+        49ms        54ms        52ms        59ms        56ms        60ms        58ms        88ms        59ms        52ms | 58.7ms
+Threads: 16
+        59ms        49ms        58ms        58ms        39ms        46ms        56ms        52ms        55ms        53ms | 52.5ms
+Method = cycd
+Running {'N': 10, 'M': 10, 'n': 3, 'm': 3, 'p': [4]}
+Sequencial run
+         0ms         0ms         0ms         0ms         1ms         1ms         1ms         1ms         0ms         0ms | 0.4ms
+Threads: 4
+         1ms         1ms         0ms         1ms         0ms         1ms         0ms         0ms         1ms         0ms | 0.5ms
+Running {'N': 1000, 'M': 1000, 'n': 5, 'm': 5, 'p': [2, 4, 8, 16]}
+Sequencial run
+       303ms       307ms       191ms       306ms       328ms       318ms       307ms       322ms       181ms       206ms | 276.9ms
+Threads: 2
+       317ms       295ms       315ms       320ms       328ms       318ms       292ms       190ms       293ms       306ms | 297.4ms
+Threads: 4
+       307ms       297ms       307ms       286ms       292ms       309ms       308ms       333ms       306ms       319ms | 306.4ms
+Threads: 8
+       319ms       292ms       303ms       307ms       314ms       298ms       308ms       316ms       307ms       309ms | 307.3ms
+Threads: 16
+       297ms       199ms       309ms       308ms       290ms       310ms       316ms       186ms       314ms       288ms | 281.7ms
+Running {'N': 10, 'M': 10000, 'n': 5, 'm': 5, 'p': [2, 4, 8, 16]}
+Sequencial run
+        69ms        56ms        61ms        56ms        80ms        71ms        70ms        76ms        76ms        74ms | 68.9ms
+Threads: 2
+        66ms        83ms        58ms        63ms        73ms        74ms        64ms        70ms       105ms        74ms | 73.0ms
+Threads: 4
+        55ms        99ms        69ms        64ms        69ms        74ms        60ms        76ms        80ms        65ms | 71.1ms
+Threads: 8
+        67ms        83ms        77ms        86ms        65ms        64ms        95ms        77ms        74ms        57ms | 74.5ms
+Threads: 16
+        74ms        66ms        72ms        77ms        72ms        79ms        73ms        66ms        62ms        75ms | 71.6ms
+Running {'N': 10000, 'M': 10, 'n': 5, 'm': 5, 'p': [2, 4, 8, 16]}
+Sequencial run
+        51ms        59ms        61ms        55ms        58ms        47ms        92ms        56ms        47ms        60ms | 58.6ms
+Threads: 2
+        56ms        52ms        55ms        56ms        47ms        58ms        53ms        84ms        57ms        56ms | 57.4ms
+Threads: 4
+        55ms        57ms        49ms        45ms        59ms        57ms        88ms        59ms        58ms        88ms | 61.5ms
+Threads: 8
+        46ms        48ms        82ms        42ms        94ms        58ms        56ms        58ms        35ms        52ms | 57.1ms
+Threads: 16
+        47ms        51ms        57ms        61ms        60ms        58ms        58ms        91ms        59ms        57ms | 59.9ms
+
+C:\Users\Stefan\Desktop\anul3\sem1\PPD_Labs>

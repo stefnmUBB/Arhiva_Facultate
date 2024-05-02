@@ -1,0 +1,126 @@
+﻿q0 0 q1
+q0 1 q2
+q0 2 q2
+q0 3 q2
+q0 4 q2
+q0 5 q2
+q0 6 q2
+q0 7 q2
+q0 8 q2
+q0 9 q2
+
+q2 0 q2
+q2 1 q2
+q2 2 q2
+q2 3 q2
+q2 4 q2
+q2 5 q2
+q2 6 q2
+q2 7 q2
+q2 8 q2
+q2 9 q2
+
+q1 0 q2
+q1 1 q2
+q1 2 q2
+q1 3 q2
+q1 4 q2
+q1 5 q2
+q1 6 q2
+q1 7 q2
+q1 8 q2
+q1 9 q2
+
+q1 b q3
+q1 B q3
+
+q3 0 q4
+q3 1 q4
+
+q4 0 q4
+q4 1 q4
+
+q1 x q5
+q1 X q5
+
+q5 0 q6
+q5 1 q6
+q5 2 q6
+q5 3 q6
+q5 4 q6
+q5 5 q6
+q5 6 q6
+q5 7 q6
+q5 8 q6
+q5 9 q6
+q5 A q6
+q5 B q6
+q5 C q6
+q5 D q6
+q5 E q6
+q5 F q6
+q5 a q6
+q5 b q6
+q5 c q6
+q5 d q6
+q5 e q6
+q5 f q6
+
+q6 0 q6
+q6 1 q6
+q6 2 q6
+q6 3 q6
+q6 4 q6
+q6 5 q6
+q6 6 q6
+q6 7 q6
+q6 8 q6
+q6 9 q6
+q6 A q6
+q6 B q6
+q6 C q6
+q6 D q6
+q6 E q6
+q6 F q6
+q6 a q6
+q6 b q6
+q6 c q6
+q6 d q6
+q6 e q6
+q6 f q6
+
+q2 U q7
+q2 u q7
+q2 L q10
+q2 l q10
+
+q4 U q7
+q4 u q7
+q4 L q10
+q4 l q10
+
+q6 U q7
+q6 u q7
+q6 L q10
+q6 l q10
+
+q7 L q8
+q7 l q8
+
+q8 L q9
+q8 l q9
+
+q10 U q11
+q10 u q11
+
+q10 L q12
+q10 l q12
+
+q12 U q13
+q12 u q13
+
+
+
+#s q0
+#f q1 q2 q4 q6 q7 q8 q9 q10 q11 q12 q13
+

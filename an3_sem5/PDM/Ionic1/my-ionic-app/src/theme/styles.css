@@ -1,0 +1,8 @@
+
+:root{
+    ion-input {
+        --color: red;
+        color:red;
+        background: yellow;
+      }
+}

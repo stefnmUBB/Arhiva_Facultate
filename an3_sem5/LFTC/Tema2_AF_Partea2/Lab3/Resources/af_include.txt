@@ -1,0 +1,11 @@
+﻿q0 # q1
+q1 i q2
+q2 n q3
+q3 c q4
+q4 l q5
+q5 u q6
+q6 d q7
+q7 e q8
+
+#s q0
+#f q8

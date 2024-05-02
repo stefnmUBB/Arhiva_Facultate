@@ -1,0 +1,18 @@
+﻿#include<iostream>
+using namespace std;
+
+int main()
+{    
+    int a; int b;
+    cin>>a>>b;
+    -> cattimp b!=0 executa
+    {
+        int r = a%b;
+        a=b;
+        b=r;
+    }
+	sfcattimp
+	
+    cout<<a;
+    return 0;
+}

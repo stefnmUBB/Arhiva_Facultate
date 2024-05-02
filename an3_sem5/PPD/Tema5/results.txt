@@ -1,0 +1,7 @@
+C:\Users\Stefan\Desktop\anul3\sem1\PPD\Tema5\x64\Debug>test_script.py
+Running {'mode': 'pll', 'pr': 4, 'pw': 2}
+   69.8716ms    79.193ms   71.8324ms   74.8152ms   84.8543ms   75.2606ms   84.9211ms   84.1276ms   66.4156ms   89.1586ms | 78.045ms
+Running {'mode': 'pll', 'pr': 4, 'pw': 4}
+   48.6659ms   60.3405ms   49.1242ms   63.9685ms   48.3252ms   57.2962ms   51.7544ms   69.4232ms   47.3664ms   68.8292ms | 56.509370000000004ms
+Running {'mode': 'pll', 'pr': 4, 'pw': 12}
+   50.4288ms   64.9565ms   50.5769ms   64.5942ms   53.7678ms   68.8057ms   56.1974ms   63.7979ms   48.5701ms   68.0165ms | 58.971180000000004ms
