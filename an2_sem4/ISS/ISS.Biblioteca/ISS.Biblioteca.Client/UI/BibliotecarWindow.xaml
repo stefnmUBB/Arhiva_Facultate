@@ -1,0 +1,86 @@
+﻿<Window x:Class="ISS.Biblioteca.Commons.UI.BibliotecarWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ISS.Biblioteca.Commons.UI"        
+        mc:Ignorable="d"
+        Title="BibliotecarWindow" Height="450" Width="800"
+        WindowStyle="None"
+        MouseDown="Window_MouseDown"
+        Closed="Window_Closed"
+        >
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="pack://application:,,,/ISS.Biblioteca.Client;component/Pictures/wall_main.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Button Grid.Row="0" Grid.Column="0" Style="{DynamicResource ResourceKey=CloseButtonStyle}" HorizontalAlignment="Right" VerticalAlignment="Top"               
+                Click="CloseButton_Click" Panel.ZIndex="2"/>
+
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <TextBlock Foreground="White" VerticalAlignment="Center" Padding="3" Margin="10 0">CNP Abonat</TextBlock>
+            <TextBox Width="300" Name="CnpBox" VerticalAlignment="Center" Padding="3"></TextBox>
+            <Button Name="AbonatLoadButton" Click="AbonatLoadButton_Click" Style="{DynamicResource ResourceKey=SimpleButtonStyle}"
+                    Padding="3" Margin="5">Vizualizare Date Abonat</Button>
+        </StackPanel>
+
+        <Grid Grid.Row="1" Margin="10">
+            <ListView x:Name="BooksView" ItemsSource="{Binding CartiImprumutate}" HorizontalAlignment="Stretch" Grid.Row="1" Margin="10 10"
+                      Background="#66F5F5DC">
+                <ListView.Resources>
+                    <Style TargetType="GridViewColumnHeader">
+                        <Setter Property="Background" Value="#66F5F5DC" />
+                        <Setter Property="FontWeight" Value="Bold" />
+                    </Style>
+                    <Style TargetType="{x:Type ListViewItem}">
+                        <Setter Property="Background" Value="#88F5F5DC" />
+                    </Style>
+                    <GridView x:Key="abonatViewRes">
+                        <GridViewColumn Header="CodExemplar" Width="70">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Cod}" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Titlu" Width="70">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Titlu}" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Autor" Width="80">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Autor}" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="" Width="80">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Style="{DynamicResource ResourceKey=SimpleButtonStyle}" Padding="4 2" Margin="2" Name="ReturButton" Click="ReturButton_Click">Returneaza</Button>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.Resources>
+                <ListView.Style>
+                    <Style TargetType="ListView">
+                        <Setter Property="View" Value="{StaticResource abonatViewRes}" />
+                    </Style>
+                </ListView.Style>
+            </ListView>
+        </Grid>
+        <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Right">
+            <Button Style="{DynamicResource ResourceKey=SimpleButtonStyle}" Padding="4 2" Margin="2">Inchidere sesiune</Button>
+        </StackPanel>
+    </Grid>
+</Window>

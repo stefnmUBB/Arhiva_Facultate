@@ -1,0 +1,53 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    junitVersion = '5.9.1'
+}
+
+sourceCompatibility = '11'
+targetCompatibility = '11'
+
+tasks.withType(Jar) {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+    //implementation(files("lib/jakarta.servlet.jsp.jstl-api-2.0.0.jar"))
+    implementation(files("C:/Users/Stefan/Downloads/apache-tomcat-10.1.9/lib/jsp-api.jar"))
+    implementation(files("C:/Users/Stefan/Downloads/apache-tomcat-10.1.9/lib/servlet-api.jar"))
+
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.3'
+    compileOnly('jakarta.security.enterprise:jakarta.security.enterprise-api:2.0.0')
+    compileOnly('jakarta.servlet:jakarta.servlet-api:5.0.0')
+    //compileOnly 'javax.servlet.jsp:javax.servlet.jsp-api:2.3.3'
+
+    implementation 'org.glassfish.web:jakarta.servlet.jsp.jstl:2.0.0'
+    //implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.0'
+
+
+    implementation 'org.apache.logging.log4j:log4j-core:2.20.0'
+    implementation 'org.apache.logging.log4j:log4j-api:2.20.0'
+
+    implementation 'org.xerial:sqlite-jdbc:3.41.2.1'
+
+    testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+}
+
+test {
+    useJUnitPlatform()
+}

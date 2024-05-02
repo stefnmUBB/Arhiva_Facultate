@@ -1,0 +1,387 @@
+<!DOCTYPE HTML>
+
+<html lang="ro">
+	<head>
+		<meta charset="UTF-8">
+		<title>Studiu Homebrew</title>
+	</head>
+	
+	<body>
+		<form>
+			<table>
+			
+				<tr>
+					<th colspan="2">
+						<p>R&nbsp;&nbsp;O&nbsp;M&nbsp;&#194;&nbsp;&nbsp;N&nbsp;&nbsp;I&nbsp;&nbsp;A</p>
+					</th>
+				</tr>
+				
+				<tr>
+					<td colspan="2">
+						<h4>Formular de &#238;nregistrare &#238;n</h4>
+						<h5>Campania de studiu a tendin&#355;elor de dezvoltare a aplica&#355;iilor <i>"homebrew"</i><br>
+						&#238;n r&#226;ndul programatorilor rom&#226;ni</h5>
+						<img src="https://github.com/devkitPro/nds-examples/blob/master/Graphics/Backgrounds/256_color_bmp/data/drunkenlogo.png?raw=true" height="70"
+							alt="drunkenlogo">
+					</td>					
+				</tr>
+				
+				<tr>
+					<td><strong>&nbsp;I. Informa&#355;ii personale&nbsp;</strong></td>
+					<td>
+						<table>
+							<tr>							
+								<td><strong>Nume</strong></td>
+								<td colspan="2">
+									<input type="text" value="Popescu" maxlength="15" size="15" required>
+								</td>
+								
+								<td><strong>Prenume</strong></td>
+								<td colspan="2">
+									<input type="text" value="Filoftenian" size="20" required>
+								</td>
+							</tr>							
+							
+							<tr>							
+								<td><strong>Telefon</strong></td>
+								<td colspan="2"><input type="tel" value="+40701987123" size="15" required></td>
+								<td><strong>Email</strong></td>
+								<td colspan="2"><input type="email" value="my.email@xmail.com" required></td>
+							</tr>
+							
+							<tr>
+								<td><strong>Sex</strong></td>
+								<td>									
+									<input id="sex_M" type="radio" name="sex" value="M" checked>									
+									<label for="sex_M">M</label>
+									<input id="sex_F" type="radio" name="sex" value="F">
+									<label for="sex_F">F</label>
+								</td>										
+								<td><strong>Data na&#351;terii</strong></td>
+								<td>
+									<input type="date" value="1994-10-10">
+								</td>																					
+								
+								<td><strong>Ocupa&#355;ie</strong></td>
+								<td>									
+									<select>
+										<option value="student">Elev/Student</option>
+										<option value="game_developer">Game Developer</option>
+										<option value="tester">Tester</option>
+										<option value="software_engineer">Software Engineer</option>
+										<option value="data_analyst">Data Analyst</option>
+										<option value="hobbyist">Hobbyist</option>
+										<option value="other">Altele</option>
+									</select>
+								</td>
+							</tr>				
+							
+						</table>
+					</td>
+				</tr>
+				
+				<tr>
+					<td><strong>&nbsp;II. Chestionar</strong></td>																		
+					<td>
+						<table>
+							<tr>														
+								<td>
+									<ol type="1">
+										<li><div>
+											Am luat prima data contactul cu notiunea de "homebrew" in urma cu<br>								
+											<input type="radio" name="q1">0-1 ani<br>
+											<input type="radio" name="q1">2-3 ani<br>
+											<input type="radio" name="q1">5-10 ani<br>
+											<input type="radio" name="q1">mai bine de 10 ani<br>
+											<input type="radio" name="q1">e prima data cand aud acest termen								
+										</div></li>
+										
+										<li><div>
+											Am contribuit activ la scena "homebrew" corespunzatoare unui/unei anumite platforme/dispozitiv.<br>
+											<input type="radio" name="q2">Da
+											<input type="radio" name="q2">Nu								
+										</div></li>
+										
+										<li><div>
+											Detin aparatura hardware pentru care au fost dezvoltate aplicatii homebrew.<br>
+											<input type="radio" name="q3">Da
+											<input type="radio" name="q3">Nu								
+											<input type="radio" name="q3">Nu stiu								
+										</div></li>
+										
+										<li><div>
+											Cunosc cel putin un limbaj de programare.<br>
+											<input type="radio" name="q4">Da, am cunostinte low-level avansate<br>
+											<input type="radio" name="q4">Da, sunt familiar cu limbajele de programare high-level<br>
+											<input type="radio" name="q4">Nu, dar as vrea sa invat<br>																
+											<input type="radio" name="q4">Nu, Drag & Drop is the best<br>																									
+										</div></li>												
+										
+										<li><div>
+											Cunosc distinctia legala dintre ideea de homebrew si cea de "piratare".<br>
+											<input type="radio" name="r1">Da
+											<input type="radio" name="r1">Nu
+											<input type="radio" name="r1" disabled>E acelasi lucru												
+										</div></li>
+									</ol>
+								</td>
+							</tr>
+				
+							<tr>
+								<td>					
+									<ol type="1" start="5">
+										<li><div>
+											Ma informez despre noutatile din scena "homebrew" din urmatoarele surse:<br>
+											<input type="checkbox" name="q5">Discord<br>
+											<input type="checkbox" name="q5">Forumuri de specialitate (ex. GBATemp)<br>								
+											<input type="checkbox" name="q5">Twitter<br>
+											<input type="checkbox" name="q5">Mastodon<br>								
+											<input type="checkbox" name="q5">Bloguri<br>
+											<input type="checkbox" name="q5">Altele<br>
+										</div></li>
+										
+										
+										<li><div>
+											Am cunostinte despre scenele "homebrew" ale urmatoarelor dispozitive:<br>
+											<select multiple>
+												<option selected>Amiga
+												<option>Sony Playstation 1
+												<option>Sony Playstation 2
+												<option>Sony Playstation 3
+												<option>Sony PSP
+												<option>Sega Master System
+												<option>Nintendo Entertainment System
+												<option>Super Nintendo Entertainment System
+												<option>Nintendo Game Boy/ Game Boy Color
+												<option>Nintendo Game Boy Advance								
+												<option>Nintendo DS
+												<option>Nintendo 3DS								
+												<option>Nintendo Wii																
+												<option>Nintendo Switch
+												<option>Altele
+											</select>
+										</div></li>
+										
+										<li><div>
+											Pozitia mea fata de homebrew este:<br>
+											<input type="checkbox" name="q7">
+												Contribui activ la dezvoltarea de sisteme care permit crearea aplicatiilor
+												homebrew (biblioteci, toolchains, IDE-uri interactive, emulatoare)
+											<br>		
+											
+											<input type="checkbox" name="q7">
+												Sunt implicat in cercetarea si documentarea aritecturilor hardware si a tehnicilor de inginerie inversa
+											<br>
+											
+											<input type="checkbox" name="q7">
+												Sunt programator si creator activ de aplicatii homebrew (jocuri/utilitare)
+											<br>
+											
+											<input type="checkbox" name="q7">
+												Sunt creator activ de aplicatii homebrew, dar folosesc un mediu de programare vizuala (ex. 
+												NESmaker, GBStudio)									
+											<br>
+											
+											<input type="checkbox" name="q7">
+												Ma ocup cu descoperirea, documentarea, arhivarea si conservarea aplicatiilor homebrew ale altor creatori
+											<br>
+											
+											<input type="checkbox" name="q7">
+												Nu aduc contributii deosebite domeniului, dar sunt un fan al conceptului si imi place sa folosesc aplicatiile homebrew
+											<br>								
+										</div></li>
+										
+										<li><div>
+											Am intrat in scena "homebrew" din urmatoarele motive<br>								
+											<input type="checkbox" name="q8">De dragul nostalgiei<br>
+											<input type="checkbox" name="q8">Am vazut-o ca pe o provocare<br>
+											<input type="checkbox" name="q8">Este o sursa de venit<br>								
+										</div></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>				
+				<tr>
+					<td><strong>&nbsp;III. Detalii de activitate</strong></td>																		
+					<td>
+						<table>	
+							<tr>
+								<td>Realizati un top al platformelor dumneavoastra preferate pentru homebrew.</td>
+								<td>
+									<table>
+										<tr>								
+											<th>#</th>
+											<th>Sistem</th>
+											<th>Tool</th>
+										</tr>
+										
+										<tr>
+											<td>1.</td>
+											<td><input type="text" value="GBA"></td>
+											<td><input type="text" value="devkitArm"></td>
+										</tr>
+										
+										<tr>
+											<td>2.</td>
+											<td><input type="text" value="GB"></td>
+											<td><input type="text" value="RGBDS"></td>
+										</tr>
+										
+										<tr>
+											<td>3.</td>
+											<td><input type="text" value="NDS"></td>
+											<td><input type="text" value="PALib"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>							
+							
+							<tr>
+								<td>Mentionati care considerati ca sunt cele mai importante atribute ale unui produs homebrew</td>
+								<td>
+									<table>
+										<tr>
+											<td>1.</td>
+											<td><input type="text" value="Calitatea"></td>					
+										</tr>
+										
+										<tr>
+											<td>2.</td>
+											<td><input type="text" value="Originalitatea"></td>					
+										</tr>
+										
+										<tr>
+											<td>3.</td>
+											<td><input type="text" value="Open Source"></td>					
+										</tr>
+									</table>
+								</td>
+							</tr>		
+							
+							<tr>
+								<td>Exprimati-va opinia cu privire la popularitatea/lipsa de popularitate a experientelor "homebrew" in cadrul publicului larg</td>
+								<td><textarea cols="50" rows="10">...</textarea></td>
+							</tr>		
+							
+							<tr>
+								<td>Ce nota ati da directiilor homebrew corespunzatoare platformei cu care sunteti cel mai familiar? Argumentati</td>					
+								<td>
+									<table>
+										<tr>
+											<td>Acord nota <input type="number" value="5" min="1" max="5" step="1"> din 5.</td>
+										</tr>
+										<tr>
+											<td><textarea cols="50" rows="6">...</textarea></td>
+										</tr>
+									</table>
+								</td>
+							</tr>														
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td><strong>&nbsp;IV. Dispozitii finale</strong></td>																											
+					<td>						
+						<ol type="A">
+							<li>
+								Dupa trimiterea formularului, veti primi cat mai curand un mail de confirmare.
+							
+							<li>
+								In functie de raspunsurile furnizate, aveti sansa de a primi o invitatie in
+								<span title="CNDH">Clubul National al Dezvoltatorilor Homebrew</span>, care va poate oferi numeroase beneficii, printre care:
+								<ul>
+									<li> Sfaturi din partea unor membri experimentati
+									<li> Participarea in proiecte medii sau mari alaturi de ceilalti membri
+									<li> Workshopuri, webinarii cu tematica specifica pentru toate nivelele de intelegere
+									<li> Posibilitatea de a va repara sau a ofer un look nou propriilor dumneavoastra aparaturi din alta era:
+										<ul>
+											<li> Piese de schimb/Componente
+											<li> Upgrade-uri LCD/backlit display 
+											<li> Accesorii personalizate
+											<li> Reconditionare carcase (revopsire, inversarea efectului radiatiilor UV asupra anumitor tipuri de plastice)												
+										</ul>
+								</ul>
+								
+							<li>
+								Respectam confidentialitatea datelor dumneavoastra.
+							<li> Posibilitatea de a participa la o tombola saptamanala. In functie de locul obtinut, aveti posibilitatea sa castigati:
+								<ol type="I">
+									<li>1 x original "Nitro" Development Kit</li>
+									<li>1 x flashcard EZ Flash Omega</li>
+									<li>1 x copie a jocului homebrew <a href="https://greenboygames.com/shapeshifter-2/" target="_blank">Shapeshifter 2</a> - 
+									<em>"The only Game Boy game that needs 2 cartridges to play!"</em>									
+									<li>peste 400 de tricouri
+								</ol>
+								<fieldset>
+									<legend>Doresc sa particip in tombola saptamanala </legend>
+									<input type="radio" name="tombola" checked>Da
+									<input type="radio" name="tombola">Nu
+								</fieldset>									
+							
+						</ol>						
+					</td>
+				</tr>						
+				
+				<tr>
+					<td><strong>&nbsp;V. Date de contact</strong></td>	
+					<td>
+						<table>
+							<tr>
+								<th>Nume</th>
+								<th>Telefon</th>
+								<th>Email</th>
+							</tr>
+							
+							<tr>
+								<td>
+									Andronescu Sebastian
+								</td>
+								
+								<td>
+									+40769666123
+								</td>								
+								<td>
+									andro.seba@hbdev.ro
+								</td>							
+							</tr>
+							
+							<tr>
+								<td>
+									Ichim Dazdraperma
+								</td>
+								
+								<td>
+									+40787469155
+								</td>								
+								<td>
+									retro.fanatic.techie263@hbdev.ro
+								</td>							
+							</tr>													
+						</table>
+					</td>
+				</tr>						
+
+				<tr>
+					<td colspan="2">
+						<input type="text" value="Candidat inregistrat online via formular online" size="40" readonly>
+						&nbsp;&nbsp;
+						<input type="submit" value="Trimite">
+						&nbsp;&nbsp;
+						<input type="reset" value="Reset">
+						&nbsp;&nbsp;
+					</td>
+				</tr>
+			</table>
+		</form>
+		
+		<p>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+		</p>
+	</body>
+</html>

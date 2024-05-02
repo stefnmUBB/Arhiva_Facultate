@@ -1,0 +1,133 @@
+﻿<Window x:Class="ISS.Biblioteca.Commons.UI.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ISS.Biblioteca.Commons.UI"
+        mc:Ignorable="d"
+        Title="AdminWindow" Height="450" Width="800"
+        Loaded="Window_Loaded">
+    <TabControl Margin="30" TabStripPlacement="Left">
+        <TabItem Header="Administreaza carti">
+            <StackPanel HorizontalAlignment="Stretch">
+                <DockPanel HorizontalAlignment="Stretch">
+                    <Button DockPanel.Dock="Right" Margin="10 0 0 0" Click="Button_Click">Adauga carte</Button>
+                    <TextBlock Text="Cauta carte "/>
+                    <TextBox></TextBox>
+                </DockPanel>
+                <!--:ItemsSource="{d:SampleData ItemCount=5}"-->
+                <ListView Name="BooksList" 
+                          ItemsSource="{Binding Carti}"
+                          HorizontalAlignment="Stretch" Grid.Row="0" Margin="20 10">
+                    <ListView.Resources>
+                        <GridView x:Key="booksViewRes">
+                            <GridViewColumn Header="Titlu" Width="70">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Path=Titlu}" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="Autor" Width="80">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Path=Autor}" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="Nr. Exemplare" Width="80">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Path=NrExemplare}" Width="80" TextAlignment="Center" />
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <GridViewColumn Header="Editare" Width="130">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal">
+                                            <StackPanel.Resources>
+                                                <Style TargetType="{x:Type Button}">
+                                                    <Setter Property="Margin" Value="10,0,0,0"/>
+                                                </Style>
+                                            </StackPanel.Resources>
+                                            <Button Click="Button_Click">Modifica</Button>
+                                            <Button>Sterge</Button>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                        </GridView>
+                    </ListView.Resources>
+                    <ListView.Style>
+                        <Style TargetType="ListView">
+                            <Setter Property="View" Value="{StaticResource booksViewRes}" />
+                        </Style>
+                    </ListView.Style>
+                </ListView>
+            </StackPanel>
+        </TabItem>
+        <TabItem Header="Creeaza cont" FontSize="14">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock FontSize="18">Inregistrare Utilizator</TextBlock>
+                <TextBlock Grid.Row="1">Nume</TextBlock>
+                <TextBox Grid.Row="1" Grid.Column="1" x:Name="NumeBox"></TextBox>
+                <TextBlock Grid.Row="2">CNP</TextBlock>
+                <TextBox Grid.Row="2" Grid.Column="1" Name="CnpBox"></TextBox>
+                <TextBlock Grid.Row="3">Adresa</TextBlock>
+                <TextBox Grid.Row="3" Grid.Column="1" Name="AdresaBox"></TextBox>
+                <TextBlock Grid.Row="4">Telefon</TextBlock>
+                <TextBox Grid.Row="4" Grid.Column="1" Name="TelefonBox"></TextBox>
+                <TextBlock Grid.Row="5">Tip Utilizator</TextBlock>
+                <ComboBox Grid.Row="5" Grid.Column="1" ItemsSource="{x:Static local:AdminWindow.UserRoles}" SelectedIndex="0"
+                          Name="UserTypeBox"></ComboBox>
+                <Button Grid.Row="6" Grid.ColumnSpan="2" HorizontalAlignment="Center" Padding="10 5"
+                        Name="RegisterButton" Click="RegisterButton_Click">Register</Button>
+                <TextBlock Grid.Row="7" Name="PasswordBox"></TextBlock>
+                
+                <Grid.Resources>
+                    <Style TargetType="{x:Type TextBlock}">
+                        <Setter Property="Margin" Value="10"/>
+                    </Style>
+                    <Style TargetType="{x:Type TextBox}">
+                        <Setter Property="Margin" Value="10"/>
+                    </Style>
+                    <Style TargetType="{x:Type ComboBox}">
+                        <Setter Property="Margin" Value="10"/>
+                    </Style>
+                </Grid.Resources>
+            </Grid>
+        </TabItem>
+        <TabItem Header="Modifica cont">
+            <StackPanel>
+                <TextBlock>Cnp</TextBlock>
+                <TextBox></TextBox>
+                <Button>Cauta</Button>
+
+                <TextBlock>Nume</TextBlock>
+                <TextBox></TextBox>
+                <TextBlock>Telefon</TextBlock>
+                <TextBox></TextBox>
+                <TextBlock>Adresa</TextBlock>
+                <TextBox></TextBox>
+                <Button>Reseteaza parola</Button>
+                <Button>Actualizeaza</Button>
+            </StackPanel>
+        </TabItem>
+    </TabControl>
+</Window>

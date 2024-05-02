@@ -1,0 +1,67 @@
+body {
+	background:url('bg.jpg');	
+	background-size:100%;
+}
+
+#MemoBoard {
+	width:100%;
+	height:95%;
+	overflow:hidden;
+}
+
+div.card {
+	width:10vmin;
+	height:10vmin;			
+	
+	padding:5px;
+	
+	color:black;
+	text-align:center;
+	font-size:5vmin;
+	
+	position:relative;
+}
+
+div.card-back {
+	border-radius : 5px;	
+	border:4px solid olive;
+	background:url('cardback.png');
+	width:calc(100% - 10px);
+	height:calc(100% - 10px);
+	position: absolute;		
+	
+	transition: transform 0.6s;
+	transform-style: preserve-3d;
+	background-size:100%;
+	
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+div.card-front {	
+	border-radius : 5px;	
+	border:4px solid olive;
+	width:calc(100% - 10px);
+	height:calc(100% - 10px);
+	position: absolute;	
+	background:wheat;
+	
+	transition: transform 0.6s;
+	transform-style: preserve-3d;
+	
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transform: rotateY(180deg);
+}
+
+div.card.flipped div.card-back {
+	transform: rotateY(180deg);
+}
+
+div.card.flipped div.card-front {
+	transform: rotateY(0deg);
+}
+
+div.card.hidden {
+	opacity:0;
+}

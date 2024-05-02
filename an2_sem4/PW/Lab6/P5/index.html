@@ -1,0 +1,96 @@
+<html>
+	<head>
+		<style>
+			html, body{
+				border:0; margin:0; outline:0;
+			}
+		
+			li.dir {
+				list-style-image:url('dir.png');
+			}
+			
+			li.file {
+				list-style-image:url('file.png');
+			}					
+		</style>
+	</head>
+	
+	<body>				
+		<div id="dirTree" style="position:absolute; top:0; left:0; height:90%; width:20%"></div>		
+		<div id="Viewer" style="position:absolute; top:0; left:25%; border:1px solid black; height:90%; width:70%"></div>
+		</div>
+	</body>
+	
+	<script>
+		var tree = document.getElementById("dirTree");
+		
+		function getTree(items){
+			var ul = document.createElement('ul');
+			for(var i=0;i<items.length;i++) {
+				var item=items[i];
+				if(item.type=='dir'){
+					var li = document.createElement('li');
+					li.className = ('dir');
+					li.innerHTML+='<span>'+item.name+'</span>';
+					li.appendChild(getTree(item.children));					
+					//li.setAttribute("path",item.path);
+					ul.appendChild(li);
+				}
+				else if(item.type=='file'){
+					var li = document.createElement('li');
+					li.className = ('file');
+					li.innerHTML+='<span>'+item.name+'</span>';					
+					li.setAttribute("path",item.path);
+					li.onclick = function(){
+						var path=this.getAttribute('path');						
+						getPlainText("content.php?file="+path, (content)=>document.getElementById('Viewer').innerHTML=content);
+					}
+					
+					ul.appendChild(li);					
+				}
+			
+			}
+			
+			return ul;		
+		}
+		
+		getJSON("dirs.php", function(dirs){
+			document.getElementById('dirTree').appendChild(getTree(dirs));			
+		});
+		
+		function getPlainText(url, callback) {
+			var xhttp;
+		    if (url == "") {
+			  document.getElementById("txtHint").innerHTML = "";
+			  return;
+		    }
+		    xhttp = new XMLHttpRequest();
+		    xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {					
+					callback(this.responseText);
+				}
+		    };
+			xhttp.open("GET", url, true);
+			xhttp.send();				
+		}
+		
+	
+		function getJSON(url, callback) {
+			var xhttp;
+		    if (url == "") {
+			  document.getElementById("txtHint").innerHTML = "";
+			  return;
+		    }
+		    xhttp = new XMLHttpRequest();
+		    xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+					var obj=JSON.parse(this.responseText);					
+					callback(obj);
+				}
+		    };
+			xhttp.open("GET", url, true);
+			xhttp.send();				
+		}
+	</script>
+
+</html>

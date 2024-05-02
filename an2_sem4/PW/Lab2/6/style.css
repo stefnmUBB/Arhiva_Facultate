@@ -1,0 +1,54 @@
+body * {
+	margin:5px;
+}
+
+input.squares {
+	height:26px;
+	border:0;
+	outline: 0;	
+	
+	background: url('block.png');		
+	font-family: Consolas;
+	font-size:20px;			
+	padding-left:7px;
+	letter-spacing:14px;
+	
+	width: calc((25px * (var(--data-x))));	
+		
+	border:1px solid black;		
+	border-left:0;
+	
+	text-overflow:display;		
+	
+}
+
+span {
+	display:inline-block;
+	width:70px;
+}
+
+
+/* Metoda 2 - fara scroll la input cand e full */
+
+div.wrapper {
+	background: url('block.png');	
+	display:inline-block;
+	padding:0;
+	max-width: calc((25px * (var(--data-x))) + 1px);
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+
+div.wrapper input.squares2 {
+	display:inline-block;
+	margin:0;
+	height:25px;
+	font-family: Consolas;
+	font-size:20px;			
+	background:transparent;
+	padding-left:6px;
+	letter-spacing:14px;	
+	width: calc((25px * (var(--data-x))) + 10px);	
+	border:0;
+	outline:0;
+}

@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>Persoane umane</title>
+	</head>
+	
+	<body>
+		<button id="prevBtn">Prev</button>
+		<span>Page <span id="pageId">_</span> of <span id="pageTotal">_</span></button>
+		<button id="nextBtn">Next</button>
+		<table id="contactBook">
+		
+		</table>		
+		
+		<script src="../jquery.min.js"></script>
+		
+		<script>
+			load("getPage.php");
+			
+			$(document).ready(function(){
+				$('#prevBtn').click(()=>load("getPage.php?page="+(getPageId()-1)));
+				$('#nextBtn').click(()=>load("getPage.php?page="+(getPageId()+1)));
+			});
+			
+			function getPageId() { return parseInt($("#pageId").html()); }
+		
+			function load(url) {
+				$.get(url, (data, status)=>{
+					if(status!="success"){
+						throw status;				
+					}				
+					data = JSON.parse(data);
+					
+					$("#pageId").html(data.currentPage);
+					$("#pageTotal").html(data.pagesCount);
+					
+					$("#prevBtn").prop("disabled", !data.hasPrev);
+					$("#nextBtn").prop("disabled", !data.hasNext);
+					
+					var table=$("#contactBook");
+					
+					table.html("");				
+					table.append("<tr><th>Nume</th><th>Prenume</th><th>Telefon</th><th>Email</th></tr>");
+					
+					for(var i=0;i<data.records.length;i++){					
+						table.append("<tr><td>"+data.records[i][0]+"</td><td>"+data.records[i][1]+"</td><td>"+data.records[i][2]+"</td><td>"+data.records	[i][3]+"</td></tr>");								
+					}
+					
+					//console.log(data);				
+				});		
+			}			
+		</script>
+	</body>
+</html>

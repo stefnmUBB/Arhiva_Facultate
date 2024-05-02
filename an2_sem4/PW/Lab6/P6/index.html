@@ -1,0 +1,77 @@
+<html>
+	<head>
+	
+	</head>
+	
+	<body>		
+		<select id="Manufacturer">
+			<option></option>
+			<option>Lenovo</option>
+			<option>Samsung</option>
+			<option>Toshiba</option>
+		</select>
+		
+		<select id="Cpu">
+			<option></option>
+			<option>Intel</option>
+			<option>ARM</option>			
+		</select>
+		
+		<select id="RAM">
+			<option></option>
+			<option>2GB</option>
+			<option>8GB</option>			
+			<option>16GB</option>			
+		</select>		
+		<button id="FilterBtn">Filter</button>
+		<br/>
+	
+		<table id="Results"></table>
+	</body>
+		
+	<script>
+		var manu = document.getElementById("Manufacturer");
+		var cpu = document.getElementById("Cpu");
+		var ram = document.getElementById("RAM");
+		var btn = document.getElementById("FilterBtn");
+		var table = document.getElementById("Results");
+		
+		function buildTable(data) {
+			table.innerHTML="";
+			table.innerHTML+="<tr><th>Manufacturer</th><th>Model</th><th>Cpu</th><th>Ram</th></tr>";
+			for(var i=0;i<data.length;i++)
+				table.innerHTML+="<tr><td>"+data[i][0]+"</td><td>"+data[i][1]+"</td><td>"+data[i][2]+"</td><td>"+data[i][3]+"</td></tr>";
+		}
+				
+		getJSON("devices.php", data=>{
+			console.log(data);
+			buildTable(data);
+		});
+		
+		
+		btn.onclick = function(){			
+			getJSON("devices.php?manu="+manu.value+"&cpu="+cpu.value+"&ram="+ram.value, data=>{
+			console.log(data);
+			buildTable(data);
+		});
+		}
+		
+		function getJSON(url, callback) {
+			var xhttp;
+		    if (url == "") {
+			  document.getElementById("txtHint").innerHTML = "";
+			  return;
+		    }
+		    xhttp = new XMLHttpRequest();
+		    xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+					console.log(this.responseText);
+					var obj=JSON.parse(this.responseText);									
+					callback(obj);
+				}
+		    };
+			xhttp.open("GET", url, true);
+			xhttp.send();				
+		}
+	</script>
+</html>

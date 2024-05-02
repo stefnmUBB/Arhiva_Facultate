@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>JS - 1</title>
+		
+		<style>
+			body {
+				background : #F7DC6F;
+				color: #6C3483;
+			}
+		
+			div.container{
+				display:flex;
+				justify-content:center;				
+				align-items:center;
+				height:100%;
+			}
+		
+			select {
+				background:#6C3483;
+				color:white;
+				width:30%;				
+				margin:20px;
+				height:50%;
+				font-size:20px;
+				outline:0;
+				border:0;
+				border-radius:7px;
+				overflow:auto;
+			}
+			
+			option {
+				padding:7px 12px;
+				border-bottom:1px solid gray;
+			}
+			
+			option.type1 { color:#E74C3C; background:#00000060; }				
+			option.type2 { color:lime; background:#00000060; }				
+		</style>
+	</head>	
+	
+	<body>				
+		<div class="container">			
+			<select id="List1" size="5">
+				<option class="type1">a</option>
+				<option class="type1">b</option>
+				<option class="type1">c</option>
+				<option class="type1">d</option>
+			</select>
+			
+			<select id="List2" size="5">
+				<option class="type2">4</option>
+				<option class="type2">5</option>
+				<option class="type2">6</option>
+			</select>
+		</div>
+	</body>
+	
+	<script>
+		var list1 = document.getElementById("List1");
+		var list2 = document.getElementById("List2");		
+		function moveValue(sourceList, targetList){						
+			var child = sourceList.children[sourceList.selectedIndex];
+			sourceList.removeChild(child);			
+			targetList.add(child);
+		}		
+		list1.ondblclick = ()=>moveValue(list1, list2);
+		list2.ondblclick = ()=>moveValue(list2, list1);	
+	</script>
+</html>

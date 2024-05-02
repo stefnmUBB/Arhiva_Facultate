@@ -1,0 +1,56 @@
+#Switch {
+	padding:8px; 
+	border:5px solid green;
+}
+
+#Switch:checked + #Menu {
+	flex-direction:row;
+}
+
+#Menu {
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:column;
+}
+
+#Menu menuitem {
+	display:inline-block;	
+	width:84px;
+	height:84px;	
+	margin:0;
+	border:0;
+	padding:0;
+}
+
+menuitem.facebook {	background: url(css-pr4.png) 0 -84px; }
+menuitem.facebook:hover { background: url(css-pr4.png) 0 0; }
+
+menuitem.idk1 { background: url(css-pr4.png) -84px -84px; }
+menuitem.idk1:hover { background: url(css-pr4.png) -84px 0; }
+
+menuitem.idk2 { background: url(css-pr4.png) -168px -84px; }
+menuitem.idk2:hover { background: url(css-pr4.png) -168px 0; }
+
+menuitem.gplus { background: url(css-pr4.png) -252px -84px; }
+menuitem.gplus:hover { background: url(css-pr4.png) -252px 0; }
+
+menuitem.linkedin { background: url(css-pr4.png) -336px -84px; }
+menuitem.linkedin:hover { background: url(css-pr4.png) -336px 0; }
+
+menuitem.pinterest { background: url(css-pr4.png) -420px -84px; }
+menuitem.pinterest:hover { background: url(css-pr4.png) -420px 0; }
+
+menuitem.idk3 { background: url(css-pr4.png) -504px -84px; }
+menuitem.idk3:hover { background: url(css-pr4.png) -504px 0; }
+
+menuitem.skype { background: url(css-pr4.png) -588px -84px; }
+menuitem.skype:hover { background: url(css-pr4.png) -588px 0; }
+
+menuitem.twitter { background: url(css-pr4.png) -672px -84px; }
+menuitem.twitter:hover { background: url(css-pr4.png) -672px 0; }
+
+menuitem.idk4 { background: url(css-pr4.png) -756px -84px; }
+menuitem.idk4:hover { background: url(css-pr4.png) -756px 0; }
+
+menuitem.yt { background: url(css-pr4.png) -840px -84px; }
+menuitem.yt:hover { background: url(css-pr4.png) -840px 0; }

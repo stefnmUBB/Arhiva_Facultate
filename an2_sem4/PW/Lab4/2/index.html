@@ -1,0 +1,115 @@
+<html>
+	<head>
+		<title>JS - 2</title>
+		
+		<style>	
+			*:focus {
+				outline:0;
+			}
+		</style>
+	</head>
+	
+	
+	<body>
+		<div>
+			<form>
+			Nume : <input id="name" type="text" oninput="validate(nameBox, nameValidator)" onchange="validate(nameBox, nameValidator)"/><br/>
+			Data nasterii : <input id="birthday" type="date" onchange="validate(birthdayBox, birthdayValidator);birthdayChanged()"/><br/>
+			Varsta : <input id="age" type="number" readonly /><br/>
+			Email : <input id="email" type="text" oninput="validate(emailBox, emailValidator)" onchange="validate(emailBox, emailValidator)"/><br/>
+			<span id="Message"></span><br/>
+			<input type="submit" onclick="event.preventDefault(); validateOnSubmit()"/>
+			</form>
+		</div>
+	</body>
+	
+	<script>
+		var nameBox = document.getElementById("name");
+		var birthdayBox = document.getElementById("birthday");
+		var ageBox = document.getElementById("age");
+		var emailBox = document.getElementById("email");
+		var messageBox = document.getElementById("Message");
+		
+		function validate(box, validator) {
+			var validation = validator(box.value);
+			
+			if(validation.success){
+				box.style.borderBottom = "3px solid green";
+				box.title="";
+				return true;
+			}
+			else{
+				box.style.borderBottom = "3px solid red";
+				box.title = validation.message;
+				return false;
+			}			
+		}
+		
+		function ValidationResult(isValid, message) {
+			this.success = isValid;
+			this.message = message;
+			return this;
+		}
+	
+		function nameValidator(val) {
+			if (val==null || val.length == 0){
+				return new ValidationResult(false, "Name cannot be empty");
+			}
+			
+			if(! new RegExp('^([A-Z][a-z]+)([ ][A-Z][a-z]+)*$', 'g').test(val)) {
+				return new ValidationResult(false, "This is not a valid name. Names must contain letters and spaces. Example: \"Chivu Stoica\"");
+			}
+			
+			return new ValidationResult(true);
+		}
+		
+		function birthdayValidator(val) {
+			if (val==null || val.length == 0){
+				return new ValidationResult(false, "Birthday cannot be empty");
+			}						
+			var age = new Date(Date.now() - Date.parse(val)).getFullYear()-1970;						
+			if(age<12) 
+				return new ValidationResult(false, "You must 12 years or older");				
+			if(age>130) 
+				return new ValidationResult(false, "How are you even alive?");			
+			return new ValidationResult(true);
+		}
+			
+		function emailValidator(val) {
+			if (val==null || val.length == 0){
+				return new ValidationResult(false, "Email cannot be empty");
+			}
+			
+			if(! new RegExp('^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$', 'g').test(val)) {
+				return new ValidationResult(false, "This is not a valid email address");
+			}
+			
+			return new ValidationResult(true);
+		}
+	
+		function UnLazyEval(expr){
+			this.value = expr;			
+			this.and = function(ex) { if(!ex) this.value=false; return this; }						
+			return this;			
+		}
+	
+	
+		function validateOnSubmit() {
+			var success = new UnLazyEval(validate(nameBox, nameValidator))
+				.and(validate(birthdayBox, birthdayValidator))				
+				.and(validate(emailBox, emailValidator))
+				.value;
+			if(success) {
+				messageBox.innerHTML = "All data is correct";
+			}else{
+				messageBox.innerHTML = "Some errors occured. Hover highlighted elements to find out more details.";
+			}			
+		}
+		
+		function birthdayChanged() {						
+			var date = Date.parse(birthdayBox.value);						
+			var age = new Date(Date.now() - date).getFullYear()-1970;			
+			ageBox.value = age;
+		}
+	</script>
+<html>

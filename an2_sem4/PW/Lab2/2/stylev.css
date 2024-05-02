@@ -1,0 +1,52 @@
+body {
+	border:0;	
+	margin:0;
+}
+
+#Header {
+	background-color:red;
+	width : 100%;
+	height : max(10vh, 60px);	
+	display:flex;
+	justify-content:center;
+}
+
+#Header h1 {
+	align-self:center;
+}
+
+#Menu {
+	background-color:cyan;
+	width:max(5vw, 50px);
+	height: calc(100% - max(15vh, 90px));
+	margin:0;
+	padding:0;
+	border:0;	
+	display:inline-flex;		
+	flex-direction:column;
+	justify-content:flex-start;	
+}
+
+#Menu menuitem {		
+	border-bottom:1px solid black;	
+	display:flex;
+	justify-content:center;
+}
+
+#Menu menuitem span {		
+}
+
+#MainView {
+	width : calc(100% - max(5vw, 50px));
+	background-color:green;
+	height: calc(100% - max(15vh, 90px));
+	overflow-y:scroll;
+	display:inline-flex;
+	margin:0;	
+	border:0;	
+}
+
+#Footer {
+	height:max(5vh, 30px);
+	background-color:pink;
+}

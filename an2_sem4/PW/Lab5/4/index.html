@@ -1,0 +1,162 @@
+<html>
+	<head>
+		<style>
+			table, th, td { border:1px solid black; }
+		</style>
+	</head>
+	
+	<body>
+		<h2>Vertical table 1</h2>
+		<table class="sortable" id="TestTable">
+			<tr>
+				<th>Nume</th>
+				<th>Prenume</th>
+				<th>Nr. Telefon</th>
+			</tr>			
+			<tr>
+				<td>Alin</td>
+				<td>Mircescu</td>
+				<td>+40700000000</td>
+			</tr>			
+			<tr>
+				<td>Vasile</td>
+				<td>Ciorchineanu</td>
+				<td>+40711111111</td>
+			</tr>
+			<tr>
+				<td>Alexandra</td>
+				<td>Grindinovici</td>
+				<td>+40722222222</td>
+			</tr>			
+		</table>
+		
+		<h2>Vertical table 2</h2>
+		<table class="sortable">
+			<tr>
+				<th>Id</th>
+				<th>Oras</th>				
+			</tr>			
+			<tr>
+				<td>15</td>
+				<td>Cluj</td>				
+			</tr>						
+			<tr>
+				<td>27</td>
+				<td>Buzau</td>				
+			</tr>		
+			<tr>
+				<td>3</td>
+				<td>Botosani</td>				
+			</tr>			
+			<tr>
+				<td>18</td>
+				<td>Iasi</td>				
+			</tr>									
+		</table>
+		
+		<h2>Horizontal table 1</h2>
+		<table class="sortable">
+			<tr>
+				<th>Nume</th>
+				<td>Bogdan</td>
+				<td>Andreea</td>
+				<td>Cristian</td>
+				<td>Diana</td>
+				<td>Mircea</td>
+				<td>Stefan</td>							
+			</tr>			
+			<tr>
+				<th>Problema 1</th>
+				<td>10</td>				
+				<td>8</td>				
+				<td>6</td>				
+				<td>6</td>				
+				<td>4</td>				
+				<td>6</td>				
+			</tr>						
+			<tr>
+				<th>Problema 2</th>
+				<td>5</td>				
+				<td>8</td>				
+				<td>4</td>				
+				<td>6</td>				
+				<td>6</td>							
+				<td>1</td>							
+			</tr>		
+			<tr>
+				<th>Problema 3</th>
+				<td>1</td>				
+				<td>2</td>				
+				<td>1</td>				
+				<td>4</td>				
+				<td>4</td>							
+				<td>6</td>							
+			</tr>			
+			<tr>
+				<th>Problema 4</th>
+				<td>2</td>				
+				<td>10</td>				
+				<td>2</td>				
+				<td>6</td>				
+				<td>7</td>										
+				<td>8</td>										
+			</tr>									
+		</table>
+
+		<h2>Double header table</h2>		
+		<table class="sortable">
+			<tr>
+				<th></th>
+				<th>Bogdan</td>
+				<th>Andreea</td>
+				<th>Cristian</td>
+				<th>Diana</td>
+				<th>Mircea</td>
+				<th>Stefan</td>							
+			</tr>			
+			<tr>
+				<th>Problema 1</th>
+				<td>10</td>				
+				<td>8</td>				
+				<td>6</td>				
+				<td>6</td>				
+				<td>4</td>				
+				<td>6</td>				
+			</tr>						
+			<tr>
+				<th>Problema 2</th>
+				<td>5</td>				
+				<td>8</td>				
+				<td>4</td>				
+				<td>6</td>				
+				<td>6</td>							
+				<td>1</td>							
+			</tr>		
+			<tr>
+				<th>Problema 3</th>
+				<td>1</td>				
+				<td>2</td>				
+				<td>1</td>				
+				<td>4</td>				
+				<td>4</td>							
+				<td>6</td>							
+			</tr>			
+			<tr>
+				<th>Problema 4</th>
+				<td>2</td>				
+				<td>10</td>				
+				<td>2</td>				
+				<td>6</td>				
+				<td>7</td>										
+				<td>8</td>										
+			</tr>									
+		</table>
+	</body>
+	
+	<script src="../jquery.min.js"></script>
+	<script src="sortable.js"></script>
+	
+	<script>
+		$(document).ready(initSortable);
+	</script>
+</html>

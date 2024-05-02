@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<style>
+			table{ 
+				border:1px solid black;
+			}			
+			td {
+				width:100px;
+				height:100px;
+				border:1px solid black;
+				text-align:center;
+				font-size:30;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<table id="board">
+			<tr><td cell="0"></td><td cell="1"></td><td cell="2"></td></tr>			
+			<tr><td cell="3"></td><td cell="4"></td><td cell="5"></td></tr>			
+			<tr><td cell="6"></td><td cell="7"></td><td cell="8"></td></tr>			
+		</table>		
+	</body>	
+	
+	<script>		
+		var playerTurn="";
+	
+		getJSON("startGame.php", (game)=>{		
+			console.log(game);
+			playerTurn = game.player_turn;
+			setBoard(game.board);		
+		});
+		
+		var cells = document.getElementById("board").querySelectorAll("td");
+	
+		for(var i=0;i<9;i++) {
+			cells[i].onclick=clicked;
+		}
+	
+		function setBoard(board) {			
+			for(var i=0;i<9;i++){
+				cells[i].innerHTML =board[i];
+			}			
+		}
+		
+		// VERY BUGGY!!
+		function clicked(event){
+			var cellId = event.target.getAttribute("cell");
+			if(cells[cellId].innerHTML!="") return;
+			cells[cellId].innerHTML = "<span style='color:red'>"+ playerTurn+"</span>";
+			
+			post("playerMove.php", cellId, (r)=>{
+				console.log(r);
+				var game=JSON.parse(r);				
+				playerTurn = game.player_turn;
+				setBoard(game.board);
+				console.log(game);
+				
+				if(game.status=="X") {
+					alert("X wins");
+				}
+				else if(game.status=="O") {
+					alert("O wins");
+				}				
+				else if(game.status=="draw") {
+					alert("draw");
+				}
+			});
+			
+		}
+		
+		function post(url, data, callback) {			
+			data=JSON.stringify(data);
+		
+			let xhr = new XMLHttpRequest();			
+			xhr.open('POST', url, true);
+					
+			xhr.onreadystatechange  = function () {						
+				if(this.readyState==4) {					
+					if(this.status === 200)
+						callback(this.responseText);			
+					else console.log("ERROR!!");
+				}				
+			}						
+			xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+			xhr.send("cellId="+data);
+		}
+	
+		function getJSON(url, callback) {
+			var xhttp;
+		    if (url == "") {
+			  document.getElementById("txtHint").innerHTML = "";
+			  return;
+		    }
+		    xhttp = new XMLHttpRequest();
+		    xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+					var obj=JSON.parse(this.responseText);					
+					callback(obj);
+				}
+		    };
+			xhttp.open("GET", url, true);
+			xhttp.send();				
+		}
+	</script>
+</html>

@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>JS 3 - Memo Game</title>
+		<link rel="stylesheet" href="memo.css">
+	</head>
+	
+	<body>
+		<div>
+			<span style="color:yellow">Rows :</span><select id="RowsInput"></select>
+			<span style="color:yellow">Cols :</span><select id="ColsInput"></select>
+			<span style="color:yellow">Card face :</span><select id="FaceInput"><option>numbers</option><option>images</option></select>
+			<button id="genBtn">Generate</button>
+		</div>
+		
+		<div id="MemoBoard" rows="4" cols="4" cards="#"></div>
+			
+	</body>	
+	
+	<script src="../jquery.min.js"></script>
+	<script src="memo.js"></script>
+	
+	<script>
+		$(document).ready(function(){
+			var board = $("#MemoBoard");
+			var game = new MemoGame(board);
+			
+			
+			var rowsInput = $("#RowsInput");
+			var colsInput = $("#ColsInput");
+			var faceInput = $("#FaceInput");
+			for(var i=1;i<=8;i++) {
+				rowsInput.append($("<option>"+i+"</option>"));
+			}							
+					
+			
+			$("option:first-child", rowsInput).attr("selected", "selected");						
+			
+			rowsInput.on("input property-changed", generateColsInput);
+			
+			function generateColsInput(){			
+				colsInput.html("");
+				var rows = rowsInput.val();
+				for(var i=1;i<=8;i++) {
+					if(rows*i % 2==0)
+						colsInput.append($("<option>"+i+"</option>"));
+				}		
+			}
+			
+			generateColsInput();
+			
+			function generateBoard() {				
+				board.attr("rows", rowsInput.val());
+				board.attr("cols", colsInput.val());
+				board.attr("cards", faceInput.val());
+				var game = new MemoGame(board);
+			}		
+			
+			$("#genBtn").click(generateBoard);
+		});			
+	</script>
+</html>

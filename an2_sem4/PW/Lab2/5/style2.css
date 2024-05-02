@@ -1,0 +1,26 @@
+div.gallery {
+	display:flex;
+	border:1px solid black;
+	flex-wrap:wrap;	
+	width:500px;
+}
+
+div.gallery > div.item {
+	flex: 2 0 50%;
+	background-color:yellow;	
+	display:flex;
+	flex-flow:row nowrap;	
+	gap:15px;
+	padding:15px;	
+	align-items:center;
+}
+
+div.gallery > div.item > img {
+	width:150px;
+	height:200px;
+	display:block;		
+}
+
+div.gallery > div.item > span {
+	display:block;	
+}

@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>Trenuri</title>
+	</head>
+	
+	<body>
+		Plecari : <select id="plecari"></select></br>
+		Sosiri:<br>
+		<ul id="sosiri">
+			
+		</ul>
+		
+	</body>
+		
+	
+	<script>
+		document.getElementById('plecari').onchange=function(){
+			var option = this.children[this.selectedIndex].value;
+			
+			getJSON("getSosiri.php?plecare="+option, (orase)=>{
+				var output = document.getElementById('sosiri');
+				output.innerHTML="";
+				for(var i=0;i<orase.length;i++)
+				output.innerHTML+=("<li>"+orase[i]+"</li>");				
+			});			
+		}
+	
+	
+		getJSON("getPlecari.php", (orase)=>{
+			var sel = document.getElementById('plecari');
+			for(var i=0;i<orase.length;i++)
+				sel.innerHTML+=("<option>"+orase[i]+"</option>");
+			sel.dispatchEvent(new Event('change'));
+		});
+		
+	
+	
+		function getJSON(url, callback) {
+			var xhttp;
+		    if (url == "") {
+			  document.getElementById("txtHint").innerHTML = "";
+			  return;
+		    }
+		    xhttp = new XMLHttpRequest();
+		    xhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+					var obj=JSON.parse(this.responseText);					
+					callback(obj);
+				}
+		    };
+			xhttp.open("GET", url, true);
+			xhttp.send();				
+		}
+	
+	</script>
+</html>

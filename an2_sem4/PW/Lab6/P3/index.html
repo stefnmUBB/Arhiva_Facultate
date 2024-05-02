@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<title>Problema 3</title>
+	</head>
+	
+	<body>		
+		<form>
+			<select id="idCarte"></select><br>
+			Titlu <input type="text" id="titluCarte"/><br>
+			Autor <input type="text" id="autorCarte"/><br>
+			Gen <input type="text" id="genCarte"/><br>
+			<input type="submit" value="Save" id="saveButton"/>
+		</form>
+		
+	</body>
+	
+	<script src="../jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var unsaved=false;
+			
+			function enableUnsavedChanges() {
+				unsaved=true;
+				$('#saveButton').prop('disabled', false);				
+			}
+			
+			function disableUnsavedChanges() {
+				unsaved=false;
+				$('#saveButton').prop('disabled', true);
+			}
+			
+			disableUnsavedChanges();						
+			
+			$('#titluCarte').on('input change', function(){ enableUnsavedChanges(); })
+			$('#autorCarte').on('input change', function(){ enableUnsavedChanges(); })
+			$('#genCarte').on('input change', function(){ enableUnsavedChanges(); })
+		
+			var oldId = $('#idCarte').val();
+		
+			$('#idCarte').on('change', function(event) {				
+				if(unsaved){
+					if(!confirm("Drop unsaved changes?")){
+						event.preventDefault();		
+						$(this).val(oldId);
+						return;					
+					}
+				}
+			
+			
+				var id = $(this).val();
+				oldId=id;
+				get('getCarte.php?id='+id, (d)=>{					
+					$('#titluCarte').val(d[0]);
+					$('#autorCarte').val(d[1]);
+					$('#genCarte').val(d[2]);
+					disableUnsavedChanges();					
+				});
+			});
+		
+			$("#saveButton").click(function(event){
+				var data = {};
+				data["id"] = $("#idCarte").val();
+				data["titlu"]=$('#titluCarte').val();
+				data["autor"]=$('#autorCarte').val();
+				data["gen"]=$('#genCarte').val();
+				
+				post("updateCarte.php", data, disableUnsavedChanges);
+				
+				console.log(data);
+				event.preventDefault();
+				
+			});
+		
+			get("getIds.php", (d)=>{		
+				var sel = $('#idCarte');
+				sel.html("");			
+				for(var i=0;i<d.length;i++){
+					sel.append("<option>"+d[i]+"</option>");
+				}			
+				sel.trigger('change');
+			});			
+					
+		});			
+	
+	
+		function get(url, callback) {
+			$.get(url, (data, status)=>{
+				if(status!="success"){
+					throw status;				
+				}				
+				data = JSON.parse(data);
+				callback(data);
+			});		
+		}			
+		
+		function post(url, data, callback) {
+			$.post(url, data).done(function(response){
+				alert(response);
+				callback();
+			}).fail(function(){
+				alert("fail");
+			});
+		}	
+		
+	</script>
+</html>

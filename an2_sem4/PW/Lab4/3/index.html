@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>JS 3 - Memo Game</title>
+		<link rel="stylesheet" href="memo.css">
+	</head>
+	
+	<body>
+		<div>
+			<span style="color:yellow">Rows :</span><select id="RowsInput" onchange="generateColsInput()"></select>
+			<span style="color:yellow">Cols :</span><select id="ColsInput"></select>
+			<span style="color:yellow">Card face :</span><select id="FaceInput"><option>numbers</option><option>images</option></select>
+			<button onclick="generateBoard()">Generate</button>
+		</div>
+		
+		<div id="MemoBoard" rows="4" cols="4" cards="numbers">
+		
+		</div>
+			
+	</body>	
+	
+	<script src="memo.js"></script>
+	
+	<script>
+		var board = document.getElementById("MemoBoard");
+		var game = new MemoGame(board);
+		
+		
+		var rowsInput = document.getElementById("RowsInput");
+		var colsInput = document.getElementById("ColsInput");
+		var faceInput = document.getElementById("FaceInput");
+		for(var i=1;i<=8;i++) {
+			rowsInput.innerHTML+="<option>"+i+"</option>";
+		}				
+		
+		rowsInput.children[0].selected='selected';
+		
+		function generateColsInput(){
+			colsInput.innerHTML = "";
+			var rows = rowsInput.value;
+			for(var i=1;i<=8;i++) {
+				if(rows*i % 2==0)
+					colsInput.innerHTML+="<option>"+i+"</option>";
+			}		
+		}
+		
+		generateColsInput();
+		
+		function generateBoard() {
+			board.setAttribute("rows", rowsInput.value);
+			board.setAttribute("cols", colsInput.value);
+			board.setAttribute("cards", faceInput.value);
+			var game = new MemoGame(board);
+		}		
+			
+	</script>
+</html>

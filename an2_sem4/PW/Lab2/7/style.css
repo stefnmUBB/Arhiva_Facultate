@@ -1,0 +1,45 @@
+body {
+	display:flex;
+	justify-content:center;			
+}
+
+ul.dialog {
+	display:flex;
+	flex-direction:column;
+	align-self:center;
+	min-width:200px;
+	max-width:60%;
+	font-size:18px;
+}
+
+ul.dialog li {
+	display:inline;
+	border:5px solid green;	
+	text-align: center;		
+	
+	width: fit-content;	
+
+	padding:10px;
+	position:relative;
+	min-height:128px;	
+	margin-top:10px;
+	border-radius:20px 5px;
+}
+
+ul.dialog li:before {
+	display:inline-flex;
+	width:128px;
+	height:128px;		
+	content:" ";
+	vertical-align:middle;
+	position:absolute;
+	left:-128px;	
+}
+
+ul.dialog li.alice:before {
+	background: url('av.png') 0 0;
+}
+
+ul.dialog li.bob::before {	
+	background: url('av.png') 128px 0;	
+}

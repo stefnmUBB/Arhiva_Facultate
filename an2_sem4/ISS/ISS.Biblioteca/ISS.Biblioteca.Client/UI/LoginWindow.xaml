@@ -1,0 +1,44 @@
+﻿<Window x:Class="ISS.Biblioteca.Commons.UI.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ISS.Biblioteca.Commons.UI"
+        mc:Ignorable="d"
+        Title="LoginWindow" Height="300" Width="500" FontSize="16"
+        WindowStyle="None"                
+        MouseDown="Window_MouseDown">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="pack://application:,,,/ISS.Biblioteca.Client;component/Pictures/wall_login.jpg"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Row="0" Grid.Column="2" Style="{DynamicResource ResourceKey=CloseButtonStyle}" HorizontalAlignment="Right" VerticalAlignment="Top"               
+                Click="CloseButton_Click"/>
+        <Grid Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Background="#99FFFFFF">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Foreground="DarkRed" Margin="20" Grid.Row="0" Grid.ColumnSpan="2" TextAlignment="Center" FontWeight="Bold">Login</TextBlock>
+            <TextBlock Foreground="DarkRed" FontWeight="SemiBold" Margin="5" Grid.Row="1" Text="CNP  "/>
+            <TextBox Margin="5" Grid.Row="1" Grid.Column="1" Name="CnpBox"></TextBox>
+            <TextBlock Foreground="DarkRed" FontWeight="SemiBold" Margin="5" Grid.Row="2" Text="Token"/>
+            <TextBox Margin="5" Grid.Row="2" Grid.Column="1" Name="TokenBox"></TextBox>
+            <Button Grid.Row="3" Grid.ColumnSpan="2" HorizontalAlignment="Center" Margin="5" Padding="10 3"
+                    Height="40"
+                    Click="LoginButton_Click" Style="{DynamicResource ResourceKey=SimpleButtonStyle}"
+                    >Login</Button>
+        </Grid>
+    </Grid>
+</Window>

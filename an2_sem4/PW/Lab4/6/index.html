@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<style>			
+			div.slidingpuzzle {
+				border:2px solid blue;
+			}
+			div.slidingpuzzle table:focus {
+				background:cyan;				
+			}
+		</style>
+	</head>
+	
+	<body style="display:flex; justify-content:center; flex-direction:column">
+		<div class="slidingpuzzle" n="3" src="#"></div>
+		<hr/>
+		<div class="slidingpuzzle" n="3" src="puzzles/2.png"></div>
+		<hr/>
+		<div class="slidingpuzzle" n="4" src="puzzles/1.png"></div>
+		<hr/>
+		<div class="slidingpuzzle" n="4" src="puzzles/4.png"></div>		
+		<hr/>
+		<div class="slidingpuzzle" n="5" src="puzzles/6.png"></div>
+				
+	</body>
+	
+	<script src="slidingpuzzle.js"></script>
+	<script>		
+		initSlidingPuzzles();		
+	</script>
+</html>
