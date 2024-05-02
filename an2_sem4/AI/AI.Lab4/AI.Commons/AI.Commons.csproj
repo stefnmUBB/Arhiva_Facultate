@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EFFE0882-717E-4DE7-827D-16BE8D282190}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>AI.Commons</RootNamespace>
+    <AssemblyName>AI.Commons</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Algorithms\Community\ICommunityFinder.cs" />
+    <Compile Include="Algorithms\Community\NewmanFinder.cs" />
+    <Compile Include="Algorithms\Genetic\AbstractChromosome.cs" />
+    <Compile Include="Algorithms\Genetic\IChromosome.cs" />
+    <Compile Include="Algorithms\Genetic\Individual.cs" />
+    <Compile Include="Algorithms\Genetic\IndividualsSelector.cs" />
+    <Compile Include="Algorithms\Genetic\IntegerFitnessChromosome.cs" />
+    <Compile Include="Algorithms\Genetic\AbstractPopulation.cs" />
+    <Compile Include="Algorithms\Genetic\ProportionalSelector.cs" />
+    <Compile Include="Algorithms\Genetic\RealFitnessChromosome.cs" />
+    <Compile Include="Data\Graph.cs" />
+    <Compile Include="Data\WeightedGraph.cs" />
+    <Compile Include="IO\GmlParser.cs" />
+    <Compile Include="IO\GraphReader.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\AbstractGraphRenderer.cs" />
+    <Compile Include="UI\Controls\ForceBasedGraphRenderer.cs" />
+    <Compile Include="UI\Controls\CircularGraphRenderer.cs" />
+    <Compile Include="UI\Controls\CommunityGraphRenderer.cs" />
+    <Compile Include="UI\Controls\DictionaryNodeGraphViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\IGraphRenderer.cs" />
+    <Compile Include="UI\Controls\GraphViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\GraphViewer.designer.cs">
+      <DependentUpon>GraphViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\Histogram.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\IntNodeGraphViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\PathSelector.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\PathSelector.designer.cs">
+      <DependentUpon>PathSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Controls\RandomGraphBuilder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\Controls\RandomGraphBuilder.designer.cs">
+      <DependentUpon>RandomGraphBuilder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\EnumerableUtils.cs" />
+    <Compile Include="Utils\NumberUtils.cs" />
+    <Compile Include="Utils\Random.cs" />
+    <Compile Include="Utils\StringUtils.cs" />
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\GraphViewer.resx">
+      <DependentUpon>GraphViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Controls\RandomGraphBuilder.resx">
+      <DependentUpon>RandomGraphBuilder.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\zoom-in.png" />
+    <Content Include="Resources\zoom-out.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
