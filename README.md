@@ -91,8 +91,7 @@
 ### PLF ⚙️
 |   Lab                                                | Nr. problema|
 |------------------------------------------------------|------------|
-| [Lab1](https://github.com/stefnmUBB/PLF_Lab1)        | 3           |
-| [Teme](https://github.com/stefnmUBB/PLF_TEME)        | P1 (1,2,8,15), P2(toate), P3(4), L1(13), L2(11), L3(6) |
+| [Teme](https://github.com/stefnmUBB/PLF_TEME)        | R1(3) P1 (1,2,8,15), P2(toate), P3(4), L1(13), L2(11), L3(6) |
 
 
 ### PS 📈
@@ -103,7 +102,7 @@
 ### RC 🔌
 |  Tema                                                 | Nr. problema| Descriere problema           |
 |------------------------------------------------------|------------|-------------------------------|
-| [1a](https://github.com/stefnmUBB/RC_Tema_1a)        |             |                              |
+| [Labs](https://github.com/stefnmUBB/RC_Labs_Workspace)        |             |                              |
 
 
 ## Anul 2 - Semestrul 4 😭
