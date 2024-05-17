@@ -245,5 +245,5 @@ Acest repo contine teme facute la facultate, promotia 2021-2024. In caz ca nu do
 | [Lab2](https://github.com/stefnmUBB/GC_Labs/tree/master/Lab2_Cube)      | Cube VAO,VBO  |
 | [Lab3](https://github.com/stefnmUBB/GC_Labs/tree/master/Lab3_Textures)      | Textures  |
 | [Lab4](https://github.com/stefnmUBB/GC_Labs/tree/master/Lab4_Light)      | Light  |
-| [Lab5]()     | Rubik's cube  |
+| [Lab5](https://github.com/stefnmUBB/GC_Labs/tree/master/Lab5_Rubik)     | Rubik's cube  |
 
