@@ -237,6 +237,7 @@ Acest repo contine teme facute la facultate, promotia 2021-2024. In caz ca nu do
 | [Lab7](https://github.com/stefnmUBB/CN/tree/master/Lab7)      | Interpolare Hermite  |
 | [Lab8](https://github.com/stefnmUBB/CN/tree/master/Lab8)      | Interpolare spline  |
 | [Lab9](https://github.com/stefnmUBB/CN/tree/master/Lab9)      | MCMMP  |
+| [Lab10](https://github.com/stefnmUBB/CN/tree/master/Lab10)      | Integrare numerica  |
 
 
 
