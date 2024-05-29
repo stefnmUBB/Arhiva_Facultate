@@ -222,7 +222,7 @@ Acest repo contine teme facute la facultate, promotia 2021-2024. In caz ca nu do
 |------------------------------------------------------------------------------------------------------|-----------|
 | [Lab 1-4](https://github.com/stefnmUBB/VVSS_PizzaShop) | Project: PizzaShop |
 | Lab 5 [Windows](https://github.com/stefnmUBB/VVSS_WebsiteTesting) [Linux](https://github.com/andradda/WebsiteTesting) | Website Testing+Jenkins |
-| [Extra activities](https://github.com/stefnmUBB/VVSS_Extra) | Project: PizzaShop |
+| [Extra activities](https://github.com/stefnmUBB/VVSS_Extra) | Bug poster, Bug story, Games|
 
 ### CN 🧮
 
