@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Button?>
+<VBox prefHeight="470.0" prefWidth="300.0" spacing="10" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pizzashop.controller.OrdersGUIController">
+
+   <children>
+      <TableView prefHeight="240.0" prefWidth="300.0" GridPane.columnSpan="3" fx:id="orderTable" editable="true">
+         <columns>
+            <TableColumn fx:id="tableMenuItem" prefWidth="150.0" text="Menu Item" />
+            <TableColumn fx:id="tablePrice" prefWidth="75.0" text="Price" />
+            <TableColumn fx:id="tableQuantity" prefWidth="75.0" text="Quantity" />
+         </columns>
+      </TableView>
+       <HBox spacing="10" alignment="CENTER">
+           <Label fx:id="pizzaTypeLabel">Pizza </Label>
+           <ComboBox fx:id="orderQuantity"></ComboBox>
+      </HBox>
+       <VBox alignment="CENTER" spacing="10">
+           <Button minWidth="150" fx:id="addToOrder">Add to order</Button>
+           <Button minWidth="150" fx:id="placeOrder">Place order</Button>
+           <Button minWidth="150" fx:id="orderServed">Order served</Button>
+           <Button minWidth="150" fx:id="payOrder">Pay order</Button>
+           <Button minWidth="150" fx:id="newOrder">Exit table</Button>
+           <Label fx:id="orderStatus"></Label>
+       </VBox>
+   </children>
+</VBox>

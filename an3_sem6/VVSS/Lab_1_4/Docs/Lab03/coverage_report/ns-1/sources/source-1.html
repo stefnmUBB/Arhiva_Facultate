@@ -1,0 +1,167 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > PaymentAlert</title>
+  <style type="text/css">
+    @import "../../css/coverage.css";
+    @import "../../css/idea.min.css";
+  </style>
+  <script type="text/javascript" src="../../js/highlight.min.js"></script>
+  <script type="text/javascript" src="../../js/highlightjs-line-numbers.min.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">pizzashop.service</a>
+</div>
+
+<h1>Coverage Summary for Class: PaymentAlert (pizzashop.service)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">PaymentAlert</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/5)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    0%
+  </span>
+  <span class="absValue">
+    (0/33)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<code class="sourceCode" id="sourceCode">&nbsp;package pizzashop.service;
+&nbsp;
+&nbsp;import javafx.scene.control.Alert;
+&nbsp;import javafx.scene.control.ButtonType;
+&nbsp;import pizzashop.model.PaymentType;
+&nbsp;
+&nbsp;import java.util.Optional;
+&nbsp;
+&nbsp;public class PaymentAlert implements PaymentOperation {
+&nbsp;    private PizzaService service;
+&nbsp;
+<b class="nc">&nbsp;    public PaymentAlert(PizzaService service){</b>
+<b class="nc">&nbsp;        this.service=service;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    @Override
+&nbsp;    public void cardPayment() {
+<b class="nc">&nbsp;        System.out.println(&quot;--------------------------&quot;);</b>
+<b class="nc">&nbsp;        System.out.println(&quot;Paying by card...&quot;);</b>
+<b class="nc">&nbsp;        System.out.println(&quot;Please insert your card!&quot;);</b>
+<b class="nc">&nbsp;        System.out.println(&quot;--------------------------&quot;);</b>
+&nbsp;    }
+&nbsp;    @Override
+&nbsp;    public void cashPayment() {
+<b class="nc">&nbsp;        System.out.println(&quot;--------------------------&quot;);</b>
+<b class="nc">&nbsp;        System.out.println(&quot;Paying cash...&quot;);</b>
+<b class="nc">&nbsp;        System.out.println(&quot;Please show the cash...!&quot;);</b>
+<b class="nc">&nbsp;        System.out.println(&quot;--------------------------&quot;);</b>
+&nbsp;    }
+&nbsp;    @Override
+&nbsp;    public void cancelPayment() {
+<b class="nc">&nbsp;        System.out.println(&quot;--------------------------&quot;);</b>
+<b class="nc">&nbsp;        System.out.println(&quot;Payment choice needed...&quot;);</b>
+<b class="nc">&nbsp;        System.out.println(&quot;--------------------------&quot;);</b>
+&nbsp;    }
+&nbsp;      public void showPaymentAlert(int tableNumber, double totalAmount ) {
+<b class="nc">&nbsp;        Alert paymentAlert = new Alert(Alert.AlertType.CONFIRMATION);</b>
+<b class="nc">&nbsp;        paymentAlert.setTitle(&quot;Payment for Table &quot;+tableNumber);</b>
+<b class="nc">&nbsp;        paymentAlert.setHeaderText(&quot;Total amount: &quot; + totalAmount);</b>
+<b class="nc">&nbsp;        paymentAlert.setContentText(&quot;Please choose payment option&quot;);</b>
+<b class="nc">&nbsp;        ButtonType cardPayment = new ButtonType(&quot;Pay by Card&quot;);</b>
+<b class="nc">&nbsp;        ButtonType cashPayment = new ButtonType(&quot;Pay Cash&quot;);</b>
+<b class="nc">&nbsp;        ButtonType cancel = new ButtonType(&quot;Cancel&quot;);</b>
+<b class="nc">&nbsp;        paymentAlert.getButtonTypes().setAll(cardPayment, cashPayment, cancel);</b>
+<b class="nc">&nbsp;        Optional&lt;ButtonType&gt; result = paymentAlert.showAndWait();</b>
+&nbsp;
+<b class="nc">&nbsp;        if(result.isPresent()) {</b>
+<b class="nc">&nbsp;            if (result.get() == cardPayment) {</b>
+<b class="nc">&nbsp;                cardPayment();</b>
+<b class="nc">&nbsp;                service.addPayment(tableNumber, PaymentType.CARD, totalAmount);</b>
+<b class="nc">&nbsp;            } else if (result.get() == cashPayment) {</b>
+<b class="nc">&nbsp;                cashPayment();</b>
+<b class="nc">&nbsp;                service.addPayment(tableNumber, PaymentType.CASH, totalAmount);</b>
+<b class="nc">&nbsp;            } else if (result.get() == cancel) {</b>
+<b class="nc">&nbsp;                cancelPayment();</b>
+&nbsp;            }
+&nbsp;            else {
+<b class="nc">&nbsp;                throw new RuntimeException(&quot;Invalid result&quot;);</b>
+&nbsp;            }
+&nbsp;        } else {
+<b class="nc">&nbsp;            cancelPayment();</b>
+&nbsp;        }
+&nbsp;    }
+&nbsp;}
+</code>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+      hljs.highlightAll()
+      hljs.initLineNumbersOnLoad();
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2024-04-16 10:25</div>
+</div>
+</body>
+</html>
